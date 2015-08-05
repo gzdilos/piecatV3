@@ -1,0 +1,75 @@
+{
+  "id": "649049721898022",
+  "bio": "I like pie :)",
+  "email": "moetfowl@y7mail.com",
+  "favorite_athletes": [
+    {
+      "id": "257243401039939",
+      "name": "Martin \"Angel\" Olsen"
+    },
+    {
+      "id": "225933497449300",
+      "name": "MaNia-"
+    },
+    {
+      "id": "181133585342986",
+      "name": "Mikkel \"miGGel\" Berg"
+    }
+  ],
+  "favorite_teams": [
+    {
+      "id": "151910994831018",
+      "name": "MuFc Dota"
+    },
+    {
+      "id": "393016744058192",
+      "name": "Crowd Control"
+    }
+  ],
+  "first_name": "Moet",
+  "gender": "male",
+  "last_name": "Fowl",
+  "link": "https://www.facebook.com/app_scoped_user_id/649049721898022/",
+  "locale": "en_US",
+  "name": "Moet Fowl",
+  "timezone": 10,
+  "updated_time": "2015-05-09T06:54:52+0000",
+  "verified": true
+}{
+  "id": "649049721898022",
+  "bio": "I like pie :)",
+  "email": "moetfowl@y7mail.com",
+  "favorite_athletes": [
+    {
+      "id": "257243401039939",
+      "name": "Martin \"Angel\" Olsen"
+    },
+    {
+      "id": "225933497449300",
+      "name": "MaNia-"
+    },
+    {
+      "id": "181133585342986",
+      "name": "Mikkel \"miGGel\" Berg"
+    }
+  ],
+  "favorite_teams": [
+    {
+      "id": "151910994831018",
+      "name": "MuFc Dota"
+    },
+    {
+      "id": "393016744058192",
+      "name": "Crowd Control"
+    }
+  ],
+  "first_name": "Moet",
+  "gender": "male",
+  "last_name": "Fowl",
+  "link": "https://www.facebook.com/app_scoped_user_id/649049721898022/",
+  "locale": "en_US",
+  "name": "Moet Fowl",
+  "timezone": 10,
+  "updated_time": "2015-05-09T06:54:52+0000",
+  "verified": true
+}

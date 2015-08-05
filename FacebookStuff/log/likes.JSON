@@ -1,0 +1,125 @@
+{
+  "data": [
+    {
+      "name": "Tri Rent A Van",
+      "category": "Transportation",
+      "id": "1667450463466314",
+      "created_time": "2015-06-25T06:35:38+0000"
+    },
+    {
+      "name": "The Independent",
+      "category": "News/Media Website",
+      "id": "13312631635",
+      "created_time": "2015-06-07T23:09:53+0000"
+    },
+    {
+      "name": "BBC News",
+      "category": "Media/News/Publishing",
+      "id": "228735667216",
+      "created_time": "2015-06-07T23:09:52+0000"
+    },
+    {
+      "name": "Luminous",
+      "category": "Public Figure",
+      "id": "238841902797777",
+      "created_time": "2012-05-23T13:27:14+0000"
+    },
+    {
+      "name": "Beer and dota",
+      "category": "Entertainer",
+      "id": "266670113393589",
+      "created_time": "2012-05-13T12:23:23+0000"
+    },
+    {
+      "name": "Darer Entertainment",
+      "category": "Entertainment Website",
+      "id": "150117321686358",
+      "created_time": "2012-05-13T12:05:14+0000"
+    },
+    {
+      "name": "Martin \"Angel\" Olsen",
+      "category": "Athlete",
+      "id": "257243401039939",
+      "created_time": "2012-05-13T11:57:39+0000"
+    },
+    {
+      "name": "MaNia-",
+      "category": "Athlete",
+      "id": "225933497449300",
+      "created_time": "2012-05-13T11:56:56+0000"
+    },
+    {
+      "name": "Mikkel \"miGGel\" Berg",
+      "category": "Athlete",
+      "id": "181133585342986",
+      "created_time": "2012-05-13T11:50:36+0000"
+    },
+    {
+      "name": "Twitch",
+      "category": "Website",
+      "id": "134144736662224",
+      "created_time": "2012-05-12T06:18:38+0000"
+    },
+    {
+      "name": "AGL - Asian Gaming League",
+      "category": "Sports League",
+      "id": "226005444095627",
+      "created_time": "2012-05-06T22:13:51+0000"
+    },
+    {
+      "name": "MuFc Dota",
+      "category": "Sports Team",
+      "id": "151910994831018",
+      "created_time": "2012-04-28T11:13:13+0000"
+    },
+    {
+      "name": "Invasion Cyber Zone",
+      "category": "Computers/Technology",
+      "id": "134517396627679",
+      "created_time": "2012-04-28T11:13:05+0000"
+    },
+    {
+      "name": "Crowd Control",
+      "category": "Sports Team",
+      "id": "393016744058192",
+      "created_time": "2012-04-28T11:10:33+0000"
+    },
+    {
+      "name": "Razer",
+      "category": "Electronics",
+      "id": "13848807575",
+      "created_time": "2012-04-26T11:06:19+0000"
+    },
+    {
+      "name": "Nature OWLet - The MNS Shop",
+      "category": "Local Business",
+      "category_list": [
+        {
+          "id": "2500",
+          "name": "Local Business"
+        }
+      ],
+      "id": "132480516878593",
+      "created_time": "2012-04-22T06:40:33+0000"
+    },
+    {
+      "name": "Dota 2 Portal",
+      "category": "Entertainment Website",
+      "id": "243493635694092",
+      "created_time": "2012-04-17T22:12:18+0000"
+    },
+    {
+      "name": "Gamersbook",
+      "category": "Entertainment Website",
+      "id": "141795922505718",
+      "created_time": "2012-04-17T21:33:07+0000"
+    }
+  ],
+  "paging": {
+    "cursors": {
+      "before": "MTY2NzQ1MDQ2MzQ2NjMxNAZDZD",
+      "after": "MTQxNzk1OTIyNTA1NzE4"
+    },
+    "next": "https://graph.facebook.com/v2.3/649049721898022/likes?access_token=CAAOMUEVsdv0BAFhtn11G8zd0iZBVToTzuzFVKcUtIRwx02GGjlbTdKQifKWXm26JeWEZBPqrnSsSVRRqDckQOFyseHCGrk4YndYdjBZCZBGm46WN3t2L7NLh9Bjm1xtLgx5fPBG4pZC8OkpFadImZANO61ygUZBr7XwbNSt9I1X3BX0ctbqrBVsCCQO49o98CffGHaKfLrmRUg0h3FwQeRb&limit=25&after=MTQxNzk1OTIyNTA1NzE4"
+  }
+}
