@@ -153,6 +153,7 @@ module.exports = function(passport) {
 			
 			//Get User Likes
 			//Wiki it
+			/*
 			FB.api('/v2.3/me/likes' , {'limit': '400'},  function (response) {
 			
 				if (response && !response.error) {
@@ -231,26 +232,41 @@ module.exports = function(passport) {
 					//Print out error message
 					console.log(response);
 				}
-			}); 
+			}); */
 			
 			//Get User Inbox
-			/*
-			FB.api('/v2.3/me/inbox' , function (response) {
+			FB.api('/v2.3/me/inbox',  {'limit': '400'}, function (response) {
 			
 				if (response && !response.error) {
 					
-					console.log(typeof response);
+					//console.log(response);
+					var i = 0;
+					var str = "";
 					
-					var to = response.data[0]['to']['data'][0]['id'];
-					var from = response.data[0]['to']['data'][1]['id'];
+					while(response.data[i]) {
+						
+						var to = response.data[i]['to']['data'][0]['name'];
+						var from = response.data[i]['to']['data'][1]['name'];
 					
-					console.log(JSON.stringify(to));
-					console.log(JSON.stringify(from));
+						console.log(response.data[i]);
+						//var num = 0;
+						var j = 0;
+						
+						while(response.data[i]['comments']['data'][j]) {
+							j++;
+						}
+						
+						str = str + to + " " + from + " " + j + "\n";
+						i++;
+					}
+					
+					//console.log(JSON.stringify(to));
+					//console.log(JSON.stringify(from));
 					//var p = JSON.stringify(response);
 					
 					//console.log(p.length);
 					
-					fs.appendFile('./log/messages.JSON', JSON.stringify(response, null, 2), function (err) {
+					fs.writeFile('./log/messages.txt', str, function (err) {
 						if (err) {
 							return console.log(err);
 						}
@@ -259,14 +275,14 @@ module.exports = function(passport) {
 					//Print out error message
 					console.log(response);
 				}
-			});*/
+			});
 			
 			//return done(null, newUser);
 		
 			//Get feed
 			//By session basis
 			//Since last logged in
-			//
+			/*
 			FB.api('/v2.3/me/home' , {since : 'yesterday', 'limit' : '50'}, function (response) {
 			
 				if (response && !response.error) {
