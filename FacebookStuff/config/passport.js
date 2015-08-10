@@ -152,22 +152,28 @@ module.exports = function(passport) {
 			FB.setAccessToken(token);
 			
 			//Get User Likes
-			FB.api('/v2.3/me/likes' , function (response) {
+			//Wiki it
+			FB.api('/v2.3/me/likes' , {'limit': '400'},  function (response) {
 			
 				if (response && !response.error) {
 					
 					//console.log(typeof response);
-					//console.log(response.data[0]);
+					//console.log(response);
 					//console.log(typeof response.data[0]);
 					//console.log(typeof response.data[1].name);
 					
 					var i = 0;
-						
+					var str = "";
+					
 					while(response.data[i]) {
 						//var name = response.data[i].name + '\n';
 						var query = response.data[i].name;
+						
+						console.log(response.data[i]);
+						console.log(i);
 						// if you want to retrieve a full article set summaryOnly to false. 
 						// Full article retrieval and parsing is still beta 
+						
 						
 						var options = {query: query, format: "json", summaryOnly: true};
 					
@@ -196,6 +202,7 @@ module.exports = function(passport) {
 								
 								console.log("Found page");
 								
+								//Store in array for final
 								fs.appendFile('./log/foundpagelikes.txt', split[0] + '\n', function (err) {
 									if (err) {
 										return console.log(err);
@@ -206,21 +213,25 @@ module.exports = function(passport) {
 								console.log("No page found");
 							}
 						});
-						/*
-						fs.appendFile('./log/likesName.txt', name, function (err) {
-							if (err) {
-								return console.log(err);
-							}
-						}); */
+						
+						
+						str = str + query + "\n";
+						
 						i++;
 					}
 					
-					
+					console.log("Writing file");
+					fs.writeFile('./log/likesName.txt', str, function (err) {
+							if (err) {
+								return console.log(err);
+							}
+					}); 
+						
 				} else {
 					//Print out error message
 					console.log(response);
 				}
-			});
+			}); 
 			
 			//Get User Inbox
 			/*
@@ -253,27 +264,50 @@ module.exports = function(passport) {
 			//return done(null, newUser);
 		
 			//Get feed
-			/*
-			FB.api('/v2.3/me/home' , function (response) {
+			//By session basis
+			//Since last logged in
+			//
+			FB.api('/v2.3/me/home' , {since : 'yesterday', 'limit' : '50'}, function (response) {
 			
 				if (response && !response.error) {
 					
-					console.log(typeof response.data);
+					//console.log(typeof response.data);
 					
-					var size = 25;
+					//
+					//var size = 100;
 					var i = 0;
-					while (i < size) {
-						fs.appendFile('./log/feed.JSON', JSON.stringify(response.data[i], null, 2), function (err) {
-							if (err) {
-								return console.log(err);
-							}
-						});
+					var str = "";
+					
+					while (response.data[i]) {
+						//Get information from each individual feed items
+						//from -> name
+						//from -> category
+						//message
+						//picture
+						//link
+						//name
+						//type
+						//created time
+						
+						str = str + JSON.stringify(response.data[i], null, 2);
 						i++;
 					}
+					
+					//Consider storing in an array
+					fs.writeFile('./log/feed.txt', str, function (err) {
+						if (err) {
+							return console.log(err);
+						}
+						
+						console.log("done");
+					});
+					
+				
 				} else {
 					//Print out error message
 					console.log(response);
 				}
+				
 			});
 			//return done(null, newUser);*/
 		});
