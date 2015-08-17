@@ -6,6 +6,7 @@ var FacebookStrategy = require('passport-facebook').Strategy;
 var FB = require('fb');
 var fs = require('fs');
 var wiki = require('wikipedia-js');
+var async = require('async');
 
 // load up the user model
 var User            = require('../app/models/user');
@@ -145,35 +146,143 @@ module.exports = function(passport) {
 		
 		//console.log("Token is ");
 		//console.log(token);
-		
+		FB.setAccessToken(token);
 		//Assume we have the access token
-		//Only can pull 25 feed items apparently
+		//Only can pull 100 feed items apparently
 		process.nextTick(function() {
-			FB.setAccessToken(token);
+			
+			
+			
 			
 			//Get User Likes
 			//Wiki it
-			FB.api('/v2.3/me/likes' , {'limit': '400'},  function (response) {
+			//var s = "/v2.3/me/likes";
+			var s = "/v2.3/me/likes";
+			//var j = 0;
+			//var processing = true;
+			FB.api(s,  doSomething);
 			
+			function doSomething(response) {
 				if (response && !response.error) {
-					
-					//console.log(typeof response);
-					//console.log(response);
-					//console.log(typeof response.data[0]);
-					//console.log(typeof response.data[1].name);
-					
 					var i = 0;
 					var str = "";
-					
+					//console.log("GOING through the response!!!");
 					while(response.data[i]) {
 						//var name = response.data[i].name + '\n';
+						//console.log(i);
 						var query = response.data[i].name;
 						
-						console.log(response.data[i]);
-						console.log(i);
+						//console.log(response.data[i]);
+						//console.log(i);
 						// if you want to retrieve a full article set summaryOnly to false. 
 						// Full article retrieval and parsing is still beta 
 						
+						/*
+						var options = {query: query, format: "json", summaryOnly: true};
+					
+						wiki.searchArticle(options, function(err, htmlWikiText){
+							if (err) {
+								console.log("An error occurred[query=%s, error=%s]", query, err);
+								return;
+							}
+							//console.log("Query successful[query=%s, html-formatted-wiki-text=%s]", query, htmlWikiText);
+							//console.log(typeof htmlWikiText);
+							
+							//var parse = JSON.parse(htmlWikiText);
+
+							if (htmlWikiText.indexOf('pageid') > -1) {
+								//console.log(query);
+								
+								
+								var titleIndex = htmlWikiText.indexOf('title') + 8;
+								//console.log(htmlWikiText.indexOf('title'));
+								
+								var title = htmlWikiText.slice(titleIndex);
+								
+								var split = title.split('"');
+								
+								console.log(split[0]);
+								
+								console.log("Found page");
+								
+								//Store in array for final
+								fs.appendFile('./log/foundpagelikes.txt', split[0] + '\n', function (err) {
+									if (err) {
+										return console.log(err);
+									}
+								});
+							} else {
+								//console.log(query);
+								console.log("No page found");
+							}
+						});
+						*/
+						str = str + query + "\n";
+						
+						i++;
+					}
+					
+					console.log("Writing file");
+					fs.appendFile('./log/likesNamePaginatedRichardV2.txt', str, function (err) {
+							if (err) {
+								return console.log(err);
+							}
+					});
+					
+					//Go to next page
+					//console.log(response.data);
+					if (response["paging"] && response["paging"]["next"]) {
+						//var url = response["paging"]["cursors"]["after"];
+						//console.log(response.data);
+						console.log("FLASLSLDASFAS");
+						var url = response["paging"]["next"].split("https://graph.facebook.com");
+						//console.log(url[1]);
+						//s = "/v2.3/me/likes?after=" + url;
+						s = url[1];
+						console.log("Going to next page");
+						console.log(s);
+						//FB.setAccessToken(token);
+						process.nextTick(function() {
+							FB.setAccessToken(refreshToken);
+							FB.api(s, doSomething);
+						});
+						
+					} else {
+						//done = true;
+					}
+					
+					/*
+					console.log("Writing file");
+					fs.writeFile('./log/likesName.txt', str, function (err) {
+							if (err) {
+								return console.log(err);
+							}
+					});*/
+				} else {
+					//Print out error message
+					console.log(response);
+				}
+				
+				
+			}
+			
+			/*
+			FB.api(s , {'limit': '100'},  function (response) {
+				//console.log(response.data);
+				if (response && !response.error) {
+					
+					var i = 0;
+					var str = "";
+					//console.log("GOING through the response!!!");
+					while(response.data[i]) {
+						//var name = response.data[i].name + '\n';
+						//console.log(i);
+						var query = response.data[i].name;
+						
+						//console.log(response.data[i]);
+						//console.log(i);
+						// if you want to retrieve a full article set summaryOnly to false. 
+						// Full article retrieval and parsing is still beta 
 						
 						var options = {query: query, format: "json", summaryOnly: true};
 					
@@ -214,25 +323,36 @@ module.exports = function(passport) {
 							}
 						});
 						
-						
 						str = str + query + "\n";
 						
 						i++;
 					}
 					
+					//Go to next page
+					if (response["paging"]["next"] && response.data != []) {
+						var url = response["paging"]["next"].split("https://graph.facebook.com");
+						s = url[1];
+						console.log("Going to next page");
+						console.log(response["paging"]["next"]);
+					} else {
+						//done = true;
+					}
+					
+					//processing = false;
+					/*
 					console.log("Writing file");
 					fs.writeFile('./log/likesName.txt', str, function (err) {
 							if (err) {
 								return console.log(err);
 							}
-					}); 
+					});
 						
 				} else {
 					//Print out error message
 					console.log(response);
 				}
-			}); 
-			
+			});*/
+				
 			//Get User Inbox
 			/*
 			FB.api('/v2.3/me/inbox' , function (response) {
@@ -267,7 +387,8 @@ module.exports = function(passport) {
 			//By session basis
 			//Since last logged in
 			//
-			FB.api('/v2.3/me/home' , {since : 'yesterday', 'limit' : '50'}, function (response) {
+			/*
+			FB.api('/v2.3/me/home' , {since : 'yesterday', 'limit' : '100'}, function (response) {
 			
 				if (response && !response.error) {
 					
