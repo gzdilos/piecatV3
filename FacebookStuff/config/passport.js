@@ -348,8 +348,8 @@ module.exports = function(passport) {
 			s = "/v2.3/me/inbox";
 			var j = 0;
 			var str = "";
-			var to;
-			var from;
+			//var to;
+			//var from;
 			
 			FB.api(s, doSomethingForInbox);
 			
@@ -359,15 +359,15 @@ module.exports = function(passport) {
 					//var str = "";
 					//console.log("GOING through the response!!!");
 					//Works for individual but not together :/
-					while(i < 1) {
-					//while(response.data[i]) {
+					//while(i < 3) {
+					while(response.data[i]) {
 						//var name = response.data[i].name + '\n';
 						//console.log(i);
 						
-						to = response.data[i]['to']['data'][0]['name'];
-						from = response.data[i]['to']['data'][1]['name'];
+						var to = response.data[i]['to']['data'][0]['name'];
+						var from = response.data[i]['to']['data'][1]['name'];
 					
-						str = str + to + " " + from + "\n";
+						str = to + " " + from + "\n";
 						
 						console.log("Writing file");
 						fs.appendFile('./log/messagesPeople.txt', str, function (err) {
@@ -380,31 +380,22 @@ module.exports = function(passport) {
 							j++;
 						}
 						
+						console.log(to + " " + from + " " + j);
 						//console.log(response.data[i]['comments']['paging']['next']);
-						
-						
-						if (response.data[i]['comments']["paging"] && response.data[i]['comments']["paging"]["next"]) {
-							//var url = response["paging"]["cursors"]["after"];
-							//console.log(response.data);
-							console.log("FLASLSLDASFAS");
-							var url = response.data[i]['comments']["paging"]["next"].split("https://graph.facebook.com");
-							//console.log(url[1]);
-							//s = "/v2.3/me/likes?after=" + url;
-							s = url[1];
-							console.log("Going to next page");
-							console.log(s);
-							//FB.setAccessToken(token);
-							process.nextTick(function() {
-								FB.setAccessToken(refreshToken);
-								FB.api(s, doSomethingelseForInbox);
-							});
+
+						//if (response.data[i]['comments']["paging"] && response.data[i]['comments']["paging"]["next"]) {
+							//console.log("FLASLSLDASFAS");
+						var url = response.data[i]['comments']["paging"]["next"].split("https://graph.facebook.com");
+						s = url[1];
+						console.log("Going to next page");
+						console.log(s);
+						//FB.setAccessToken(token);
+						//process.nextTick(function() {
+							FB.setAccessToken(refreshToken);
+							FB.api(s, doSomethingelseForInbox);
+						//});
 							
-						} else {
-							//done = true;
-							//str = str + " " + j + "\n";
-							//j = 0;
-							console.log(j);
-						}
+						//}
 						
 						i++;
 					}
@@ -425,13 +416,15 @@ module.exports = function(passport) {
 			}
 			
 			//Writing messages
+			
 			function doSomethingelseForInbox(response) {
-				if (response && !response.error) {
+				if (response.data && !response.error) {
 					var i = 0;
 					var str = "";
 					//console.log("GOING through the response!!!");
 					console.log(response.data);
 					var k = 0;
+					
 					while(response.data[k]) {
 						j++;
 						k++;
@@ -449,10 +442,10 @@ module.exports = function(passport) {
 						console.log("Going to next page");
 						console.log(s);
 						//FB.setAccessToken(token);
-						process.nextTick(function() {
+						//process.nextTick(function() {
 							FB.setAccessToken(refreshToken);
 							FB.api(s, doSomethingelseForInbox);
-						});
+						//});
 						
 					} else {
 						str = j + "\n";
