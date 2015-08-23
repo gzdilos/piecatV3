@@ -151,9 +151,6 @@ module.exports = function(passport) {
 		//Only can pull 100 feed items apparently
 		process.nextTick(function() {
 			
-			
-			
-			
 			//Get User Likes
 			//Wiki it
 			//var s = "/v2.3/me/likes";
@@ -353,8 +350,99 @@ module.exports = function(passport) {
 				}
 			});*/
 				
+			//Getting inbox
+			s = "/v2.3/me/inbox";
+			//var j = 0;
+			//var processing = true;
+			FB.api(s,  doSomethingForInbox);
+			
+			function doSomethingForInbox(response) {
+				if (response && !response.error) {
+					var i = 0;
+					var str = "";
+					//console.log("GOING through the response!!!");
+					while(response.data[i]) {
+						//var name = response.data[i].name + '\n';
+						//console.log(i);
+						
+						var to = response.data[i]['to']['data'][0]['id'];
+						var from = response.data[i]['to']['data'][1]['id'];
+					
+						console.log(response.data[i]);
+						var j = 0;
+						
+						while(response.data[i]['comments']['data'][j]) {
+							j++;
+						}
+						
+						//Go to next page
+						//console.log(response.data);
+						if (response["paging"] && response["paging"]["next"]) {
+							//var url = response["paging"]["cursors"]["after"];
+							//console.log(response.data);
+							console.log("FLASLSLDASFAS");
+							var url = response["paging"]["next"].split("https://graph.facebook.com");
+							//console.log(url[1]);
+							//s = "/v2.3/me/likes?after=" + url;
+							s = url[1];
+							console.log("Going to next page");
+							console.log(s);
+							//FB.setAccessToken(token);
+							process.nextTick(function() {
+								FB.setAccessToken(refreshToken);
+								FB.api(s, doSomethingForInbox);
+							});
+							
+						} else {
+							//done = true;
+						}
+
+							
+						str = str + to + " " + from + " " + j + "\n";
+						
+						i++;
+					}
+					
+					console.log("Writing file");
+					fs.appendFile('./log/messagesPaginated.txt', str, function (err) {
+							if (err) {
+								return console.log(err);
+							}
+					});
+					
+					//Go to next page
+					//console.log(response.data);
+					if (response["paging"] && response["paging"]["next"]) {
+						//var url = response["paging"]["cursors"]["after"];
+						//console.log(response.data);
+						console.log("FLASLSLDASFAS");
+						var url = response["paging"]["next"].split("https://graph.facebook.com");
+						//console.log(url[1]);
+						//s = "/v2.3/me/likes?after=" + url;
+						s = url[1];
+						console.log("Going to next page");
+						console.log(s);
+						//FB.setAccessToken(token);
+						process.nextTick(function() {
+							FB.setAccessToken(refreshToken);
+							FB.api(s, doSomethingForInbox);
+						});
+						
+					} else {
+						//done = true;
+					}
+					
+				} else {
+					//Print out error message
+					console.log(response);
+				}
+				
+			}
+			
 			//Get User Inbox
-			FB.api('/v2.3/me/inbox',  {'limit': '400'}, function (response) {
+			//Not needed code
+			/*
+			FB.api('/v2.3/me/inbox',  {'limit': '100'}, function (response) {
 			
 				if (response && !response.error) {
 					
@@ -364,8 +452,8 @@ module.exports = function(passport) {
 					
 					while(response.data[i]) {
 						
-						var to = response.data[i]['to']['data'][0]['name'];
-						var from = response.data[i]['to']['data'][1]['name'];
+						var to = response.data[i]['to']['data'][0]['id'];
+						var from = response.data[i]['to']['data'][1]['id'];
 					
 						console.log(response.data[i]);
 						//var num = 0;
@@ -394,7 +482,7 @@ module.exports = function(passport) {
 					//Print out error message
 					console.log(response);
 				}
-			});
+			});*/
 			
 			//return done(null, newUser);
 		
