@@ -153,12 +153,13 @@ module.exports = function(passport) {
 			
 			//Get User Likes
 			//Wiki it
-			//var s = "/v2.3/me/likes";
 			var s = "/v2.3/me/likes";
+			//var s = "/v2.3/me/likes";
 			//var j = 0;
 			//var processing = true;
-			FB.api(s,  doSomething);
+			//FB.api(s,  doSomething);
 			
+			/*
 			function doSomething(response) {
 				if (response && !response.error) {
 					var i = 0;
@@ -174,7 +175,7 @@ module.exports = function(passport) {
 						// if you want to retrieve a full article set summaryOnly to false. 
 						// Full article retrieval and parsing is still beta 
 						
-						/*
+						
 						var options = {query: query, format: "json", summaryOnly: true};
 					
 						wiki.searchArticle(options, function(err, htmlWikiText){
@@ -213,7 +214,7 @@ module.exports = function(passport) {
 								console.log("No page found");
 							}
 						});
-						*/
+						
 						str = str + query + "\n";
 						
 						i++;
@@ -248,20 +249,13 @@ module.exports = function(passport) {
 						//done = true;
 					}
 					
-					/*
-					console.log("Writing file");
-					fs.writeFile('./log/likesName.txt', str, function (err) {
-							if (err) {
-								return console.log(err);
-							}
-					});*/
 				} else {
 					//Print out error message
 					console.log(response);
 				}
 				
 				
-			}
+			}*/
 			
 			/*
 			FB.api(s , {'limit': '100'},  function (response) {
@@ -352,36 +346,48 @@ module.exports = function(passport) {
 				
 			//Getting inbox
 			s = "/v2.3/me/inbox";
-			//var j = 0;
-			//var processing = true;
-			FB.api(s,  doSomethingForInbox);
+			var j = 0;
+			var str = "";
+			var to;
+			var from;
+			
+			FB.api(s, doSomethingForInbox);
 			
 			function doSomethingForInbox(response) {
 				if (response && !response.error) {
 					var i = 0;
-					var str = "";
+					//var str = "";
 					//console.log("GOING through the response!!!");
-					while(response.data[i]) {
+					//Works for individual but not together :/
+					while(i < 1) {
+					//while(response.data[i]) {
 						//var name = response.data[i].name + '\n';
 						//console.log(i);
 						
-						var to = response.data[i]['to']['data'][0]['id'];
-						var from = response.data[i]['to']['data'][1]['id'];
+						to = response.data[i]['to']['data'][0]['name'];
+						from = response.data[i]['to']['data'][1]['name'];
 					
-						console.log(response.data[i]);
-						var j = 0;
+						str = str + to + " " + from + "\n";
+						
+						console.log("Writing file");
+						fs.appendFile('./log/messagesPeople.txt', str, function (err) {
+								if (err) {
+									return console.log(err);
+								}
+						});
 						
 						while(response.data[i]['comments']['data'][j]) {
 							j++;
 						}
 						
-						//Go to next page
-						//console.log(response.data);
-						if (response["paging"] && response["paging"]["next"]) {
+						//console.log(response.data[i]['comments']['paging']['next']);
+						
+						
+						if (response.data[i]['comments']["paging"] && response.data[i]['comments']["paging"]["next"]) {
 							//var url = response["paging"]["cursors"]["after"];
 							//console.log(response.data);
 							console.log("FLASLSLDASFAS");
-							var url = response["paging"]["next"].split("https://graph.facebook.com");
+							var url = response.data[i]['comments']["paging"]["next"].split("https://graph.facebook.com");
 							//console.log(url[1]);
 							//s = "/v2.3/me/likes?after=" + url;
 							s = url[1];
@@ -390,28 +396,48 @@ module.exports = function(passport) {
 							//FB.setAccessToken(token);
 							process.nextTick(function() {
 								FB.setAccessToken(refreshToken);
-								FB.api(s, doSomethingForInbox);
+								FB.api(s, doSomethingelseForInbox);
 							});
 							
 						} else {
 							//done = true;
+							//str = str + " " + j + "\n";
+							//j = 0;
+							console.log(j);
 						}
-
-							
-						str = str + to + " " + from + " " + j + "\n";
 						
 						i++;
 					}
 					
+					/*
 					console.log("Writing file");
 					fs.appendFile('./log/messagesPaginated.txt', str, function (err) {
 							if (err) {
 								return console.log(err);
 							}
-					});
+					});*/
 					
-					//Go to next page
-					//console.log(response.data);
+				} else {
+					//Print out error message
+					console.log(response);
+				}
+				
+			}
+			
+			//Writing messages
+			function doSomethingelseForInbox(response) {
+				if (response && !response.error) {
+					var i = 0;
+					var str = "";
+					//console.log("GOING through the response!!!");
+					console.log(response.data);
+					var k = 0;
+					while(response.data[k]) {
+						j++;
+						k++;
+					}
+					
+					//console.log(response.data[i]);
 					if (response["paging"] && response["paging"]["next"]) {
 						//var url = response["paging"]["cursors"]["after"];
 						//console.log(response.data);
@@ -425,19 +451,29 @@ module.exports = function(passport) {
 						//FB.setAccessToken(token);
 						process.nextTick(function() {
 							FB.setAccessToken(refreshToken);
-							FB.api(s, doSomethingForInbox);
+							FB.api(s, doSomethingelseForInbox);
 						});
 						
 					} else {
-						//done = true;
+						str = j + "\n";
+						
+						console.log("Writing file");
+						fs.appendFile('./log/messagesNumbers.txt', str, function (err) {
+								if (err) {
+									return console.log(err);
+								}
+						});
+						
+						//console.log(j);
 					}
-					
+
 				} else {
 					//Print out error message
 					console.log(response);
 				}
 				
 			}
+			
 			
 			//Get User Inbox
 			//Not needed code
