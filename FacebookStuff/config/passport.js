@@ -156,16 +156,11 @@ module.exports = function(passport) {
 			
 			//Get User Likes
 			//Wiki it
-<<<<<<< HEAD
 			//var s = "/v2.3/me/likes";
 			var s = "/v2.3/me/likes";
 			//var j = 0;
 			//var processing = true;
 			FB.api(s,  doSomething);
-=======
-			/*
-			FB.api('/v2.3/me/likes' , {'limit': '400'},  function (response) {
->>>>>>> origin/master
 			
 			function doSomething(response) {
 				if (response && !response.error) {
@@ -356,13 +351,8 @@ module.exports = function(passport) {
 					//Print out error message
 					console.log(response);
 				}
-<<<<<<< HEAD
 			});*/
 				
-=======
-			}); */
-			
->>>>>>> origin/master
 			//Get User Inbox
 			FB.api('/v2.3/me/inbox',  {'limit': '400'}, function (response) {
 			
@@ -411,14 +401,9 @@ module.exports = function(passport) {
 			//Get feed
 			//By session basis
 			//Since last logged in
-<<<<<<< HEAD
 			//
 			/*
 			FB.api('/v2.3/me/home' , {since : 'yesterday', 'limit' : '100'}, function (response) {
-=======
-			/*
-			FB.api('/v2.3/me/home' , {since : 'yesterday', 'limit' : '50'}, function (response) {
->>>>>>> origin/master
 			
 				if (response && !response.error) {
 					
