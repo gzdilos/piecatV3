@@ -345,6 +345,7 @@ module.exports = function(passport) {
 			});*/
 				
 			//Getting inbox
+			/*
 			s = "/v2.3/me/inbox";
 			var j = 0;
 			var str = "";
@@ -400,23 +401,23 @@ module.exports = function(passport) {
 						i++;
 					}
 					
-					/*
+					
 					console.log("Writing file");
 					fs.appendFile('./log/messagesPaginated.txt', str, function (err) {
 							if (err) {
 								return console.log(err);
 							}
-					});*/
+					});
 					
 				} else {
 					//Print out error message
 					console.log(response);
 				}
 				
-			}
+			}*/
 			
 			//Writing messages
-			
+			/*
 			function doSomethingelseForInbox(response) {
 				if (response.data && !response.error) {
 					var i = 0;
@@ -465,7 +466,7 @@ module.exports = function(passport) {
 					console.log(response);
 				}
 				
-			}
+			}*/
 			
 			
 			//Get User Inbox
@@ -517,10 +518,43 @@ module.exports = function(passport) {
 		
 			//Get feed
 			//By session basis
+			//Makes a struct
+			//Name
+			//Category
+			//Message
+			//Picture
+			//Link
+			//Type
+			//CreatedTime
+			//Scores
+			function setStruct(name, category, message, picture, link, type, createdtime) {
+				
+				//var values = str.split(' ');
+				// count = values.length;
+				//function constructor() {
+				var item = [];
+				
+				//makeStruct("Name Category Message Picture Link Type CreatedTime Score");
+				item['Name'] = name;
+				item['Category'] = category;
+				item['Message'] = message;
+				item['Picture'] = picture;
+				item['Link'] = link;
+				item['Type'] = type;
+				item['CreatedTime'] = createdtime;
+				item['Score'] = 0;
+				
+				//for (var i = 0; i < count; i++) {
+					//item[names[i]] = arguments[i];
+				//}
+				//}
+				return item;
+			}
+			
+			var allFeed = [];
 			//Since last logged in
-			//
-			/*
-			FB.api('/v2.3/me/home' , {since : 'yesterday', 'limit' : '100'}, function (response) {
+			//since : 'yesterday', 
+			FB.api('/v2.3/me/home' , {'limit' : '100'}, function (response) {
 			
 				if (response && !response.error) {
 					
@@ -531,21 +565,88 @@ module.exports = function(passport) {
 					var i = 0;
 					var str = "";
 					
-					while (response.data[i]) {
+					
+					
+					while (response.data[i] && i < 5) {
 						//Get information from each individual feed items
-						//from -> name
-						//from -> category
-						//message
-						//picture
-						//link
-						//name
-						//type
-						//created time
+						//Name
+						//Category
+						//Message
+						//Picture
+						//Link
+						//Type
+						//Created Time
+						//console.log("Stuff");
+						var name = response.data[i]['from']['name'];
+						var category = response.data[i]['from']['category'];
+						var message = response.data[i]['message'];
+						var picture = response.data[i]['picture'];
+						var link = response.data[i]['link'];
+						var type = response.data[i]['type'];
+						var createdTime = response.data[i]['created_time'];
+						
+						var newFeedItem = setStruct(name, category, message, picture, link, type, createdTime, 0);
+						//alert(row.speaker); // displays: john
+						/*
+						console.log("--------------------------------");
+						console.log("Name is " + newFeedItem['Name']);
+						console.log("Category is " + newFeedItem['Category']);
+						console.log("message is " + newFeedItem['Message']);
+						console.log("picture is " + newFeedItem['Picture']);
+						console.log("link is " + newFeedItem['Link']);
+						console.log("type is " + newFeedItem['Type']);
+						console.log("createdTime is " + newFeedItem['CreatedTime']);
+						*/
+						allFeed.push(newFeedItem);
 						
 						str = str + JSON.stringify(response.data[i], null, 2);
 						i++;
 					}
 					
+					allFeed.sort(function (a, b) {
+						var date1 = new Date(a['CreatedTime']);
+						var date2 = new Date(b['CreatedTime']);
+						
+						if (date1 < date2) {
+							return 1;
+						} else {
+							return -1;
+						}
+					});
+					
+					var initialScore = 2*i;
+					
+					i = 0;
+					
+					while (i < 5) {
+						//console.log("--------------------------------");
+						allFeed[i]['Score'] = initialScore - i;
+						//console.log("Name is " + allFeed[i]['Name']);
+						//console.log("Category is " + allFeed[i]['Category']);
+						//console.log("message is " + allFeed[i]['Message']);
+						//console.log("picture is " + allFeed[i]['Picture']);
+						//console.log("link is " + allFeed[i]['Link']);
+						//console.log("type is " + allFeed[i]['Type']);
+						//.log("createdTime is " + allFeed[i]['CreatedTime']);
+						i++;
+					}
+					
+					i = 0;
+					
+					while (i < 5) {
+						console.log("--------------------------------");
+						//allFeed[i]['Score'] = initialScore - 1;
+						console.log("Name is " + allFeed[i]['Name']);
+						console.log("Category is " + allFeed[i]['Category']);
+						//console.log("message is " + allFeed[i]['Message']);
+						console.log("picture is " + allFeed[i]['Picture']);
+						console.log("link is " + allFeed[i]['Link']);
+						console.log("type is " + allFeed[i]['Type']);
+						console.log("createdTime is " + allFeed[i]['CreatedTime']);
+						console.log("score is " + allFeed[i]['Score']);
+						i++;
+					}
+					console.log("There are " + i + " feed items");
 					//Consider storing in an array
 					fs.writeFile('./log/feed.txt', str, function (err) {
 						if (err) {
