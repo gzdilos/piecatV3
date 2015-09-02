@@ -153,519 +153,352 @@ module.exports = function(passport) {
 			
 			//Get User Likes
 			//Wiki it
-			var s = "/v2.3/me/likes";
-			//var s = "/v2.3/me/likes";
-			//var j = 0;
-			//var processing = true;
-			//FB.api(s,  doSomething);
 			
-			/*
-			function doSomething(response) {
-				if (response && !response.error) {
-					var i = 0;
-					var str = "";
-					//console.log("GOING through the response!!!");
-					while(response.data[i]) {
-						//var name = response.data[i].name + '\n';
-						//console.log(i);
-						var query = response.data[i].name;
-						
-						//console.log(response.data[i]);
-						//console.log(i);
-						// if you want to retrieve a full article set summaryOnly to false. 
-						// Full article retrieval and parsing is still beta 
-						
-						
-						var options = {query: query, format: "json", summaryOnly: true};
-					
-						wiki.searchArticle(options, function(err, htmlWikiText){
-							if (err) {
-								console.log("An error occurred[query=%s, error=%s]", query, err);
-								return;
-							}
-							//console.log("Query successful[query=%s, html-formatted-wiki-text=%s]", query, htmlWikiText);
-							//console.log(typeof htmlWikiText);
+			var testFeed = false;
+			var testInbox = false;
+			var testLikes = false;
+			var testWiki = false;
+			
+			if (testLikes) {
+				var s = "/v2.3/me/likes";
+				//var s = "/v2.3/me/likes";
+				//var j = 0;
+				//var processing = true;
+				FB.api(s,  doSomething);
+				
+				function doSomething(response) {
+					if (response && !response.error) {
+						var i = 0;
+						var str = "";
+						//console.log("GOING through the response!!!");
+						while(response.data[i]) {
+							//var name = response.data[i].name + '\n';
+							//console.log(i);
+							var query = response.data[i].name;
+							console.log(query);
+							//console.log(response.data[i]);
+							//console.log(i);
+							// if you want to retrieve a full article set summaryOnly to false. 
+							// Full article retrieval and parsing is still beta 
 							
-							//var parse = JSON.parse(htmlWikiText);
-
-							if (htmlWikiText.indexOf('pageid') > -1) {
-								//console.log(query);
-								
-								
-								var titleIndex = htmlWikiText.indexOf('title') + 8;
-								//console.log(htmlWikiText.indexOf('title'));
-								
-								var title = htmlWikiText.slice(titleIndex);
-								
-								var split = title.split('"');
-								
-								console.log(split[0]);
-								
-								console.log("Found page");
-								
-								//Store in array for final
-								fs.appendFile('./log/foundpagelikes.txt', split[0] + '\n', function (err) {
+							if (testWiki) {
+								var options = {query: query, format: "json", summaryOnly: true};
+							
+								wiki.searchArticle(options, function(err, htmlWikiText){
 									if (err) {
-										return console.log(err);
+										console.log("An error occurred[query=%s, error=%s]", query, err);
+										return;
+									}
+									//console.log("Query successful[query=%s, html-formatted-wiki-text=%s]", query, htmlWikiText);
+									//console.log(typeof htmlWikiText);
+									
+									//var parse = JSON.parse(htmlWikiText);
+
+									if (htmlWikiText.indexOf('pageid') > -1) {
+										//console.log(query);
+										
+										
+										var titleIndex = htmlWikiText.indexOf('title') + 8;
+										//console.log(htmlWikiText.indexOf('title'));
+										
+										var title = htmlWikiText.slice(titleIndex);
+										
+										var split = title.split('"');
+										
+										console.log(split[0]);
+										
+										console.log("Found page");
+										
+										//Store in array for final
+										fs.appendFile('./log/foundpagelikes.txt', split[0] + '\n', function (err) {
+											if (err) {
+												return console.log(err);
+											}
+										});
+									} else {
+										//console.log(query);
+										console.log("No page found");
 									}
 								});
-							} else {
-								//console.log(query);
-								console.log("No page found");
 							}
-						});
-						
-						str = str + query + "\n";
-						
-						i++;
-					}
-					
-					console.log("Writing file");
-					fs.appendFile('./log/likesNamePaginatedRichardV2.txt', str, function (err) {
-							if (err) {
-								return console.log(err);
-							}
-					});
-					
-					//Go to next page
-					//console.log(response.data);
-					if (response["paging"] && response["paging"]["next"]) {
-						//var url = response["paging"]["cursors"]["after"];
-						//console.log(response.data);
-						console.log("FLASLSLDASFAS");
-						var url = response["paging"]["next"].split("https://graph.facebook.com");
-						//console.log(url[1]);
-						//s = "/v2.3/me/likes?after=" + url;
-						s = url[1];
-						console.log("Going to next page");
-						console.log(s);
-						//FB.setAccessToken(token);
-						process.nextTick(function() {
-							FB.setAccessToken(refreshToken);
-							FB.api(s, doSomething);
-						});
-						
-					} else {
-						//done = true;
-					}
-					
-				} else {
-					//Print out error message
-					console.log(response);
-				}
-				
-				
-			}*/
-			
-			/*
-			FB.api(s , {'limit': '100'},  function (response) {
-				//console.log(response.data);
-				if (response && !response.error) {
-					
-					var i = 0;
-					var str = "";
-					//console.log("GOING through the response!!!");
-					while(response.data[i]) {
-						//var name = response.data[i].name + '\n';
-						//console.log(i);
-						var query = response.data[i].name;
-						
-						//console.log(response.data[i]);
-						//console.log(i);
-						// if you want to retrieve a full article set summaryOnly to false. 
-						// Full article retrieval and parsing is still beta 
-						
-						var options = {query: query, format: "json", summaryOnly: true};
-					
-						wiki.searchArticle(options, function(err, htmlWikiText){
-							if (err) {
-								console.log("An error occurred[query=%s, error=%s]", query, err);
-								return;
-							}
-							//console.log("Query successful[query=%s, html-formatted-wiki-text=%s]", query, htmlWikiText);
-							//console.log(typeof htmlWikiText);
+							str = str + query + "\n";
 							
-							//var parse = JSON.parse(htmlWikiText);
-
-							if (htmlWikiText.indexOf('pageid') > -1) {
-								//console.log(query);
-								
-								
-								var titleIndex = htmlWikiText.indexOf('title') + 8;
-								//console.log(htmlWikiText.indexOf('title'));
-								
-								var title = htmlWikiText.slice(titleIndex);
-								
-								var split = title.split('"');
-								
-								console.log(split[0]);
-								
-								console.log("Found page");
-								
-								//Store in array for final
-								fs.appendFile('./log/foundpagelikes.txt', split[0] + '\n', function (err) {
-									if (err) {
-										return console.log(err);
-									}
-								});
-							} else {
-								//console.log(query);
-								console.log("No page found");
-							}
-						});
-						
-						str = str + query + "\n";
-						
-						i++;
-					}
-					
-					//Go to next page
-					if (response["paging"]["next"] && response.data != []) {
-						var url = response["paging"]["next"].split("https://graph.facebook.com");
-						s = url[1];
-						console.log("Going to next page");
-						console.log(response["paging"]["next"]);
-					} else {
-						//done = true;
-					}
-					
-					//processing = false;
-					/*
-					console.log("Writing file");
-					fs.writeFile('./log/likesName.txt', str, function (err) {
-							if (err) {
-								return console.log(err);
-							}
-					});
-						
-				} else {
-					//Print out error message
-					console.log(response);
-				}
-			});*/
-				
-			//Getting inbox
-			/*
-			s = "/v2.3/me/inbox";
-			var j = 0;
-			var str = "";
-			//var to;
-			//var from;
-			
-			FB.api(s, doSomethingForInbox);
-			
-			function doSomethingForInbox(response) {
-				if (response && !response.error) {
-					var i = 0;
-					//var str = "";
-					//console.log("GOING through the response!!!");
-					//Works for individual but not together :/
-					//while(i < 3) {
-					while(response.data[i]) {
-						//var name = response.data[i].name + '\n';
-						//console.log(i);
-						
-						var to = response.data[i]['to']['data'][0]['name'];
-						var from = response.data[i]['to']['data'][1]['name'];
-					
-						str = to + " " + from + "\n";
+							i++;
+						}
 						
 						console.log("Writing file");
-						fs.appendFile('./log/messagesPeople.txt', str, function (err) {
+						fs.appendFile('./log/likesNamePaginated.txt', str, function (err) {
 								if (err) {
 									return console.log(err);
 								}
 						});
 						
-						while(response.data[i]['comments']['data'][j]) {
-							j++;
-						}
-						
-						console.log(to + " " + from + " " + j);
-						//console.log(response.data[i]['comments']['paging']['next']);
-
-						//if (response.data[i]['comments']["paging"] && response.data[i]['comments']["paging"]["next"]) {
+						//Go to next page
+						//console.log(response.data);
+						if (response["paging"] && response["paging"]["next"]) {
+							//var url = response["paging"]["cursors"]["after"];
+							//console.log(response.data);
 							//console.log("FLASLSLDASFAS");
-						var url = response.data[i]['comments']["paging"]["next"].split("https://graph.facebook.com");
-						s = url[1];
-						console.log("Going to next page");
-						console.log(s);
-						//FB.setAccessToken(token);
-						//process.nextTick(function() {
-							FB.setAccessToken(refreshToken);
-							FB.api(s, doSomethingelseForInbox);
-						//});
+							var url = response["paging"]["next"].split("https://graph.facebook.com");
+							//console.log(url[1]);
+							//s = "/v2.3/me/likes?after=" + url;
+							s = url[1];
+							//console.log("Going to next page");
+							//console.log(s);
+							//FB.setAccessToken(token);
+							process.nextTick(function() {
+								FB.setAccessToken(refreshToken);
+								FB.api(s, doSomething);
+							});
 							
-						//}
+						} else {
+							//done = true;
+						}
 						
-						i++;
+					} else {
+						//Print out error message
+						console.log(response);
 					}
 					
-					
-					console.log("Writing file");
-					fs.appendFile('./log/messagesPaginated.txt', str, function (err) {
+				}
+			}
+			
+			if (testInbox) {
+				
+				var uniqueFriends = [];
+				//Get User Inbox
+				//Needed code
+				FB.api('/v2.3/me/inbox', function (response) {
+				
+					if (response && !response.error) {
+						
+						var friends = [];
+						//console.log(response);
+						var i = 0;
+						var str = "";
+						var prevTo = "";
+						var prevFrom = "";
+						
+						while(response.data[i]) {
+							
+							var to = response.data[i]['to']['data'][0]['name'];
+							var from = response.data[i]['to']['data'][1]['name'];
+							
+							friends.push(to);
+							friends.push(from);
+							//prevTo = to;
+							//prevFrom = from;
+							
+							i++;
+						}
+						
+						i = 0;
+						
+						console.log("Friends list");
+						
+						friends.sort();
+						var x = friends.push("");
+						x--;
+						var prev = friends[0];
+						
+						while (i != x) {
+							
+							if (prev == friends[i+1]) {
+								
+							} else {
+								
+								uniqueFriends.push(friends[i]);
+							}
+							
+							//console.log(friends[i]);
+							
+							prev = friends[i];
+							
+							i++;
+						}
+						
+						x = uniqueFriends.push("");
+						x--;
+						i = 0;
+						
+						while (i != x) {
+							console.log(uniqueFriends[i]);
+							str = str + uniqueFriends[i] + "\n";
+							i++;
+						}
+						//console.log(JSON.stringify(to));
+						//console.log(JSON.stringify(from));
+						//var p = JSON.stringify(response);
+						
+						//console.log(p.length);
+						
+						fs.writeFile('./log/messages.txt', str, function (err) {
 							if (err) {
 								return console.log(err);
 							}
-					});
-					
-				} else {
-					//Print out error message
-					console.log(response);
-				}
-				
-			}*/
-			
-			//Writing messages
-			/*
-			function doSomethingelseForInbox(response) {
-				if (response.data && !response.error) {
-					var i = 0;
-					var str = "";
-					//console.log("GOING through the response!!!");
-					console.log(response.data);
-					var k = 0;
-					
-					while(response.data[k]) {
-						j++;
-						k++;
-					}
-					
-					//console.log(response.data[i]);
-					if (response["paging"] && response["paging"]["next"]) {
-						//var url = response["paging"]["cursors"]["after"];
-						//console.log(response.data);
-						console.log("FLASLSLDASFAS");
-						var url = response["paging"]["next"].split("https://graph.facebook.com");
-						//console.log(url[1]);
-						//s = "/v2.3/me/likes?after=" + url;
-						s = url[1];
-						console.log("Going to next page");
-						console.log(s);
-						//FB.setAccessToken(token);
-						//process.nextTick(function() {
-							FB.setAccessToken(refreshToken);
-							FB.api(s, doSomethingelseForInbox);
-						//});
-						
-					} else {
-						str = j + "\n";
-						
-						console.log("Writing file");
-						fs.appendFile('./log/messagesNumbers.txt', str, function (err) {
-								if (err) {
-									return console.log(err);
-								}
 						});
-						
-						//console.log(j);
+					} else {
+						//Print out error message
+						console.log(response);
 					}
-
-				} else {
-					//Print out error message
-					console.log(response);
-				}
-				
-			}*/
-			
-			
-			//Get User Inbox
-			//Not needed code
-			/*
-			FB.api('/v2.3/me/inbox',  {'limit': '100'}, function (response) {
-			
-				if (response && !response.error) {
-					
-					//console.log(response);
-					var i = 0;
-					var str = "";
-					
-					while(response.data[i]) {
-						
-						var to = response.data[i]['to']['data'][0]['id'];
-						var from = response.data[i]['to']['data'][1]['id'];
-					
-						console.log(response.data[i]);
-						//var num = 0;
-						var j = 0;
-						
-						while(response.data[i]['comments']['data'][j]) {
-							j++;
-						}
-						
-						str = str + to + " " + from + " " + j + "\n";
-						i++;
-					}
-					
-					//console.log(JSON.stringify(to));
-					//console.log(JSON.stringify(from));
-					//var p = JSON.stringify(response);
-					
-					//console.log(p.length);
-					
-					fs.writeFile('./log/messages.txt', str, function (err) {
-						if (err) {
-							return console.log(err);
-						}
-					});
-				} else {
-					//Print out error message
-					console.log(response);
-				}
-			});*/
+				});
+			}
 			
 			//return done(null, newUser);
 		
-			//Get feed
-			//By session basis
-			//Makes a struct
-			//Name
-			//Category
-			//Message
-			//Picture
-			//Link
-			//Type
-			//CreatedTime
-			//Scores
-			function setStruct(name, category, message, picture, link, type, createdtime) {
+			if (testFeed) {
+				//Get feed
+				//By session basis
+				//Makes a struct
+				//Name
+				//Category
+				//Message
+				//Picture
+				//Link
+				//Type
 				
-				//var values = str.split(' ');
-				// count = values.length;
-				//function constructor() {
-				var item = [];
-				
-				//makeStruct("Name Category Message Picture Link Type CreatedTime Score");
-				item['Name'] = name;
-				item['Category'] = category;
-				item['Message'] = message;
-				item['Picture'] = picture;
-				item['Link'] = link;
-				item['Type'] = type;
-				item['CreatedTime'] = createdtime;
-				item['Score'] = 0;
-				
-				//for (var i = 0; i < count; i++) {
-					//item[names[i]] = arguments[i];
-				//}
-				//}
-				return item;
-			}
-			
-			var allFeed = [];
-			//Since last logged in
-			//since : 'yesterday', 
-			FB.api('/v2.3/me/home' , {'limit' : '100'}, function (response) {
-			
-				if (response && !response.error) {
+				//CreatedTime
+				//Scores
+				function setStruct(name, category, message, picture, link, type, createdtime) {
 					
-					//console.log(typeof response.data);
+					//var values = str.split(' ');
+					// count = values.length;
+					//function constructor() {
+					var item = [];
 					
-					//
-					//var size = 100;
-					var i = 0;
-					var str = "";
+					//makeStruct("Name Category Message Picture Link Type CreatedTime Score");
+					item['Name'] = name;
+					item['Category'] = category;
+					item['Message'] = message;
+					item['Picture'] = picture;
+					item['Link'] = link;
+					item['Type'] = type;
+					item['CreatedTime'] = createdtime;
+					item['Score'] = 0;
 					
-					
-					
-					while (response.data[i] && i < 5) {
-						//Get information from each individual feed items
-						//Name
-						//Category
-						//Message
-						//Picture
-						//Link
-						//Type
-						//Created Time
-						//console.log("Stuff");
-						var name = response.data[i]['from']['name'];
-						var category = response.data[i]['from']['category'];
-						var message = response.data[i]['message'];
-						var picture = response.data[i]['picture'];
-						var link = response.data[i]['link'];
-						var type = response.data[i]['type'];
-						var createdTime = response.data[i]['created_time'];
-						
-						var newFeedItem = setStruct(name, category, message, picture, link, type, createdTime, 0);
-						//alert(row.speaker); // displays: john
-						/*
-						console.log("--------------------------------");
-						console.log("Name is " + newFeedItem['Name']);
-						console.log("Category is " + newFeedItem['Category']);
-						console.log("message is " + newFeedItem['Message']);
-						console.log("picture is " + newFeedItem['Picture']);
-						console.log("link is " + newFeedItem['Link']);
-						console.log("type is " + newFeedItem['Type']);
-						console.log("createdTime is " + newFeedItem['CreatedTime']);
-						*/
-						allFeed.push(newFeedItem);
-						
-						str = str + JSON.stringify(response.data[i], null, 2);
-						i++;
-					}
-					
-					allFeed.sort(function (a, b) {
-						var date1 = new Date(a['CreatedTime']);
-						var date2 = new Date(b['CreatedTime']);
-						
-						if (date1 < date2) {
-							return 1;
-						} else {
-							return -1;
-						}
-					});
-					
-					var initialScore = 2*i;
-					
-					i = 0;
-					
-					while (i < 5) {
-						//console.log("--------------------------------");
-						allFeed[i]['Score'] = initialScore - i;
-						//console.log("Name is " + allFeed[i]['Name']);
-						//console.log("Category is " + allFeed[i]['Category']);
-						//console.log("message is " + allFeed[i]['Message']);
-						//console.log("picture is " + allFeed[i]['Picture']);
-						//console.log("link is " + allFeed[i]['Link']);
-						//console.log("type is " + allFeed[i]['Type']);
-						//.log("createdTime is " + allFeed[i]['CreatedTime']);
-						i++;
-					}
-					
-					i = 0;
-					
-					while (i < 5) {
-						console.log("--------------------------------");
-						//allFeed[i]['Score'] = initialScore - 1;
-						console.log("Name is " + allFeed[i]['Name']);
-						console.log("Category is " + allFeed[i]['Category']);
-						//console.log("message is " + allFeed[i]['Message']);
-						console.log("picture is " + allFeed[i]['Picture']);
-						console.log("link is " + allFeed[i]['Link']);
-						console.log("type is " + allFeed[i]['Type']);
-						console.log("createdTime is " + allFeed[i]['CreatedTime']);
-						console.log("score is " + allFeed[i]['Score']);
-						i++;
-					}
-					console.log("There are " + i + " feed items");
-					//Consider storing in an array
-					fs.writeFile('./log/feed.txt', str, function (err) {
-						if (err) {
-							return console.log(err);
-						}
-						
-						console.log("done");
-					});
-					
-				
-				} else {
-					//Print out error message
-					console.log(response);
+					//for (var i = 0; i < count; i++) {
+						//item[names[i]] = arguments[i];
+					//}
+					//}
+					return item;
 				}
 				
-			});
-			//return done(null, newUser);*/
+				var allFeed = [];
+				//Since last logged in
+				//since : 'yesterday', 
+				FB.api('/v2.3/me/home' , {'limit' : '100'}, function (response) {
+				
+					if (response && !response.error) {
+						
+						//console.log(typeof response.data);
+						//var size = 100;
+						var i = 0;
+						var str = "";
+						
+						while (response.data[i]) {
+							//Get information from each individual feed items
+							//Name
+							//Category
+							//Message
+							//Picture
+							//Link
+							//Type
+							//Created Time
+							//console.log("Stuff");
+							var name = response.data[i]['from']['name'];
+							var category = response.data[i]['from']['category'];
+							var message = response.data[i]['message'];
+							var picture = response.data[i]['picture'];
+							var link = response.data[i]['link'];
+							var type = response.data[i]['type'];
+							var createdTime = response.data[i]['created_time'];
+							
+							var newFeedItem = setStruct(name, category, message, picture, link, type, createdTime, 0);
+							//alert(row.speaker); // displays: john
+							
+							//console.log("--------------------------------");
+							//console.log("Name is " + newFeedItem['Name']);
+							//console.log("Category is " + newFeedItem['Category']);
+							//console.log("message is " + newFeedItem['Message']);
+							//console.log("picture is " + newFeedItem['Picture']);
+							//console.log("link is " + newFeedItem['Link']);
+							//console.log("type is " + newFeedItem['Type']);
+							//console.log("createdTime is " + newFeedItem['CreatedTime']);
+							
+							allFeed.push(newFeedItem);
+							
+							//str = str + JSON.stringify(response.data[i], null, 2);
+							i++;
+						}
+						
+						allFeed.sort(function (a, b) {
+							var date1 = new Date(a['CreatedTime']);
+							var date2 = new Date(b['CreatedTime']);
+							
+							if (date1 < date2) {
+								return 1;
+							} else {
+								return -1;
+							}
+						});
+						
+						console.log("There are " + i + " feed items");
+						var initialScore = 2*i;
+						
+						i = 0;
+						
+						var x = allFeed.push();
+						
+						while (i < x) {
+							//console.log("--------------------------------");
+							allFeed[i]['Score'] = initialScore - i;
+							//console.log("Name is " + allFeed[i]['Name']);
+							//console.log("Category is " + allFeed[i]['Category']);
+							//console.log("message is " + allFeed[i]['Message']);
+							//console.log("picture is " + allFeed[i]['Picture']);
+							//console.log("link is " + allFeed[i]['Link']);
+							//console.log("type is " + allFeed[i]['Type']);
+							//.log("createdTime is " + allFeed[i]['CreatedTime']);
+							i++;
+						}
+						
+						i = 0;
+						
+						while (i < x) {
+							console.log("--------------------------------");
+							//allFeed[i]['Score'] = initialScore - 1;
+							console.log("Name is " + allFeed[i]['Name']);
+							console.log("Category is " + allFeed[i]['Category']);
+							//console.log("message is " + allFeed[i]['Message']);
+							console.log("picture is " + allFeed[i]['Picture']);
+							console.log("link is " + allFeed[i]['Link']);
+							console.log("type is " + allFeed[i]['Type']);
+							console.log("createdTime is " + allFeed[i]['CreatedTime']);
+							console.log("score is " + allFeed[i]['Score']);
+							i++;
+						}
+						
+						//Consider storing in an array
+						/*
+						fs.writeFile('./log/feed.txt', str, function (err) {
+							if (err) {
+								return console.log(err);
+							}
+							
+							console.log("done");
+						});*/
+						
+					
+					} else {
+						//Print out error message
+						console.log(response);
+					}
+					
+				});
+				//return done(null, newUser);*/
+			}
 		});
-		
+
 		return done(null, newUser);
         // asynchronous
         //process.nextTick(function() {
