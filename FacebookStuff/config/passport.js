@@ -25,14 +25,21 @@ module.exports = function(passport) {
 
     // used to serialize the user for the session
     passport.serializeUser(function(user, done) {
+		//set a random id
+		//Use a 
+		console.log("Serializing user");
         done(null, user.id);
+		console.log("Done Seri");
+		//done(null, "asdadasdasdasdasda");
     });
 
     // used to deserialize the user
     passport.deserializeUser(function(id, done) {
+		console.log("DesSerializing user");
         User.findById(id, function(err, user) {
             done(err, user);
         });
+		console.log("Done Deseri");
     });
 
     // =========================================================================
@@ -40,7 +47,7 @@ module.exports = function(passport) {
     // =========================================================================
     // we are using named strategies since we have one for login and one for signup
     // by default, if there was no name, it would just be called 'local'
-
+	/*
     passport.use('local-signup', new LocalStrategy({
         // by default, local strategy uses username and password, we will override with email
         usernameField : 'email',
@@ -85,14 +92,14 @@ module.exports = function(passport) {
 
         });
 
-    }));
+    }));*/
 	
 	// =========================================================================
     // LOCAL LOGIN =============================================================
     // =========================================================================
     // we are using named strategies since we have one for login and one for signup
     // by default, if there was no name, it would just be called 'local'
-
+	/*
     passport.use('local-login', new LocalStrategy({
         // by default, local strategy uses username and password, we will override with email
         usernameField : 'email',
@@ -121,7 +128,7 @@ module.exports = function(passport) {
         });
 
     }));
-
+	*/
 	// =========================================================================
     // FACEBOOK ================================================================
     // =========================================================================
@@ -139,13 +146,24 @@ module.exports = function(passport) {
 		var newUser            = new User();
 
 		// set all of the facebook information in our user model
-		//newUser.facebook.id    = profile.id; // set the users facebook id                   
-		//newUser.facebook.token = token; // we will save the token that facebook provides to the user                    
-		//newUser.facebook.name  = profile.name.givenName + ' ' + profile.name.familyName; // look at the passport user profile to see how names are returned
-		//newUser.facebook.email = profile.emails[0].value; // facebook can return multiple emails so we'll take the first
+		newUser.facebook.id    = "asdadasdasdasdasda"; // set the users facebook id                   
+		newUser.facebook.token = token; // we will save the token that facebook provides to the user                    
+		newUser.facebook.name  = profile.name.givenName + ' ' + profile.name.familyName; // look at the passport user profile to see how names are returned
+		newUser.facebook.email = "fake email goes here";
+			
+			/*
+		User.findOne({ facebookId: profile.id }, function (err, user) {
+			
+			
+			return done(err, newUser);
+		});*/
+		
+		//return done(null, null);
+		//profile.emails[0].value; // facebook can return multiple emails so we'll take the first
 		
 		//console.log("Token is ");
 		//console.log(token);
+		
 		FB.setAccessToken(token);
 		
 		var likesList = [];
@@ -479,7 +497,7 @@ module.exports = function(passport) {
 						}
 						//finished = true;
 					}, {access_token: token});
-					//return done(null, newUser);*/
+					//return done(null, newUser);
 				//}
 			}
 			
@@ -615,18 +633,6 @@ module.exports = function(passport) {
 				
 				console.log("Printing ranked list");
 				while (i < allFeed.length) {
-					/*
-					console.log("--------------------------------");
-					//allFeed[i]['Score'] = initialScore - 1;
-					console.log("Name is " + allFeed[i]['Name']);
-					console.log("ID is " + allFeed[i]['ID']);
-					console.log("Category is " + allFeed[i]['Category']);
-					//console.log("message is " + allFeed[i]['Message']);
-					console.log("picture is " + allFeed[i]['Picture']);
-					console.log("link is " + allFeed[i]['Link']);
-					console.log("type is " + allFeed[i]['Type']);
-					console.log("createdTime is " + allFeed[i]['CreatedTime']);
-					console.log("score is " + allFeed[i]['Score']);*/
 					feedText = feedText + "-------------------------\n";
 					feedText = feedText + "Name: " + allFeed[i]['Name'] + "\n";
 					feedText = feedText + "Category: " + allFeed[i]['Category'] + "\n";
@@ -646,7 +652,7 @@ module.exports = function(passport) {
 						});
 						
 				console.log("We done bois!!");
-				done = true;
+				return done(null, newUser);
 		}
 			
 		});
@@ -705,9 +711,8 @@ module.exports = function(passport) {
 					//}
 					return item;
 		}
-		//}
 		
-		return done(null, newUser);
+		//}
 
     }));
 };
