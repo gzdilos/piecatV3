@@ -1,4 +1,5 @@
 // app/routes.js
+var fs = require('fs');
 module.exports = function(app, passport) {
 
     // =====================================
@@ -51,9 +52,6 @@ module.exports = function(app, passport) {
     // we will use route middleware to verify this (the isLoggedIn function)
     app.get('/profile', isLoggedIn, function(req, res) {
         res.render('profile.ejs')
-		, {
-            user : req.user // get the user out of session and pass to template
-        } 
     });
 	
 	// app.get('/profile', function(req, res) {
@@ -89,6 +87,17 @@ module.exports = function(app, passport) {
     app.get('/logout', function(req, res) {
         req.logout();
         res.redirect('/');
+    });
+	
+	app.get('/getPosts', function(req, res) {
+        fs.readFile('../FacebookStuff/log/properFeed.txt', 'utf8', function (err,data) {
+            if (err) {
+                return console.log(err);
+            }
+            var verified = JSON.stringify(data);
+            var parsed = JSON.parse(verified);
+            res.json(parsed);
+        });
     });
 	
 };

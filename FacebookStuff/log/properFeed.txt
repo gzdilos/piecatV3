@@ -1,1032 +1,843 @@
--------------------------
-Name: Pnml Flaviano
-Category: undefined
-Message: undefined
-Picture: https://fbcdn-photos-c-a.akamaihd.net/hphotos-ak-xta1/v/t1.0-0/s130x130/1378430_721999824481360_861416308_n.jpg?oh=6f9ad05c6466a4e31f437309ca336c8f&oe=56712493&__gda__=1453557164_2ce376973eda9c996306fb84d7e57bac
-Link: https://www.facebook.com/photo.php?fbid=721999824481360&set=p.721999824481360&type=1
-Type: photo
-CreatedTime: 2015-09-15T06:15:28+0000
-Score: 290
--------------------------
-Name: Hearthstone Kitchen and Cellar
-Category: Restaurant/Cafe
-Message: Catch tonight's football games with us! Open at 3:30pm
-Picture: https://fbcdn-photos-b-a.akamaihd.net/hphotos-ak-xpa1/v/t1.0-0/p130x130/12009732_430216730513432_1916291213750789130_n.jpg?oh=a289d3203ee79862a554cbf004e558f8&oe=56A7CD2F&__gda__=1453755849_ff5e06af95f6427f07bc2f86f991bb47
-Link: https://www.facebook.com/hearthstonelv/posts/430216727180099
-Type: offer
-CreatedTime: 2015-09-14T12:39:21+0000
-Score: 246
--------------------------
-Name: Razer
-Category: Electronics
-Message: Retake your Legacy - November 10.
-Picture: https://fbcdn-vthumb-a.akamaihd.net/hvthumb-ak-xfp1/v/t15.0-10/s130x130/11403595_10153568219117457_200312168_n.jpg?oh=1220bd4000926217e617c6c5d5824f98&oe=565FC9EC&__gda__=1453252698_f7404a18663991f93b0127566c0f61ee
-Link: https://www.facebook.com/StarCraft/videos/10153568198777457/
-Type: video
-CreatedTime: 2015-09-14T01:07:54+0000
-Score: 242
--------------------------
-Name: Pie Harbour
-Category: Food/Beverages
-Message: Ice cream pie for the afternoon break 🍦repost from @kuronero96
-Picture: https://fbcdn-photos-d-a.akamaihd.net/hphotos-ak-xla1/v/t1.0-0/p130x130/11986569_611186255690580_7998829036927835651_n.jpg?oh=aa3a1a47a4be1524b0b3adffc3f2f629&oe=56A86CC7&__gda__=1450325531_784c5dbbc73875b2d45457f3480042e1
-Link: https://www.facebook.com/PieHarbour/photos/a.349354148540460.1073741834.239956622813547/611186255690580/?type=1
-Type: photo
-CreatedTime: 2015-09-15T05:48:58+0000
-Score: 241
--------------------------
-Name: Razer
-Category: Electronics
-Message: Retake your Legacy - November 10.
-Picture: https://fbcdn-vthumb-a.akamaihd.net/hvthumb-ak-xfp1/v/t15.0-10/s130x130/11403595_10153568219117457_200312168_n.jpg?oh=1220bd4000926217e617c6c5d5824f98&oe=565FC9EC&__gda__=1453252698_f7404a18663991f93b0127566c0f61ee
-Link: https://www.facebook.com/StarCraft/videos/10153568198777457/
-Type: video
-CreatedTime: 2015-09-14T01:07:54+0000
-Score: 241
--------------------------
-Name: Razer
-Category: Electronics
-Message: Retake your Legacy - November 10.
-Picture: https://fbcdn-vthumb-a.akamaihd.net/hvthumb-ak-xfp1/v/t15.0-10/s130x130/11403595_10153568219117457_200312168_n.jpg?oh=1220bd4000926217e617c6c5d5824f98&oe=565FC9EC&__gda__=1453252698_f7404a18663991f93b0127566c0f61ee
-Link: https://www.facebook.com/StarCraft/videos/10153568198777457/
-Type: video
-CreatedTime: 2015-09-14T01:07:54+0000
-Score: 240
--------------------------
-Name: Pie Harbour
-Category: Food/Beverages
-Message: Ice cream pie for the afternoon break 🍦repost from @kuronero96
-Picture: https://fbcdn-photos-d-a.akamaihd.net/hphotos-ak-xla1/v/t1.0-0/p130x130/11986569_611186255690580_7998829036927835651_n.jpg?oh=aa3a1a47a4be1524b0b3adffc3f2f629&oe=56A86CC7&__gda__=1450325531_784c5dbbc73875b2d45457f3480042e1
-Link: https://www.facebook.com/PieHarbour/photos/a.349354148540460.1073741834.239956622813547/611186255690580/?type=1
-Type: photo
-CreatedTime: 2015-09-15T05:48:58+0000
-Score: 240
--------------------------
-Name: Dota 2 Store PH
-Category: Local Business
-Message: RIP Dota 2 Source 1
-Picture: https://fbcdn-photos-g-a.akamaihd.net/hphotos-ak-xtf1/v/t1.0-0/s130x130/11831712_439904262876901_1283421254832368650_n.png?oh=e81310fc16237f518a42668fb2264ff6&oe=5668EA44&__gda__=1450058858_77a8f19db63656dec9f04d1ffe8725ff
-Link: https://www.facebook.com/ECbiz.Dota2/photos/a.209254242608572.1073741828.206290026238327/439904262876901/?type=1
-Type: photo
-CreatedTime: 2015-09-10T07:57:57+0000
-Score: 239
--------------------------
-Name: Razer
-Category: Electronics
-Message: Retake your Legacy - November 10.
-Picture: https://fbcdn-vthumb-a.akamaihd.net/hvthumb-ak-xfp1/v/t15.0-10/s130x130/11403595_10153568219117457_200312168_n.jpg?oh=1220bd4000926217e617c6c5d5824f98&oe=565FC9EC&__gda__=1453252698_f7404a18663991f93b0127566c0f61ee
-Link: https://www.facebook.com/StarCraft/videos/10153568198777457/
-Type: video
-CreatedTime: 2015-09-14T01:07:54+0000
-Score: 239
--------------------------
-Name: Pie Harbour
-Category: Food/Beverages
-Message: Ice cream pie for the afternoon break 🍦repost from @kuronero96
-Picture: https://fbcdn-photos-d-a.akamaihd.net/hphotos-ak-xla1/v/t1.0-0/p130x130/11986569_611186255690580_7998829036927835651_n.jpg?oh=aa3a1a47a4be1524b0b3adffc3f2f629&oe=56A86CC7&__gda__=1450325531_784c5dbbc73875b2d45457f3480042e1
-Link: https://www.facebook.com/PieHarbour/photos/a.349354148540460.1073741834.239956622813547/611186255690580/?type=1
-Type: photo
-CreatedTime: 2015-09-15T05:48:58+0000
-Score: 238
--------------------------
-Name: StarCraft
-Category: Games/Toys
-Message: Legacy of the Void is coming November 10.
-Picture: https://fbcdn-vthumb-a.akamaihd.net/hvthumb-ak-xfp1/v/t15.0-10/s130x130/11403595_10153568219117457_200312168_n.jpg?oh=1220bd4000926217e617c6c5d5824f98&oe=565FC9EC&__gda__=1453252698_f7404a18663991f93b0127566c0f61ee
-Link: https://www.facebook.com/StarCraft/videos/10153568198777457/
-Type: video
-CreatedTime: 2015-09-13T18:00:59+0000
-Score: 213
--------------------------
-Name: Pnml Flaviano
-Category: undefined
-Message: undefined
-Picture: https://fbcdn-photos-c-a.akamaihd.net/hphotos-ak-xta1/v/t1.0-0/s130x130/1378430_721999824481360_861416308_n.jpg?oh=6f9ad05c6466a4e31f437309ca336c8f&oe=56712493&__gda__=1453557164_2ce376973eda9c996306fb84d7e57bac
-Link: https://www.facebook.com/photo.php?fbid=721999824481360&set=p.721999824481360&type=1
-Type: photo
-CreatedTime: 2015-09-15T06:15:28+0000
-Score: 209
--------------------------
-Name: Pnml Flaviano
-Category: undefined
-Message: undefined
-Picture: https://fbcdn-photos-c-a.akamaihd.net/hphotos-ak-xta1/v/t1.0-0/s130x130/1378430_721999824481360_861416308_n.jpg?oh=6f9ad05c6466a4e31f437309ca336c8f&oe=56712493&__gda__=1453557164_2ce376973eda9c996306fb84d7e57bac
-Link: https://www.facebook.com/photo.php?fbid=721999824481360&set=p.721999824481360&type=1
-Type: photo
-CreatedTime: 2015-09-15T06:15:28+0000
-Score: 208
--------------------------
-Name: Pnml Flaviano
-Category: undefined
-Message: undefined
-Picture: https://fbcdn-photos-c-a.akamaihd.net/hphotos-ak-xta1/v/t1.0-0/s130x130/1378430_721999824481360_861416308_n.jpg?oh=6f9ad05c6466a4e31f437309ca336c8f&oe=56712493&__gda__=1453557164_2ce376973eda9c996306fb84d7e57bac
-Link: https://www.facebook.com/photo.php?fbid=721999824481360&set=p.721999824481360&type=1
-Type: photo
-CreatedTime: 2015-09-15T06:15:28+0000
-Score: 207
--------------------------
-Name: Dota 2 Addicts
-Category: Entertainment Website
-Message: Hello guys 
-we didn't go online on twitch for a long time because of obviously my shitty connection , So we will do our best to Broadcast more Tournaments and give tips while we play Dota 2 
-u can watch us on 
+{"Posts": [
+	{"Name": "Sherry Ouyang",
+	"Category": "undefined",
+	"Message": "undefined",
+	"Picture": "https://fbexternal-a.akamaihd.net/safe_image.php?d=AQA2361zGK7rry7W&w=130&h=130&url=http%3A%2F%2Fwww.allkpop.com%2Fupload%2F2015%2F09%2Faf_org%2Fkim-sae-ron-nam-joo-hyuk_1442331527_af_org.jpg&cfs=1&sx=266&sy=0&sw=453&sh=453",
+	"Link": "http://www.allkpop.com/article/2015/09/nam-joo-hyuk-and-kim-sae-ron-lock-lips-in-first-brilliant-seduction-teaser",
+	"Type": "link",
+	"CreatedTime": "2015-09-16T02:21:06+0000",
+	"Score": "245"},
+	{"Name": "Gruen",
+	"Category": "TV Show",
+	"Message": "A really fun episode tonight as we talk Uber, a brand that claims not to advertise and Ashley Madision- a brand that may have been burned to the ground. We also check in with Woolies and Coles, and for reasons that will become clear: armpits. 
+Wil, Todd, Russel are joined by Gruen regular Carolyn Miller, new Gruen friend Claire Salvetti, and hopefully YOU. 8:30pm on  ABC TV.",
+	"Picture": "https://fbcdn-photos-e-a.akamaihd.net/hphotos-ak-xta1/v/t1.0-0/p130x130/12003386_10154641940042588_7045967002148143894_n.png?oh=c5122839ea0e14f9dd37a9408a598a54&oe=5668CF6F&__gda__=1453224318_d6674fd5d22d2007867b043678c78a3a",
+	"Link": "https://www.facebook.com/gruenhq/photos/a.467285722587.226078.20915222587/10154641940042588/?type=1",
+	"Type": "photo",
+	"CreatedTime": "2015-09-16T01:39:26+0000",
+	"Score": "221"},
+	{"Name": "James Song",
+	"Category": "undefined",
+	"Message": "undefined",
+	"Picture": "https://fbexternal-a.akamaihd.net/safe_image.php?d=AQCKbAMOYzf7wM4N&w=130&h=130&url=http%3A%2F%2Fthemindunleashed.org%2Fwp-content%2Fuploads%2F2015%2F09%2Fspirituall.jpg&cfs=1&sx=217&sy=0&sw=423&sh=423",
+	"Link": "http://themindunleashed.org/2015/09/a-photographer-visited-this-lost-mongolian-tribe-and-the-pictures-he-took-are-incredible.html",
+	"Type": "link",
+	"CreatedTime": "2015-09-16T01:33:51+0000",
+	"Score": "217"},
+	{"Name": "James Song",
+	"Category": "undefined",
+	"Message": "undefined",
+	"Picture": "https://fbcdn-vthumb-a.akamaihd.net/hvthumb-ak-xap1/v/t15.0-10/s130x130/51083_1600027093594903_748971181_n.jpg?oh=bd723192674b9b4be222f56c0fccef03&oe=56A528A6&__gda__=1449758460_2daa27a9e6052edfced212f168f1676b",
+	"Link": "https://www.facebook.com/jasonlsilva/videos/1600022570262022/",
+	"Type": "video",
+	"CreatedTime": "2015-09-16T01:31:20+0000",
+	"Score": "213"},
+	{"Name": "Jess Snape",
+	"Category": "undefined",
+	"Message": "undefined",
+	"Picture": "https://fbexternal-a.akamaihd.net/safe_image.php?d=AQBZ6c0SyiexzYBo&w=130&h=130&url=http%3A%2F%2Fnbnnewscomau.c.presscdn.com%2Fwp-content%2Fuploads%2F2015%2F09%2Frally-640x330.png&cfs=1",
+	"Link": "http://www.nbnnews.com.au/2015/09/15/rally-raises-funds-for-newborn-emergency-transport-service/",
+	"Type": "link",
+	"CreatedTime": "2015-09-16T01:11:22+0000",
+	"Score": "209"},
+	{"Name": "Rhett and Link",
+	"Category": "Comedian",
+	"Message": "What dating site should YOU use? Post your results.
+https://www.youtube.com/watch?v=AlCD_EAGEkM",
+	"Picture": "https://fbcdn-photos-g-a.akamaihd.net/hphotos-ak-xat1/v/t1.0-0/q86/s130x130/12011402_10153164764196476_2365647686539718657_n.jpg?oh=7c49fac38bbc2ff8ba328358b1bc67de&oe=566396C6&__gda__=1454008807_7f9c1738c5129b07f6fe2cc0dff3db66",
+	"Link": "https://www.facebook.com/RhettAndLink/photos/a.10150320743816476.356847.6057751475/10153164764196476/?type=1",
+	"Type": "photo",
+	"CreatedTime": "2015-09-15T19:44:30+0000",
+	"Score": "206"},
+	{"Name": "Rhett and Link",
+	"Category": "Comedian",
+	"Message": "What dating site should YOU use? Post your results.
+https://www.youtube.com/watch?v=AlCD_EAGEkM",
+	"Picture": "https://fbcdn-photos-g-a.akamaihd.net/hphotos-ak-xat1/v/t1.0-0/q86/s130x130/12011402_10153164764196476_2365647686539718657_n.jpg?oh=7c49fac38bbc2ff8ba328358b1bc67de&oe=566396C6&__gda__=1454008807_7f9c1738c5129b07f6fe2cc0dff3db66",
+	"Link": "https://www.facebook.com/RhettAndLink/photos/a.10150320743816476.356847.6057751475/10153164764196476/?type=1",
+	"Type": "photo",
+	"CreatedTime": "2015-09-15T19:44:30+0000",
+	"Score": "205"},
+	{"Name": "I fucking love science",
+	"Category": "Science Website",
+	"Message": "Animals pay a surprisingly high price for their sight.",
+	"Picture": "https://fbexternal-a.akamaihd.net/safe_image.php?d=AQBSX-P2EcCbBBnm&w=130&h=130&url=http%3A%2F%2Fwww.iflscience.com%2Fsites%2Fwww.iflscience.com%2Ffiles%2Fblog%2F%255Bnid%255D%2Feyeless%2520fish.jpg&cfs=1",
+	"Link": "http://www.iflscience.com/brain/cost-sight",
+	"Type": "link",
+	"CreatedTime": "2015-09-16T01:00:00+0000",
+	"Score": "205"},
+	{"Name": "Rhett and Link",
+	"Category": "Comedian",
+	"Message": "What dating site should YOU use? Post your results.
+https://www.youtube.com/watch?v=AlCD_EAGEkM",
+	"Picture": "https://fbcdn-photos-g-a.akamaihd.net/hphotos-ak-xat1/v/t1.0-0/q86/s130x130/12011402_10153164764196476_2365647686539718657_n.jpg?oh=7c49fac38bbc2ff8ba328358b1bc67de&oe=566396C6&__gda__=1454008807_7f9c1738c5129b07f6fe2cc0dff3db66",
+	"Link": "https://www.facebook.com/RhettAndLink/photos/a.10150320743816476.356847.6057751475/10153164764196476/?type=1",
+	"Type": "photo",
+	"CreatedTime": "2015-09-15T19:44:30+0000",
+	"Score": "204"},
+	{"Name": "I fucking love science",
+	"Category": "Science Website",
+	"Message": "Animals pay a surprisingly high price for their sight.",
+	"Picture": "https://fbexternal-a.akamaihd.net/safe_image.php?d=AQBSX-P2EcCbBBnm&w=130&h=130&url=http%3A%2F%2Fwww.iflscience.com%2Fsites%2Fwww.iflscience.com%2Ffiles%2Fblog%2F%255Bnid%255D%2Feyeless%2520fish.jpg&cfs=1",
+	"Link": "http://www.iflscience.com/brain/cost-sight",
+	"Type": "link",
+	"CreatedTime": "2015-09-16T01:00:00+0000",
+	"Score": "204"},
+	{"Name": "I fucking love science",
+	"Category": "Science Website",
+	"Message": "Animals pay a surprisingly high price for their sight.",
+	"Picture": "https://fbexternal-a.akamaihd.net/safe_image.php?d=AQBSX-P2EcCbBBnm&w=130&h=130&url=http%3A%2F%2Fwww.iflscience.com%2Fsites%2Fwww.iflscience.com%2Ffiles%2Fblog%2F%255Bnid%255D%2Feyeless%2520fish.jpg&cfs=1",
+	"Link": "http://www.iflscience.com/brain/cost-sight",
+	"Type": "link",
+	"CreatedTime": "2015-09-16T01:00:00+0000",
+	"Score": "203"},
+	{"Name": "Escape The Fate",
+	"Category": "Musician/Band",
+	"Message": "Approaching 500k on ""Just A Memory" still haven't seen it!? Watch it here: https://www.youtube.com/watch?v=Vkjl0f8yL7k  
+📷 Britt Boyce 🎥 reelrage",
+	"Picture": "https://fbcdn-photos-g-a.akamaihd.net/hphotos-ak-xta1/v/t1.0-0/s130x130/10533440_10153661447735820_6627999995008434661_n.png?oh=d32459d45fd93674ccf8cc0011f7969d&oe=56A04E18&__gda__=1452987913_228b71b66d04010b1b61773647ec86db",
+	"Link": "https://www.facebook.com/escapethefate/photos/a.218111615819.165225.7312710819/10153661447735820/?type=1",
+	"Type": "photo",
+	"CreatedTime": "2015-09-15T18:21:07+0000",
+	"Score": "202"},
+	{"Name": "Asylum Seeker Resource Centre (ASRC)",
+	"Category": "Non-Profit Organization",
+	"Message": "Let's hope the new Immigration Minister has the heart to release children from detention.",
+	"Picture": "https://fbexternal-a.akamaihd.net/safe_image.php?d=AQDsJPHHEcPkq708&w=130&h=130&url=https%3A%2F%2Fs.yimg.com%2Fiu%2Fapi%2Fres%2F1.2%2FA9Dbtp1wkFrPZauXSnG5CA--%2FYXBwaWQ9eXZpZGVvO2ZpPXVsY3JvcDt3PTYzMDtoPTM1NDtkeD0xO2R5PTE7Y3c9MTI3OTtjaD03MTk7cT03MDtuPTE7cm90YXRlPWF1dG8-%2Fhttps%3A%2F%2Fs.yimg.com%2Fea%2Fimg%2F-%2F150916%2Fpeter_dutton_1280_1avhd78-1avhd7d.jpg&cfs=1&sx=116&sy=0&sw=354&sh=354",
+	"Link": "https://au.news.yahoo.com/a/29540395/peter-dutton-resigns-report/",
+	"Type": "link",
+	"CreatedTime": "2015-09-16T00:42:19+0000",
+	"Score": "201"},
+	{"Name": "Escape The Fate",
+	"Category": "Musician/Band",
+	"Message": "Approaching 500k on ""Just A Memory" still haven't seen it!? Watch it here: https://www.youtube.com/watch?v=Vkjl0f8yL7k  
+📷 Britt Boyce 🎥 reelrage",
+	"Picture": "https://fbcdn-photos-g-a.akamaihd.net/hphotos-ak-xta1/v/t1.0-0/s130x130/10533440_10153661447735820_6627999995008434661_n.png?oh=d32459d45fd93674ccf8cc0011f7969d&oe=56A04E18&__gda__=1452987913_228b71b66d04010b1b61773647ec86db",
+	"Link": "https://www.facebook.com/escapethefate/photos/a.218111615819.165225.7312710819/10153661447735820/?type=1",
+	"Type": "photo",
+	"CreatedTime": "2015-09-15T18:21:07+0000",
+	"Score": "200"},
+	{"Name": "Asylum Seeker Resource Centre (ASRC)",
+	"Category": "Non-Profit Organization",
+	"Message": "Let's hope the new Immigration Minister has the heart to release children from detention.",
+	"Picture": "https://fbexternal-a.akamaihd.net/safe_image.php?d=AQDsJPHHEcPkq708&w=130&h=130&url=https%3A%2F%2Fs.yimg.com%2Fiu%2Fapi%2Fres%2F1.2%2FA9Dbtp1wkFrPZauXSnG5CA--%2FYXBwaWQ9eXZpZGVvO2ZpPXVsY3JvcDt3PTYzMDtoPTM1NDtkeD0xO2R5PTE7Y3c9MTI3OTtjaD03MTk7cT03MDtuPTE7cm90YXRlPWF1dG8-%2Fhttps%3A%2F%2Fs.yimg.com%2Fea%2Fimg%2F-%2F150916%2Fpeter_dutton_1280_1avhd78-1avhd7d.jpg&cfs=1&sx=116&sy=0&sw=354&sh=354",
+	"Link": "https://au.news.yahoo.com/a/29540395/peter-dutton-resigns-report/",
+	"Type": "link",
+	"CreatedTime": "2015-09-16T00:42:19+0000",
+	"Score": "200"},
+	{"Name": "Escape The Fate",
+	"Category": "Musician/Band",
+	"Message": "Approaching 500k on ""Just A Memory" still haven't seen it!? Watch it here: https://www.youtube.com/watch?v=Vkjl0f8yL7k  
+📷 Britt Boyce 🎥 reelrage",
+	"Picture": "https://fbcdn-photos-g-a.akamaihd.net/hphotos-ak-xta1/v/t1.0-0/s130x130/10533440_10153661447735820_6627999995008434661_n.png?oh=d32459d45fd93674ccf8cc0011f7969d&oe=56A04E18&__gda__=1452987913_228b71b66d04010b1b61773647ec86db",
+	"Link": "https://www.facebook.com/escapethefate/photos/a.218111615819.165225.7312710819/10153661447735820/?type=1",
+	"Type": "photo",
+	"CreatedTime": "2015-09-15T18:21:07+0000",
+	"Score": "199"},
+	{"Name": "Asylum Seeker Resource Centre (ASRC)",
+	"Category": "Non-Profit Organization",
+	"Message": "Let's hope the new Immigration Minister has the heart to release children from detention.",
+	"Picture": "https://fbexternal-a.akamaihd.net/safe_image.php?d=AQDsJPHHEcPkq708&w=130&h=130&url=https%3A%2F%2Fs.yimg.com%2Fiu%2Fapi%2Fres%2F1.2%2FA9Dbtp1wkFrPZauXSnG5CA--%2FYXBwaWQ9eXZpZGVvO2ZpPXVsY3JvcDt3PTYzMDtoPTM1NDtkeD0xO2R5PTE7Y3c9MTI3OTtjaD03MTk7cT03MDtuPTE7cm90YXRlPWF1dG8-%2Fhttps%3A%2F%2Fs.yimg.com%2Fea%2Fimg%2F-%2F150916%2Fpeter_dutton_1280_1avhd78-1avhd7d.jpg&cfs=1&sx=116&sy=0&sw=354&sh=354",
+	"Link": "https://au.news.yahoo.com/a/29540395/peter-dutton-resigns-report/",
+	"Type": "link",
+	"CreatedTime": "2015-09-16T00:42:19+0000",
+	"Score": "198"},
+	{"Name": "AtomicMari",
+	"Category": "Entertainer",
+	"Message": "MariCorn Industries: mercenaries for hire.-------------------------------------------------------
+Uh, yes, that would be @Lasercorn piloting the mech and me riding the cannon as it fired ammo at over 120mph. This was the greatest day ever. Go support @megabotsinc via Kickstarter: http://bit.ly/megabots
+-------------------------------------------------------",
+	"Picture": "https://fbcdn-photos-e-a.akamaihd.net/hphotos-ak-xta1/v/t1.0-0/s130x130/12036401_1003887706341557_3648152338090505553_n.jpg?oh=2b8c311625467b9bb2a14cadc641cfcc&oe=566A7668&__gda__=1449281815_1957303da2168bb5d694c53cb4f44a5e",
+	"Link": "https://www.facebook.com/AtomicMari/photos/a.171437242919945.48201.168923433171326/1003887706341557/?type=1",
+	"Type": "photo",
+	"CreatedTime": "2015-09-15T21:32:27+0000",
+	"Score": "189"},
+	{"Name": "Emily Yu",
+	"Category": "undefined",
+	"Message": "Me vs uni",
+	"Picture": "https://fbcdn-vthumb-a.akamaihd.net/hvthumb-ak-xpf1/v/t15.0-10/p130x130/11919475_667113143455969_597302039_n.jpg?oh=0824ee6e7e7d01a30e793e4c72b54843&oe=56A29393&__gda__=1452921691_c287effaecb08054f8177f52981b00fa",
+	"Link": "https://www.facebook.com/BestofVines/videos/667112963455987/",
+	"Type": "video",
+	"CreatedTime": "2015-09-15T20:36:44+0000",
+	"Score": "185"},
+	{"Name": "Trust Me, I'm an "Engineer"",
+	"Category": "Community",
+	"Message": "Learn how a 15-year old kid from Sierra Leone was able to impress #MIT.",
+	"Picture": "https://fbexternal-a.akamaihd.net/safe_image.php?d=AQDDr0fTPkU0r0kF&w=130&h=130&url=http%3A%2F%2Fengineerpal.com%2Fwp-content%2Fuploads%2F2015%2F09%2Fhow-a-15-year-old-kid-wowed-m-i.jpg&cfs=1&sx=20&sy=0&sw=1080&sh=1080",
+	"Link": "http://engineerpal.com/kid-wows-mit/",
+	"Type": "link",
+	"CreatedTime": "2015-09-15T17:04:22+0000",
+	"Score": "173"},
+	{"Name": "James Song",
+	"Category": "undefined",
+	"Message": "undefined",
+	"Picture": "https://fbcdn-vthumb-a.akamaihd.net/hvthumb-ak-xpt1/v/t15.0-10/s130x130/11331435_10153104428782956_1317642173_n.jpg?oh=abde5bbdfd35336769d08c5738479c3b&oe=566A5781&__gda__=1453244442_1827877ce33c66046d851762e9ead77a",
+	"Link": "https://www.facebook.com/OfficialDailyAtheist/videos/470170996475063/",
+	"Type": "video",
+	"CreatedTime": "2015-09-15T16:10:34+0000",
+	"Score": "165"},
+	{"Name": "Sherry Ouyang",
+	"Category": "undefined",
+	"Message": "undefined",
+	"Picture": "https://fbexternal-a.akamaihd.net/safe_image.php?d=AQA2361zGK7rry7W&w=130&h=130&url=http%3A%2F%2Fwww.allkpop.com%2Fupload%2F2015%2F09%2Faf_org%2Fkim-sae-ron-nam-joo-hyuk_1442331527_af_org.jpg&cfs=1&sx=266&sy=0&sw=453&sh=453",
+	"Link": "http://www.allkpop.com/article/2015/09/nam-joo-hyuk-and-kim-sae-ron-lock-lips-in-first-brilliant-seduction-teaser",
+	"Type": "link",
+	"CreatedTime": "2015-09-16T02:21:06+0000",
+	"Score": "164"},
+	{"Name": "Sherry Ouyang",
+	"Category": "undefined",
+	"Message": "undefined",
+	"Picture": "https://fbexternal-a.akamaihd.net/safe_image.php?d=AQA2361zGK7rry7W&w=130&h=130&url=http%3A%2F%2Fwww.allkpop.com%2Fupload%2F2015%2F09%2Faf_org%2Fkim-sae-ron-nam-joo-hyuk_1442331527_af_org.jpg&cfs=1&sx=266&sy=0&sw=453&sh=453",
+	"Link": "http://www.allkpop.com/article/2015/09/nam-joo-hyuk-and-kim-sae-ron-lock-lips-in-first-brilliant-seduction-teaser",
+	"Type": "link",
+	"CreatedTime": "2015-09-16T02:21:06+0000",
+	"Score": "163"},
+	{"Name": "Sherry Ouyang",
+	"Category": "undefined",
+	"Message": "undefined",
+	"Picture": "https://fbexternal-a.akamaihd.net/safe_image.php?d=AQA2361zGK7rry7W&w=130&h=130&url=http%3A%2F%2Fwww.allkpop.com%2Fupload%2F2015%2F09%2Faf_org%2Fkim-sae-ron-nam-joo-hyuk_1442331527_af_org.jpg&cfs=1&sx=266&sy=0&sw=453&sh=453",
+	"Link": "http://www.allkpop.com/article/2015/09/nam-joo-hyuk-and-kim-sae-ron-lock-lips-in-first-brilliant-seduction-teaser",
+	"Type": "link",
+	"CreatedTime": "2015-09-16T02:21:06+0000",
+	"Score": "162"},
+	{"Name": "Clare Ellis Ally-studentequity",
+	"Category": "undefined",
+	"Message": "undefined",
+	"Picture": "https://fbexternal-a.akamaihd.net/safe_image.php?d=AQAKMijhRtlvVn04&w=130&h=130&url=http%3A%2F%2Fimg.huffingtonpost.com%2Fasset%2F470_245%2F55e0c89f1700004301568e91.jpeg&cfs=1&sx=161&sy=0&sw=245&sh=245",
+	"Link": "http://www.huffingtonpost.com/entry/7-mental-illness-myths-people-still-believe_55e0c1cae4b0aec9f353538c?ir=Healthy%2BLiving&section=healthy-living&ncid=newsltushpmg00000003",
+	"Type": "link",
+	"CreatedTime": "2015-09-16T02:19:05+0000",
+	"Score": "161"},
+	{"Name": "Gruen",
+	"Category": "TV Show",
+	"Message": "BREAKING NEWS. #spill
+https://twitter.com/Wil_Anderson/status/643669421098074112",
+	"Picture": "https://fbcdn-photos-f-a.akamaihd.net/hphotos-ak-xtf1/v/t1.0-0/s130x130/12006136_10154640061172588_5871236260462157182_n.png?oh=4e4fecba866dada96cd75b78c0921ef0&oe=56A82658&__gda__=1454023072_bb74cdf7db5a9285b0e9c096c5208861",
+	"Link": "https://www.facebook.com/gruenhq/photos/a.467285722587.226078.20915222587/10154640061172588/?type=1",
+	"Type": "photo",
+	"CreatedTime": "2015-09-15T07:10:59+0000",
+	"Score": "161"},
+	{"Name": "Clare Ellis Ally-studentequity",
+	"Category": "undefined",
+	"Message": "undefined",
+	"Picture": "https://fbexternal-a.akamaihd.net/safe_image.php?d=AQAKMijhRtlvVn04&w=130&h=130&url=http%3A%2F%2Fimg.huffingtonpost.com%2Fasset%2F470_245%2F55e0c89f1700004301568e91.jpeg&cfs=1&sx=161&sy=0&sw=245&sh=245",
+	"Link": "http://www.huffingtonpost.com/entry/7-mental-illness-myths-people-still-believe_55e0c1cae4b0aec9f353538c?ir=Healthy%2BLiving&section=healthy-living&ncid=newsltushpmg00000003",
+	"Type": "link",
+	"CreatedTime": "2015-09-16T02:19:05+0000",
+	"Score": "160"},
+	{"Name": "Clare Ellis Ally-studentequity",
+	"Category": "undefined",
+	"Message": "undefined",
+	"Picture": "https://fbexternal-a.akamaihd.net/safe_image.php?d=AQAKMijhRtlvVn04&w=130&h=130&url=http%3A%2F%2Fimg.huffingtonpost.com%2Fasset%2F470_245%2F55e0c89f1700004301568e91.jpeg&cfs=1&sx=161&sy=0&sw=245&sh=245",
+	"Link": "http://www.huffingtonpost.com/entry/7-mental-illness-myths-people-still-believe_55e0c1cae4b0aec9f353538c?ir=Healthy%2BLiving&section=healthy-living&ncid=newsltushpmg00000003",
+	"Type": "link",
+	"CreatedTime": "2015-09-16T02:19:05+0000",
+	"Score": "159"},
+	{"Name": "Clare Ellis Ally-studentequity",
+	"Category": "undefined",
+	"Message": "undefined",
+	"Picture": "https://fbexternal-a.akamaihd.net/safe_image.php?d=AQAKMijhRtlvVn04&w=130&h=130&url=http%3A%2F%2Fimg.huffingtonpost.com%2Fasset%2F470_245%2F55e0c89f1700004301568e91.jpeg&cfs=1&sx=161&sy=0&sw=245&sh=245",
+	"Link": "http://www.huffingtonpost.com/entry/7-mental-illness-myths-people-still-believe_55e0c1cae4b0aec9f353538c?ir=Healthy%2BLiving&section=healthy-living&ncid=newsltushpmg00000003",
+	"Type": "link",
+	"CreatedTime": "2015-09-16T02:19:05+0000",
+	"Score": "158"},
+	{"Name": "Clare Ellis Ally-studentequity",
+	"Category": "undefined",
+	"Message": "undefined",
+	"Picture": "https://fbexternal-a.akamaihd.net/safe_image.php?d=AQALFgq2vaVNAsRv&w=130&h=130&url=http%3A%2F%2Fwww.abs.gov.au%2Fausstats%2Fwmdata.nsf%2Factiveimages%2Fabs_logo_lg_bg%2F%24File%2Fabs_logo_lg_bg.gif&cfs=1",
+	"Link": "http://bit.ly/1XnEVgE",
+	"Type": "link",
+	"CreatedTime": "2015-09-16T02:15:14+0000",
+	"Score": "157"},
+	{"Name": "Best Vines",
+	"Category": "Website",
+	"Message": "When you go to the gym once and you feel invincible...by America's Funniest Home Videos",
+	"Picture": "https://fbcdn-vthumb-a.akamaihd.net/hvthumb-ak-xpf1/v/t15.0-10/p130x130/11919475_667113143455969_597302039_n.jpg?oh=0824ee6e7e7d01a30e793e4c72b54843&oe=56A29393&__gda__=1452921691_c287effaecb08054f8177f52981b00fa",
+	"Link": "https://www.facebook.com/BestofVines/videos/667112963455987/",
+	"Type": "video",
+	"CreatedTime": "2015-09-08T23:07:47+0000",
+	"Score": "157"},
+	{"Name": "Clare Ellis Ally-studentequity",
+	"Category": "undefined",
+	"Message": "undefined",
+	"Picture": "https://fbexternal-a.akamaihd.net/safe_image.php?d=AQALFgq2vaVNAsRv&w=130&h=130&url=http%3A%2F%2Fwww.abs.gov.au%2Fausstats%2Fwmdata.nsf%2Factiveimages%2Fabs_logo_lg_bg%2F%24File%2Fabs_logo_lg_bg.gif&cfs=1",
+	"Link": "http://bit.ly/1XnEVgE",
+	"Type": "link",
+	"CreatedTime": "2015-09-16T02:15:14+0000",
+	"Score": "156"},
+	{"Name": "Clare Ellis Ally-studentequity",
+	"Category": "undefined",
+	"Message": "undefined",
+	"Picture": "https://fbexternal-a.akamaihd.net/safe_image.php?d=AQALFgq2vaVNAsRv&w=130&h=130&url=http%3A%2F%2Fwww.abs.gov.au%2Fausstats%2Fwmdata.nsf%2Factiveimages%2Fabs_logo_lg_bg%2F%24File%2Fabs_logo_lg_bg.gif&cfs=1",
+	"Link": "http://bit.ly/1XnEVgE",
+	"Type": "link",
+	"CreatedTime": "2015-09-16T02:15:14+0000",
+	"Score": "155"},
+	{"Name": "Clare Ellis Ally-studentequity",
+	"Category": "undefined",
+	"Message": "undefined",
+	"Picture": "https://fbexternal-a.akamaihd.net/safe_image.php?d=AQALFgq2vaVNAsRv&w=130&h=130&url=http%3A%2F%2Fwww.abs.gov.au%2Fausstats%2Fwmdata.nsf%2Factiveimages%2Fabs_logo_lg_bg%2F%24File%2Fabs_logo_lg_bg.gif&cfs=1",
+	"Link": "http://bit.ly/1XnEVgE",
+	"Type": "link",
+	"CreatedTime": "2015-09-16T02:15:14+0000",
+	"Score": "154"},
+	{"Name": "Steven Christie",
+	"Category": "undefined",
+	"Message": "undefined",
+	"Picture": "https://fbexternal-a.akamaihd.net/safe_image.php?d=AQC4HdzN-DOYkdaG&w=130&h=130&url=https%3A%2F%2Fscontent-sin1-1.xx.fbcdn.net%2Fhphotos-xfa1%2Fv%2Fl%2Ft1.0-9%2Fs720x720%2F11998800_10154418268724988_2091267267889082548_n.jpg%3Foh%3D811fcb7215003fe94ed8f3a56cf6fbcc%26oe%3D56A35B80&cfs=1&sx=64&sy=0&sw=480&sh=480",
+	"Link": "http://www.abc.net.au/news/2015-09-16/prime-minister-malcolm-turnbull-expects-new-ministry-will-be-sw/6779824",
+	"Type": "link",
+	"CreatedTime": "2015-09-16T02:13:41+0000",
+	"Score": "153"},
+	{"Name": "Steven Christie",
+	"Category": "undefined",
+	"Message": "undefined",
+	"Picture": "https://fbexternal-a.akamaihd.net/safe_image.php?d=AQC4HdzN-DOYkdaG&w=130&h=130&url=https%3A%2F%2Fscontent-sin1-1.xx.fbcdn.net%2Fhphotos-xfa1%2Fv%2Fl%2Ft1.0-9%2Fs720x720%2F11998800_10154418268724988_2091267267889082548_n.jpg%3Foh%3D811fcb7215003fe94ed8f3a56cf6fbcc%26oe%3D56A35B80&cfs=1&sx=64&sy=0&sw=480&sh=480",
+	"Link": "http://www.abc.net.au/news/2015-09-16/prime-minister-malcolm-turnbull-expects-new-ministry-will-be-sw/6779824",
+	"Type": "link",
+	"CreatedTime": "2015-09-16T02:13:41+0000",
+	"Score": "152"},
+	{"Name": "Steven Christie",
+	"Category": "undefined",
+	"Message": "undefined",
+	"Picture": "https://fbexternal-a.akamaihd.net/safe_image.php?d=AQC4HdzN-DOYkdaG&w=130&h=130&url=https%3A%2F%2Fscontent-sin1-1.xx.fbcdn.net%2Fhphotos-xfa1%2Fv%2Fl%2Ft1.0-9%2Fs720x720%2F11998800_10154418268724988_2091267267889082548_n.jpg%3Foh%3D811fcb7215003fe94ed8f3a56cf6fbcc%26oe%3D56A35B80&cfs=1&sx=64&sy=0&sw=480&sh=480",
+	"Link": "http://www.abc.net.au/news/2015-09-16/prime-minister-malcolm-turnbull-expects-new-ministry-will-be-sw/6779824",
+	"Type": "link",
+	"CreatedTime": "2015-09-16T02:13:41+0000",
+	"Score": "151"},
+	{"Name": "Steven Christie",
+	"Category": "undefined",
+	"Message": "undefined",
+	"Picture": "https://fbexternal-a.akamaihd.net/safe_image.php?d=AQC4HdzN-DOYkdaG&w=130&h=130&url=https%3A%2F%2Fscontent-sin1-1.xx.fbcdn.net%2Fhphotos-xfa1%2Fv%2Fl%2Ft1.0-9%2Fs720x720%2F11998800_10154418268724988_2091267267889082548_n.jpg%3Foh%3D811fcb7215003fe94ed8f3a56cf6fbcc%26oe%3D56A35B80&cfs=1&sx=64&sy=0&sw=480&sh=480",
+	"Link": "http://www.abc.net.au/news/2015-09-16/prime-minister-malcolm-turnbull-expects-new-ministry-will-be-sw/6779824",
+	"Type": "link",
+	"CreatedTime": "2015-09-16T02:13:41+0000",
+	"Score": "150"},
+	{"Name": "Clare Ellis Ally-studentequity",
+	"Category": "undefined",
+	"Message": "undefined",
+	"Picture": "https://fbexternal-a.akamaihd.net/safe_image.php?d=AQDsJPHHEcPkq708&w=130&h=130&url=https%3A%2F%2Fs.yimg.com%2Fiu%2Fapi%2Fres%2F1.2%2FA9Dbtp1wkFrPZauXSnG5CA--%2FYXBwaWQ9eXZpZGVvO2ZpPXVsY3JvcDt3PTYzMDtoPTM1NDtkeD0xO2R5PTE7Y3c9MTI3OTtjaD03MTk7cT03MDtuPTE7cm90YXRlPWF1dG8-%2Fhttps%3A%2F%2Fs.yimg.com%2Fea%2Fimg%2F-%2F150916%2Fpeter_dutton_1280_1avhd78-1avhd7d.jpg&cfs=1&sx=116&sy=0&sw=354&sh=354",
+	"Link": "https://au.news.yahoo.com/a/29540395/peter-dutton-resigns-report/",
+	"Type": "link",
+	"CreatedTime": "2015-09-16T02:07:57+0000",
+	"Score": "149"},
+	{"Name": "Clare Ellis Ally-studentequity",
+	"Category": "undefined",
+	"Message": "undefined",
+	"Picture": "https://fbexternal-a.akamaihd.net/safe_image.php?d=AQDsJPHHEcPkq708&w=130&h=130&url=https%3A%2F%2Fs.yimg.com%2Fiu%2Fapi%2Fres%2F1.2%2FA9Dbtp1wkFrPZauXSnG5CA--%2FYXBwaWQ9eXZpZGVvO2ZpPXVsY3JvcDt3PTYzMDtoPTM1NDtkeD0xO2R5PTE7Y3c9MTI3OTtjaD03MTk7cT03MDtuPTE7cm90YXRlPWF1dG8-%2Fhttps%3A%2F%2Fs.yimg.com%2Fea%2Fimg%2F-%2F150916%2Fpeter_dutton_1280_1avhd78-1avhd7d.jpg&cfs=1&sx=116&sy=0&sw=354&sh=354",
+	"Link": "https://au.news.yahoo.com/a/29540395/peter-dutton-resigns-report/",
+	"Type": "link",
+	"CreatedTime": "2015-09-16T02:07:57+0000",
+	"Score": "148"},
+	{"Name": "Clare Ellis Ally-studentequity",
+	"Category": "undefined",
+	"Message": "undefined",
+	"Picture": "https://fbexternal-a.akamaihd.net/safe_image.php?d=AQDsJPHHEcPkq708&w=130&h=130&url=https%3A%2F%2Fs.yimg.com%2Fiu%2Fapi%2Fres%2F1.2%2FA9Dbtp1wkFrPZauXSnG5CA--%2FYXBwaWQ9eXZpZGVvO2ZpPXVsY3JvcDt3PTYzMDtoPTM1NDtkeD0xO2R5PTE7Y3c9MTI3OTtjaD03MTk7cT03MDtuPTE7cm90YXRlPWF1dG8-%2Fhttps%3A%2F%2Fs.yimg.com%2Fea%2Fimg%2F-%2F150916%2Fpeter_dutton_1280_1avhd78-1avhd7d.jpg&cfs=1&sx=116&sy=0&sw=354&sh=354",
+	"Link": "https://au.news.yahoo.com/a/29540395/peter-dutton-resigns-report/",
+	"Type": "link",
+	"CreatedTime": "2015-09-16T02:07:57+0000",
+	"Score": "147"},
+	{"Name": "Clare Ellis Ally-studentequity",
+	"Category": "undefined",
+	"Message": "undefined",
+	"Picture": "https://fbexternal-a.akamaihd.net/safe_image.php?d=AQDsJPHHEcPkq708&w=130&h=130&url=https%3A%2F%2Fs.yimg.com%2Fiu%2Fapi%2Fres%2F1.2%2FA9Dbtp1wkFrPZauXSnG5CA--%2FYXBwaWQ9eXZpZGVvO2ZpPXVsY3JvcDt3PTYzMDtoPTM1NDtkeD0xO2R5PTE7Y3c9MTI3OTtjaD03MTk7cT03MDtuPTE7cm90YXRlPWF1dG8-%2Fhttps%3A%2F%2Fs.yimg.com%2Fea%2Fimg%2F-%2F150916%2Fpeter_dutton_1280_1avhd78-1avhd7d.jpg&cfs=1&sx=116&sy=0&sw=354&sh=354",
+	"Link": "https://au.news.yahoo.com/a/29540395/peter-dutton-resigns-report/",
+	"Type": "link",
+	"CreatedTime": "2015-09-16T02:07:57+0000",
+	"Score": "146"},
+	{"Name": "ABC News",
+	"Category": "Media/News/Publishing",
+	"Message": "Prime Minister Malcolm Turnbull expects his new ministry to be sworn in on Monday and says he wants more women on his frontbench.",
+	"Picture": "https://fbexternal-a.akamaihd.net/safe_image.php?d=AQC4HdzN-DOYkdaG&w=130&h=130&url=https%3A%2F%2Fscontent-sin1-1.xx.fbcdn.net%2Fhphotos-xfa1%2Fv%2Fl%2Ft1.0-9%2Fs720x720%2F11998800_10154418268724988_2091267267889082548_n.jpg%3Foh%3D811fcb7215003fe94ed8f3a56cf6fbcc%26oe%3D56A35B80&cfs=1&sx=64&sy=0&sw=480&sh=480",
+	"Link": "http://www.abc.net.au/news/2015-09-16/prime-minister-malcolm-turnbull-expects-new-ministry-will-be-sw/6779824",
+	"Type": "link",
+	"CreatedTime": "2015-09-16T02:05:18+0000",
+	"Score": "145"},
+	{"Name": "ABC News",
+	"Category": "Media/News/Publishing",
+	"Message": "Prime Minister Malcolm Turnbull expects his new ministry to be sworn in on Monday and says he wants more women on his frontbench.",
+	"Picture": "https://fbexternal-a.akamaihd.net/safe_image.php?d=AQC4HdzN-DOYkdaG&w=130&h=130&url=https%3A%2F%2Fscontent-sin1-1.xx.fbcdn.net%2Fhphotos-xfa1%2Fv%2Fl%2Ft1.0-9%2Fs720x720%2F11998800_10154418268724988_2091267267889082548_n.jpg%3Foh%3D811fcb7215003fe94ed8f3a56cf6fbcc%26oe%3D56A35B80&cfs=1&sx=64&sy=0&sw=480&sh=480",
+	"Link": "http://www.abc.net.au/news/2015-09-16/prime-minister-malcolm-turnbull-expects-new-ministry-will-be-sw/6779824",
+	"Type": "link",
+	"CreatedTime": "2015-09-16T02:05:18+0000",
+	"Score": "144"},
+	{"Name": "ABC News",
+	"Category": "Media/News/Publishing",
+	"Message": "Prime Minister Malcolm Turnbull expects his new ministry to be sworn in on Monday and says he wants more women on his frontbench.",
+	"Picture": "https://fbexternal-a.akamaihd.net/safe_image.php?d=AQC4HdzN-DOYkdaG&w=130&h=130&url=https%3A%2F%2Fscontent-sin1-1.xx.fbcdn.net%2Fhphotos-xfa1%2Fv%2Fl%2Ft1.0-9%2Fs720x720%2F11998800_10154418268724988_2091267267889082548_n.jpg%3Foh%3D811fcb7215003fe94ed8f3a56cf6fbcc%26oe%3D56A35B80&cfs=1&sx=64&sy=0&sw=480&sh=480",
+	"Link": "http://www.abc.net.au/news/2015-09-16/prime-minister-malcolm-turnbull-expects-new-ministry-will-be-sw/6779824",
+	"Type": "link",
+	"CreatedTime": "2015-09-16T02:05:18+0000",
+	"Score": "143"},
+	{"Name": "ABC News",
+	"Category": "Media/News/Publishing",
+	"Message": "Prime Minister Malcolm Turnbull expects his new ministry to be sworn in on Monday and says he wants more women on his frontbench.",
+	"Picture": "https://fbexternal-a.akamaihd.net/safe_image.php?d=AQC4HdzN-DOYkdaG&w=130&h=130&url=https%3A%2F%2Fscontent-sin1-1.xx.fbcdn.net%2Fhphotos-xfa1%2Fv%2Fl%2Ft1.0-9%2Fs720x720%2F11998800_10154418268724988_2091267267889082548_n.jpg%3Foh%3D811fcb7215003fe94ed8f3a56cf6fbcc%26oe%3D56A35B80&cfs=1&sx=64&sy=0&sw=480&sh=480",
+	"Link": "http://www.abc.net.au/news/2015-09-16/prime-minister-malcolm-turnbull-expects-new-ministry-will-be-sw/6779824",
+	"Type": "link",
+	"CreatedTime": "2015-09-16T02:05:18+0000",
+	"Score": "142"},
+	{"Name": "Gruen",
+	"Category": "TV Show",
+	"Message": "A really fun episode tonight as we talk Uber, a brand that claims not to advertise and Ashley Madision- a brand that may have been burned to the ground. We also check in with Woolies and Coles, and for reasons that will become clear: armpits. 
+Wil, Todd, Russel are joined by Gruen regular Carolyn Miller, new Gruen friend Claire Salvetti, and hopefully YOU. 8:30pm on  ABC TV.",
+	"Picture": "https://fbcdn-photos-e-a.akamaihd.net/hphotos-ak-xta1/v/t1.0-0/p130x130/12003386_10154641940042588_7045967002148143894_n.png?oh=c5122839ea0e14f9dd37a9408a598a54&oe=5668CF6F&__gda__=1453224318_d6674fd5d22d2007867b043678c78a3a",
+	"Link": "https://www.facebook.com/gruenhq/photos/a.467285722587.226078.20915222587/10154641940042588/?type=1",
+	"Type": "photo",
+	"CreatedTime": "2015-09-16T01:39:26+0000",
+	"Score": "140"},
+	{"Name": "Gruen",
+	"Category": "TV Show",
+	"Message": "A really fun episode tonight as we talk Uber, a brand that claims not to advertise and Ashley Madision- a brand that may have been burned to the ground. We also check in with Woolies and Coles, and for reasons that will become clear: armpits. 
+Wil, Todd, Russel are joined by Gruen regular Carolyn Miller, new Gruen friend Claire Salvetti, and hopefully YOU. 8:30pm on  ABC TV.",
+	"Picture": "https://fbcdn-photos-e-a.akamaihd.net/hphotos-ak-xta1/v/t1.0-0/p130x130/12003386_10154641940042588_7045967002148143894_n.png?oh=c5122839ea0e14f9dd37a9408a598a54&oe=5668CF6F&__gda__=1453224318_d6674fd5d22d2007867b043678c78a3a",
+	"Link": "https://www.facebook.com/gruenhq/photos/a.467285722587.226078.20915222587/10154641940042588/?type=1",
+	"Type": "photo",
+	"CreatedTime": "2015-09-16T01:39:26+0000",
+	"Score": "139"},
+	{"Name": "Gruen",
+	"Category": "TV Show",
+	"Message": "A really fun episode tonight as we talk Uber, a brand that claims not to advertise and Ashley Madision- a brand that may have been burned to the ground. We also check in with Woolies and Coles, and for reasons that will become clear: armpits. 
+Wil, Todd, Russel are joined by Gruen regular Carolyn Miller, new Gruen friend Claire Salvetti, and hopefully YOU. 8:30pm on  ABC TV.",
+	"Picture": "https://fbcdn-photos-e-a.akamaihd.net/hphotos-ak-xta1/v/t1.0-0/p130x130/12003386_10154641940042588_7045967002148143894_n.png?oh=c5122839ea0e14f9dd37a9408a598a54&oe=5668CF6F&__gda__=1453224318_d6674fd5d22d2007867b043678c78a3a",
+	"Link": "https://www.facebook.com/gruenhq/photos/a.467285722587.226078.20915222587/10154641940042588/?type=1",
+	"Type": "photo",
+	"CreatedTime": "2015-09-16T01:39:26+0000",
+	"Score": "138"},
+	{"Name": "James Song",
+	"Category": "undefined",
+	"Message": "undefined",
+	"Picture": "https://fbexternal-a.akamaihd.net/safe_image.php?d=AQCKbAMOYzf7wM4N&w=130&h=130&url=http%3A%2F%2Fthemindunleashed.org%2Fwp-content%2Fuploads%2F2015%2F09%2Fspirituall.jpg&cfs=1&sx=217&sy=0&sw=423&sh=423",
+	"Link": "http://themindunleashed.org/2015/09/a-photographer-visited-this-lost-mongolian-tribe-and-the-pictures-he-took-are-incredible.html",
+	"Type": "link",
+	"CreatedTime": "2015-09-16T01:33:51+0000",
+	"Score": "136"},
+	{"Name": "James Song",
+	"Category": "undefined",
+	"Message": "undefined",
+	"Picture": "https://fbexternal-a.akamaihd.net/safe_image.php?d=AQCKbAMOYzf7wM4N&w=130&h=130&url=http%3A%2F%2Fthemindunleashed.org%2Fwp-content%2Fuploads%2F2015%2F09%2Fspirituall.jpg&cfs=1&sx=217&sy=0&sw=423&sh=423",
+	"Link": "http://themindunleashed.org/2015/09/a-photographer-visited-this-lost-mongolian-tribe-and-the-pictures-he-took-are-incredible.html",
+	"Type": "link",
+	"CreatedTime": "2015-09-16T01:33:51+0000",
+	"Score": "135"},
+	{"Name": "James Song",
+	"Category": "undefined",
+	"Message": "undefined",
+	"Picture": "https://fbexternal-a.akamaihd.net/safe_image.php?d=AQCKbAMOYzf7wM4N&w=130&h=130&url=http%3A%2F%2Fthemindunleashed.org%2Fwp-content%2Fuploads%2F2015%2F09%2Fspirituall.jpg&cfs=1&sx=217&sy=0&sw=423&sh=423",
+	"Link": "http://themindunleashed.org/2015/09/a-photographer-visited-this-lost-mongolian-tribe-and-the-pictures-he-took-are-incredible.html",
+	"Type": "link",
+	"CreatedTime": "2015-09-16T01:33:51+0000",
+	"Score": "134"},
+	{"Name": "James Song",
+	"Category": "undefined",
+	"Message": "undefined",
+	"Picture": "https://fbcdn-vthumb-a.akamaihd.net/hvthumb-ak-xap1/v/t15.0-10/s130x130/51083_1600027093594903_748971181_n.jpg?oh=bd723192674b9b4be222f56c0fccef03&oe=56A528A6&__gda__=1449758460_2daa27a9e6052edfced212f168f1676b",
+	"Link": "https://www.facebook.com/jasonlsilva/videos/1600022570262022/",
+	"Type": "video",
+	"CreatedTime": "2015-09-16T01:31:20+0000",
+	"Score": "132"},
+	{"Name": "James Song",
+	"Category": "undefined",
+	"Message": "undefined",
+	"Picture": "https://fbcdn-vthumb-a.akamaihd.net/hvthumb-ak-xap1/v/t15.0-10/s130x130/51083_1600027093594903_748971181_n.jpg?oh=bd723192674b9b4be222f56c0fccef03&oe=56A528A6&__gda__=1449758460_2daa27a9e6052edfced212f168f1676b",
+	"Link": "https://www.facebook.com/jasonlsilva/videos/1600022570262022/",
+	"Type": "video",
+	"CreatedTime": "2015-09-16T01:31:20+0000",
+	"Score": "131"},
+	{"Name": "James Song",
+	"Category": "undefined",
+	"Message": "undefined",
+	"Picture": "https://fbcdn-vthumb-a.akamaihd.net/hvthumb-ak-xap1/v/t15.0-10/s130x130/51083_1600027093594903_748971181_n.jpg?oh=bd723192674b9b4be222f56c0fccef03&oe=56A528A6&__gda__=1449758460_2daa27a9e6052edfced212f168f1676b",
+	"Link": "https://www.facebook.com/jasonlsilva/videos/1600022570262022/",
+	"Type": "video",
+	"CreatedTime": "2015-09-16T01:31:20+0000",
+	"Score": "130"},
+	{"Name": "Jess Snape",
+	"Category": "undefined",
+	"Message": "undefined",
+	"Picture": "https://fbexternal-a.akamaihd.net/safe_image.php?d=AQBZ6c0SyiexzYBo&w=130&h=130&url=http%3A%2F%2Fnbnnewscomau.c.presscdn.com%2Fwp-content%2Fuploads%2F2015%2F09%2Frally-640x330.png&cfs=1",
+	"Link": "http://www.nbnnews.com.au/2015/09/15/rally-raises-funds-for-newborn-emergency-transport-service/",
+	"Type": "link",
+	"CreatedTime": "2015-09-16T01:11:22+0000",
+	"Score": "128"},
+	{"Name": "Jess Snape",
+	"Category": "undefined",
+	"Message": "undefined",
+	"Picture": "https://fbexternal-a.akamaihd.net/safe_image.php?d=AQBZ6c0SyiexzYBo&w=130&h=130&url=http%3A%2F%2Fnbnnewscomau.c.presscdn.com%2Fwp-content%2Fuploads%2F2015%2F09%2Frally-640x330.png&cfs=1",
+	"Link": "http://www.nbnnews.com.au/2015/09/15/rally-raises-funds-for-newborn-emergency-transport-service/",
+	"Type": "link",
+	"CreatedTime": "2015-09-16T01:11:22+0000",
+	"Score": "127"},
+	{"Name": "Jess Snape",
+	"Category": "undefined",
+	"Message": "undefined",
+	"Picture": "https://fbexternal-a.akamaihd.net/safe_image.php?d=AQBZ6c0SyiexzYBo&w=130&h=130&url=http%3A%2F%2Fnbnnewscomau.c.presscdn.com%2Fwp-content%2Fuploads%2F2015%2F09%2Frally-640x330.png&cfs=1",
+	"Link": "http://www.nbnnews.com.au/2015/09/15/rally-raises-funds-for-newborn-emergency-transport-service/",
+	"Type": "link",
+	"CreatedTime": "2015-09-16T01:11:22+0000",
+	"Score": "126"},
+	{"Name": "Rhett and Link",
+	"Category": "Comedian",
+	"Message": "What dating site should YOU use? Post your results.
+https://www.youtube.com/watch?v=AlCD_EAGEkM",
+	"Picture": "https://fbcdn-photos-g-a.akamaihd.net/hphotos-ak-xat1/v/t1.0-0/q86/s130x130/12011402_10153164764196476_2365647686539718657_n.jpg?oh=7c49fac38bbc2ff8ba328358b1bc67de&oe=566396C6&__gda__=1454008807_7f9c1738c5129b07f6fe2cc0dff3db66",
+	"Link": "https://www.facebook.com/RhettAndLink/photos/a.10150320743816476.356847.6057751475/10153164764196476/?type=1",
+	"Type": "photo",
+	"CreatedTime": "2015-09-15T19:44:30+0000",
+	"Score": "123"},
+	{"Name": "I fucking love science",
+	"Category": "Science Website",
+	"Message": "Animals pay a surprisingly high price for their sight.",
+	"Picture": "https://fbexternal-a.akamaihd.net/safe_image.php?d=AQBSX-P2EcCbBBnm&w=130&h=130&url=http%3A%2F%2Fwww.iflscience.com%2Fsites%2Fwww.iflscience.com%2Ffiles%2Fblog%2F%255Bnid%255D%2Feyeless%2520fish.jpg&cfs=1",
+	"Link": "http://www.iflscience.com/brain/cost-sight",
+	"Type": "link",
+	"CreatedTime": "2015-09-16T01:00:00+0000",
+	"Score": "122"},
+	{"Name": "Escape The Fate",
+	"Category": "Musician/Band",
+	"Message": "Approaching 500k on ""Just A Memory" still haven't seen it!? Watch it here: https://www.youtube.com/watch?v=Vkjl0f8yL7k  
+📷 Britt Boyce 🎥 reelrage",
+	"Picture": "https://fbcdn-photos-g-a.akamaihd.net/hphotos-ak-xta1/v/t1.0-0/s130x130/10533440_10153661447735820_6627999995008434661_n.png?oh=d32459d45fd93674ccf8cc0011f7969d&oe=56A04E18&__gda__=1452987913_228b71b66d04010b1b61773647ec86db",
+	"Link": "https://www.facebook.com/escapethefate/photos/a.218111615819.165225.7312710819/10153661447735820/?type=1",
+	"Type": "photo",
+	"CreatedTime": "2015-09-15T18:21:07+0000",
+	"Score": "121"},
+	{"Name": "Asylum Seeker Resource Centre (ASRC)",
+	"Category": "Non-Profit Organization",
+	"Message": "Let's hope the new Immigration Minister has the heart to release children from detention.",
+	"Picture": "https://fbexternal-a.akamaihd.net/safe_image.php?d=AQDsJPHHEcPkq708&w=130&h=130&url=https%3A%2F%2Fs.yimg.com%2Fiu%2Fapi%2Fres%2F1.2%2FA9Dbtp1wkFrPZauXSnG5CA--%2FYXBwaWQ9eXZpZGVvO2ZpPXVsY3JvcDt3PTYzMDtoPTM1NDtkeD0xO2R5PTE7Y3c9MTI3OTtjaD03MTk7cT03MDtuPTE7cm90YXRlPWF1dG8-%2Fhttps%3A%2F%2Fs.yimg.com%2Fea%2Fimg%2F-%2F150916%2Fpeter_dutton_1280_1avhd78-1avhd7d.jpg&cfs=1&sx=116&sy=0&sw=354&sh=354",
+	"Link": "https://au.news.yahoo.com/a/29540395/peter-dutton-resigns-report/",
+	"Type": "link",
+	"CreatedTime": "2015-09-16T00:42:19+0000",
+	"Score": "119"},
+	{"Name": "I fucking love science",
+	"Category": "Science Website",
+	"Message": "It's astonishing how little we still know about our own planet.",
+	"Picture": "https://fbexternal-a.akamaihd.net/safe_image.php?d=AQDMG8QhWu5eEPch&w=130&h=130&url=https%3A%2F%2Fscontent-lhr3-1.xx.fbcdn.net%2Fhphotos-xfp1%2Ft31.0-8%2Fs720x720%2F11999610_1214002025287473_337511013258904685_o.jpg&cfs=1",
+	"Link": "http://www.iflscience.com/physics/australia-hosts-worlds-longest-continental-volcano-track",
+	"Type": "link",
+	"CreatedTime": "2015-09-16T00:00:01+0000",
+	"Score": "117"},
+	{"Name": "I fucking love science",
+	"Category": "Science Website",
+	"Message": "It's astonishing how little we still know about our own planet.",
+	"Picture": "https://fbexternal-a.akamaihd.net/safe_image.php?d=AQDMG8QhWu5eEPch&w=130&h=130&url=https%3A%2F%2Fscontent-lhr3-1.xx.fbcdn.net%2Fhphotos-xfp1%2Ft31.0-8%2Fs720x720%2F11999610_1214002025287473_337511013258904685_o.jpg&cfs=1",
+	"Link": "http://www.iflscience.com/physics/australia-hosts-worlds-longest-continental-volcano-track",
+	"Type": "link",
+	"CreatedTime": "2015-09-16T00:00:01+0000",
+	"Score": "116"},
+	{"Name": "I fucking love science",
+	"Category": "Science Website",
+	"Message": "It's astonishing how little we still know about our own planet.",
+	"Picture": "https://fbexternal-a.akamaihd.net/safe_image.php?d=AQDMG8QhWu5eEPch&w=130&h=130&url=https%3A%2F%2Fscontent-lhr3-1.xx.fbcdn.net%2Fhphotos-xfp1%2Ft31.0-8%2Fs720x720%2F11999610_1214002025287473_337511013258904685_o.jpg&cfs=1",
+	"Link": "http://www.iflscience.com/physics/australia-hosts-worlds-longest-continental-volcano-track",
+	"Type": "link",
+	"CreatedTime": "2015-09-16T00:00:01+0000",
+	"Score": "115"},
+	{"Name": "I fucking love science",
+	"Category": "Science Website",
+	"Message": "It's astonishing how little we still know about our own planet.",
+	"Picture": "https://fbexternal-a.akamaihd.net/safe_image.php?d=AQDMG8QhWu5eEPch&w=130&h=130&url=https%3A%2F%2Fscontent-lhr3-1.xx.fbcdn.net%2Fhphotos-xfp1%2Ft31.0-8%2Fs720x720%2F11999610_1214002025287473_337511013258904685_o.jpg&cfs=1",
+	"Link": "http://www.iflscience.com/physics/australia-hosts-worlds-longest-continental-volcano-track",
+	"Type": "link",
+	"CreatedTime": "2015-09-16T00:00:01+0000",
+	"Score": "114"},
+	{"Name": "I fucking love science",
+	"Category": "Science Website",
+	"Message": "Need more battery life?",
+	"Picture": "https://fbexternal-a.akamaihd.net/safe_image.php?d=AQC_9BKqfOEDmHRD&w=130&h=130&url=http%3A%2F%2Fwww.iflscience.com%2Fsites%2Fwww.iflscience.com%2Ffiles%2Fblog%2F%255Bnid%255D%2Fshutterstock_214328533.jpg&cfs=1",
+	"Link": "http://www.iflscience.com/technology/hush-software-increases-battery-life-android-phones-16",
+	"Type": "link",
+	"CreatedTime": "2015-09-15T22:00:00+0000",
+	"Score": "113"},
+	{"Name": "I fucking love science",
+	"Category": "Science Website",
+	"Message": "Need more battery life?",
+	"Picture": "https://fbexternal-a.akamaihd.net/safe_image.php?d=AQC_9BKqfOEDmHRD&w=130&h=130&url=http%3A%2F%2Fwww.iflscience.com%2Fsites%2Fwww.iflscience.com%2Ffiles%2Fblog%2F%255Bnid%255D%2Fshutterstock_214328533.jpg&cfs=1",
+	"Link": "http://www.iflscience.com/technology/hush-software-increases-battery-life-android-phones-16",
+	"Type": "link",
+	"CreatedTime": "2015-09-15T22:00:00+0000",
+	"Score": "112"},
+	{"Name": "I fucking love science",
+	"Category": "Science Website",
+	"Message": "Need more battery life?",
+	"Picture": "https://fbexternal-a.akamaihd.net/safe_image.php?d=AQC_9BKqfOEDmHRD&w=130&h=130&url=http%3A%2F%2Fwww.iflscience.com%2Fsites%2Fwww.iflscience.com%2Ffiles%2Fblog%2F%255Bnid%255D%2Fshutterstock_214328533.jpg&cfs=1",
+	"Link": "http://www.iflscience.com/technology/hush-software-increases-battery-life-android-phones-16",
+	"Type": "link",
+	"CreatedTime": "2015-09-15T22:00:00+0000",
+	"Score": "111"},
+	{"Name": "I fucking love science",
+	"Category": "Science Website",
+	"Message": "Need more battery life?",
+	"Picture": "https://fbexternal-a.akamaihd.net/safe_image.php?d=AQC_9BKqfOEDmHRD&w=130&h=130&url=http%3A%2F%2Fwww.iflscience.com%2Fsites%2Fwww.iflscience.com%2Ffiles%2Fblog%2F%255Bnid%255D%2Fshutterstock_214328533.jpg&cfs=1",
+	"Link": "http://www.iflscience.com/technology/hush-software-increases-battery-life-android-phones-16",
+	"Type": "link",
+	"CreatedTime": "2015-09-15T22:00:00+0000",
+	"Score": "110"},
+	{"Name": "AtomicMari",
+	"Category": "Entertainer",
+	"Message": "MariCorn Industries: mercenaries for hire.-------------------------------------------------------
+Uh, yes, that would be @Lasercorn piloting the mech and me riding the cannon as it fired ammo at over 120mph. This was the greatest day ever. Go support @megabotsinc via Kickstarter: http://bit.ly/megabots
+-------------------------------------------------------",
+	"Picture": "https://fbcdn-photos-e-a.akamaihd.net/hphotos-ak-xta1/v/t1.0-0/s130x130/12036401_1003887706341557_3648152338090505553_n.jpg?oh=2b8c311625467b9bb2a14cadc641cfcc&oe=566A7668&__gda__=1449281815_1957303da2168bb5d694c53cb4f44a5e",
+	"Link": "https://www.facebook.com/AtomicMari/photos/a.171437242919945.48201.168923433171326/1003887706341557/?type=1",
+	"Type": "photo",
+	"CreatedTime": "2015-09-15T21:32:27+0000",
+	"Score": "108"},
+	{"Name": "AtomicMari",
+	"Category": "Entertainer",
+	"Message": "MariCorn Industries: mercenaries for hire.-------------------------------------------------------
+Uh, yes, that would be @Lasercorn piloting the mech and me riding the cannon as it fired ammo at over 120mph. This was the greatest day ever. Go support @megabotsinc via Kickstarter: http://bit.ly/megabots
+-------------------------------------------------------",
+	"Picture": "https://fbcdn-photos-e-a.akamaihd.net/hphotos-ak-xta1/v/t1.0-0/s130x130/12036401_1003887706341557_3648152338090505553_n.jpg?oh=2b8c311625467b9bb2a14cadc641cfcc&oe=566A7668&__gda__=1449281815_1957303da2168bb5d694c53cb4f44a5e",
+	"Link": "https://www.facebook.com/AtomicMari/photos/a.171437242919945.48201.168923433171326/1003887706341557/?type=1",
+	"Type": "photo",
+	"CreatedTime": "2015-09-15T21:32:27+0000",
+	"Score": "107"},
+	{"Name": "AtomicMari",
+	"Category": "Entertainer",
+	"Message": "MariCorn Industries: mercenaries for hire.-------------------------------------------------------
+Uh, yes, that would be @Lasercorn piloting the mech and me riding the cannon as it fired ammo at over 120mph. This was the greatest day ever. Go support @megabotsinc via Kickstarter: http://bit.ly/megabots
+-------------------------------------------------------",
+	"Picture": "https://fbcdn-photos-e-a.akamaihd.net/hphotos-ak-xta1/v/t1.0-0/s130x130/12036401_1003887706341557_3648152338090505553_n.jpg?oh=2b8c311625467b9bb2a14cadc641cfcc&oe=566A7668&__gda__=1449281815_1957303da2168bb5d694c53cb4f44a5e",
+	"Link": "https://www.facebook.com/AtomicMari/photos/a.171437242919945.48201.168923433171326/1003887706341557/?type=1",
+	"Type": "photo",
+	"CreatedTime": "2015-09-15T21:32:27+0000",
+	"Score": "106"},
+	{"Name": "Emily Yu",
+	"Category": "undefined",
+	"Message": "Me vs uni",
+	"Picture": "https://fbcdn-vthumb-a.akamaihd.net/hvthumb-ak-xpf1/v/t15.0-10/p130x130/11919475_667113143455969_597302039_n.jpg?oh=0824ee6e7e7d01a30e793e4c72b54843&oe=56A29393&__gda__=1452921691_c287effaecb08054f8177f52981b00fa",
+	"Link": "https://www.facebook.com/BestofVines/videos/667112963455987/",
+	"Type": "video",
+	"CreatedTime": "2015-09-15T20:36:44+0000",
+	"Score": "104"},
+	{"Name": "Emily Yu",
+	"Category": "undefined",
+	"Message": "Me vs uni",
+	"Picture": "https://fbcdn-vthumb-a.akamaihd.net/hvthumb-ak-xpf1/v/t15.0-10/p130x130/11919475_667113143455969_597302039_n.jpg?oh=0824ee6e7e7d01a30e793e4c72b54843&oe=56A29393&__gda__=1452921691_c287effaecb08054f8177f52981b00fa",
+	"Link": "https://www.facebook.com/BestofVines/videos/667112963455987/",
+	"Type": "video",
+	"CreatedTime": "2015-09-15T20:36:44+0000",
+	"Score": "103"},
+	{"Name": "Emily Yu",
+	"Category": "undefined",
+	"Message": "Me vs uni",
+	"Picture": "https://fbcdn-vthumb-a.akamaihd.net/hvthumb-ak-xpf1/v/t15.0-10/p130x130/11919475_667113143455969_597302039_n.jpg?oh=0824ee6e7e7d01a30e793e4c72b54843&oe=56A29393&__gda__=1452921691_c287effaecb08054f8177f52981b00fa",
+	"Link": "https://www.facebook.com/BestofVines/videos/667112963455987/",
+	"Type": "video",
+	"CreatedTime": "2015-09-15T20:36:44+0000",
+	"Score": "102"},
+	{"Name": "Trust Me, I'm an "Engineer"",
+	"Category": "Community",
+	"Message": "Learn how a 15-year old kid from Sierra Leone was able to impress #MIT.",
+	"Picture": "https://fbexternal-a.akamaihd.net/safe_image.php?d=AQDDr0fTPkU0r0kF&w=130&h=130&url=http%3A%2F%2Fengineerpal.com%2Fwp-content%2Fuploads%2F2015%2F09%2Fhow-a-15-year-old-kid-wowed-m-i.jpg&cfs=1&sx=20&sy=0&sw=1080&sh=1080",
+	"Link": "http://engineerpal.com/kid-wows-mit/",
+	"Type": "link",
+	"CreatedTime": "2015-09-15T17:04:22+0000",
+	"Score": "92"},
+	{"Name": "Trust Me, I'm an "Engineer"",
+	"Category": "Community",
+	"Message": "Learn how a 15-year old kid from Sierra Leone was able to impress #MIT.",
+	"Picture": "https://fbexternal-a.akamaihd.net/safe_image.php?d=AQDDr0fTPkU0r0kF&w=130&h=130&url=http%3A%2F%2Fengineerpal.com%2Fwp-content%2Fuploads%2F2015%2F09%2Fhow-a-15-year-old-kid-wowed-m-i.jpg&cfs=1&sx=20&sy=0&sw=1080&sh=1080",
+	"Link": "http://engineerpal.com/kid-wows-mit/",
+	"Type": "link",
+	"CreatedTime": "2015-09-15T17:04:22+0000",
+	"Score": "91"},
+	{"Name": "Trust Me, I'm an "Engineer"",
+	"Category": "Community",
+	"Message": "Learn how a 15-year old kid from Sierra Leone was able to impress #MIT.",
+	"Picture": "https://fbexternal-a.akamaihd.net/safe_image.php?d=AQDDr0fTPkU0r0kF&w=130&h=130&url=http%3A%2F%2Fengineerpal.com%2Fwp-content%2Fuploads%2F2015%2F09%2Fhow-a-15-year-old-kid-wowed-m-i.jpg&cfs=1&sx=20&sy=0&sw=1080&sh=1080",
+	"Link": "http://engineerpal.com/kid-wows-mit/",
+	"Type": "link",
+	"CreatedTime": "2015-09-15T17:04:22+0000",
+	"Score": "90"},
+	{"Name": "allkpop",
+	"Category": "News/Media Website",
+	"Message": "They're cute~",
+	"Picture": "https://fbexternal-a.akamaihd.net/safe_image.php?d=AQA2361zGK7rry7W&w=130&h=130&url=http%3A%2F%2Fwww.allkpop.com%2Fupload%2F2015%2F09%2Faf_org%2Fkim-sae-ron-nam-joo-hyuk_1442331527_af_org.jpg&cfs=1&sx=266&sy=0&sw=453&sh=453",
+	"Link": "http://www.allkpop.com/article/2015/09/nam-joo-hyuk-and-kim-sae-ron-lock-lips-in-first-brilliant-seduction-teaser",
+	"Type": "link",
+	"CreatedTime": "2015-09-15T16:34:37+0000",
+	"Score": "89"},
+	{"Name": "allkpop",
+	"Category": "News/Media Website",
+	"Message": "They're cute~",
+	"Picture": "https://fbexternal-a.akamaihd.net/safe_image.php?d=AQA2361zGK7rry7W&w=130&h=130&url=http%3A%2F%2Fwww.allkpop.com%2Fupload%2F2015%2F09%2Faf_org%2Fkim-sae-ron-nam-joo-hyuk_1442331527_af_org.jpg&cfs=1&sx=266&sy=0&sw=453&sh=453",
+	"Link": "http://www.allkpop.com/article/2015/09/nam-joo-hyuk-and-kim-sae-ron-lock-lips-in-first-brilliant-seduction-teaser",
+	"Type": "link",
+	"CreatedTime": "2015-09-15T16:34:37+0000",
+	"Score": "88"},
+	{"Name": "allkpop",
+	"Category": "News/Media Website",
+	"Message": "They're cute~",
+	"Picture": "https://fbexternal-a.akamaihd.net/safe_image.php?d=AQA2361zGK7rry7W&w=130&h=130&url=http%3A%2F%2Fwww.allkpop.com%2Fupload%2F2015%2F09%2Faf_org%2Fkim-sae-ron-nam-joo-hyuk_1442331527_af_org.jpg&cfs=1&sx=266&sy=0&sw=453&sh=453",
+	"Link": "http://www.allkpop.com/article/2015/09/nam-joo-hyuk-and-kim-sae-ron-lock-lips-in-first-brilliant-seduction-teaser",
+	"Type": "link",
+	"CreatedTime": "2015-09-15T16:34:37+0000",
+	"Score": "87"},
+	{"Name": "allkpop",
+	"Category": "News/Media Website",
+	"Message": "They're cute~",
+	"Picture": "https://fbexternal-a.akamaihd.net/safe_image.php?d=AQA2361zGK7rry7W&w=130&h=130&url=http%3A%2F%2Fwww.allkpop.com%2Fupload%2F2015%2F09%2Faf_org%2Fkim-sae-ron-nam-joo-hyuk_1442331527_af_org.jpg&cfs=1&sx=266&sy=0&sw=453&sh=453",
+	"Link": "http://www.allkpop.com/article/2015/09/nam-joo-hyuk-and-kim-sae-ron-lock-lips-in-first-brilliant-seduction-teaser",
+	"Type": "link",
+	"CreatedTime": "2015-09-15T16:34:37+0000",
+	"Score": "86"},
+	{"Name": "James Song",
+	"Category": "undefined",
+	"Message": "undefined",
+	"Picture": "https://fbcdn-vthumb-a.akamaihd.net/hvthumb-ak-xpt1/v/t15.0-10/s130x130/11331435_10153104428782956_1317642173_n.jpg?oh=abde5bbdfd35336769d08c5738479c3b&oe=566A5781&__gda__=1453244442_1827877ce33c66046d851762e9ead77a",
+	"Link": "https://www.facebook.com/OfficialDailyAtheist/videos/470170996475063/",
+	"Type": "video",
+	"CreatedTime": "2015-09-15T16:10:34+0000",
+	"Score": "84"},
+	{"Name": "James Song",
+	"Category": "undefined",
+	"Message": "undefined",
+	"Picture": "https://fbcdn-vthumb-a.akamaihd.net/hvthumb-ak-xpt1/v/t15.0-10/s130x130/11331435_10153104428782956_1317642173_n.jpg?oh=abde5bbdfd35336769d08c5738479c3b&oe=566A5781&__gda__=1453244442_1827877ce33c66046d851762e9ead77a",
+	"Link": "https://www.facebook.com/OfficialDailyAtheist/videos/470170996475063/",
+	"Type": "video",
+	"CreatedTime": "2015-09-15T16:10:34+0000",
+	"Score": "83"},
+	{"Name": "James Song",
+	"Category": "undefined",
+	"Message": "undefined",
+	"Picture": "https://fbcdn-vthumb-a.akamaihd.net/hvthumb-ak-xpt1/v/t15.0-10/s130x130/11331435_10153104428782956_1317642173_n.jpg?oh=abde5bbdfd35336769d08c5738479c3b&oe=566A5781&__gda__=1453244442_1827877ce33c66046d851762e9ead77a",
+	"Link": "https://www.facebook.com/OfficialDailyAtheist/videos/470170996475063/",
+	"Type": "video",
+	"CreatedTime": "2015-09-15T16:10:34+0000",
+	"Score": "82"},
+	{"Name": "Gruen",
+	"Category": "TV Show",
+	"Message": "BREAKING NEWS. #spill
+https://twitter.com/Wil_Anderson/status/643669421098074112",
+	"Picture": "https://fbcdn-photos-f-a.akamaihd.net/hphotos-ak-xtf1/v/t1.0-0/s130x130/12006136_10154640061172588_5871236260462157182_n.png?oh=4e4fecba866dada96cd75b78c0921ef0&oe=56A82658&__gda__=1454023072_bb74cdf7db5a9285b0e9c096c5208861",
+	"Link": "https://www.facebook.com/gruenhq/photos/a.467285722587.226078.20915222587/10154640061172588/?type=1",
+	"Type": "photo",
+	"CreatedTime": "2015-09-15T07:10:59+0000",
+	"Score": "80"},
+	{"Name": "Gruen",
+	"Category": "TV Show",
+	"Message": "BREAKING NEWS. #spill
+https://twitter.com/Wil_Anderson/status/643669421098074112",
+	"Picture": "https://fbcdn-photos-f-a.akamaihd.net/hphotos-ak-xtf1/v/t1.0-0/s130x130/12006136_10154640061172588_5871236260462157182_n.png?oh=4e4fecba866dada96cd75b78c0921ef0&oe=56A82658&__gda__=1454023072_bb74cdf7db5a9285b0e9c096c5208861",
+	"Link": "https://www.facebook.com/gruenhq/photos/a.467285722587.226078.20915222587/10154640061172588/?type=1",
+	"Type": "photo",
+	"CreatedTime": "2015-09-15T07:10:59+0000",
+	"Score": "79"},
+	{"Name": "Gruen",
+	"Category": "TV Show",
+	"Message": "BREAKING NEWS. #spill
+https://twitter.com/Wil_Anderson/status/643669421098074112",
+	"Picture": "https://fbcdn-photos-f-a.akamaihd.net/hphotos-ak-xtf1/v/t1.0-0/s130x130/12006136_10154640061172588_5871236260462157182_n.png?oh=4e4fecba866dada96cd75b78c0921ef0&oe=56A82658&__gda__=1454023072_bb74cdf7db5a9285b0e9c096c5208861",
+	"Link": "https://www.facebook.com/gruenhq/photos/a.467285722587.226078.20915222587/10154640061172588/?type=1",
+	"Type": "photo",
+	"CreatedTime": "2015-09-15T07:10:59+0000",
+	"Score": "78"},
+	{"Name": "Best Vines",
+	"Category": "Website",
+	"Message": "When you go to the gym once and you feel invincible...by America's Funniest Home Videos",
+	"Picture": "https://fbcdn-vthumb-a.akamaihd.net/hvthumb-ak-xpf1/v/t15.0-10/p130x130/11919475_667113143455969_597302039_n.jpg?oh=0824ee6e7e7d01a30e793e4c72b54843&oe=56A29393&__gda__=1452921691_c287effaecb08054f8177f52981b00fa",
+	"Link": "https://www.facebook.com/BestofVines/videos/667112963455987/",
+	"Type": "video",
+	"CreatedTime": "2015-09-08T23:07:47+0000",
+	"Score": "76"},
+	{"Name": "Best Vines",
+	"Category": "Website",
+	"Message": "When you go to the gym once and you feel invincible...by America's Funniest Home Videos",
+	"Picture": "https://fbcdn-vthumb-a.akamaihd.net/hvthumb-ak-xpf1/v/t15.0-10/p130x130/11919475_667113143455969_597302039_n.jpg?oh=0824ee6e7e7d01a30e793e4c72b54843&oe=56A29393&__gda__=1452921691_c287effaecb08054f8177f52981b00fa",
+	"Link": "https://www.facebook.com/BestofVines/videos/667112963455987/",
+	"Type": "video",
+	"CreatedTime": "2015-09-08T23:07:47+0000",
+	"Score": "75"},
+	{"Name": "Best Vines",
+	"Category": "Website",
+	"Message": "When you go to the gym once and you feel invincible...by America's Funniest Home Videos",
+	"Picture": "https://fbcdn-vthumb-a.akamaihd.net/hvthumb-ak-xpf1/v/t15.0-10/p130x130/11919475_667113143455969_597302039_n.jpg?oh=0824ee6e7e7d01a30e793e4c72b54843&oe=56A29393&__gda__=1452921691_c287effaecb08054f8177f52981b00fa",
+	"Link": "https://www.facebook.com/BestofVines/videos/667112963455987/",
+	"Type": "video",
+	"CreatedTime": "2015-09-08T23:07:47+0000",
+	"Score": "74"},
+	{"Name": "Jason Silva",
+	"Category": "Public Figure",
+	"Message": "Can we harness the secrets of ""Getting In The Zone"? 
+Can we "Hack Our Flow State?  
 
-http://www.twitch.tv/dota2addicts
-We will be online now and have some with you guys
+Absolutely YES>>> Here's how I do it.",
+	"Picture": "https://fbcdn-vthumb-a.akamaihd.net/hvthumb-ak-xap1/v/t15.0-10/s130x130/51083_1600027093594903_748971181_n.jpg?oh=bd723192674b9b4be222f56c0fccef03&oe=56A528A6&__gda__=1449758460_2daa27a9e6052edfced212f168f1676b",
+	"Link": "https://www.facebook.com/jasonlsilva/videos/1600022570262022/",
+	"Type": "video",
+	"CreatedTime": "2015-07-23T18:09:59+0000",
+	"Score": "73"},
+	{"Name": "Jason Silva",
+	"Category": "Public Figure",
+	"Message": "Can we harness the secrets of ""Getting In The Zone"? 
+Can we "Hack Our Flow State?  
 
-#Toby
-Picture: https://fbcdn-photos-e-a.akamaihd.net/hphotos-ak-xaf1/v/t1.0-0/s130x130/12032048_879499732133074_2812107371774778061_n.jpg?oh=37d09c04c3b20ae943bf58f85ffd75bb&oe=569D343F&__gda__=1449041112_3913a60cceb722a5d6aaa523d2faf4d9
-Link: https://www.facebook.com/D2A.Dota2Addicts/photos/a.609443392472044.1073741828.609242875825429/879499732133074/?type=1
-Type: photo
-CreatedTime: 2015-09-15T05:22:36+0000
-Score: 207
--------------------------
-Name: Dota 2 Addicts
-Category: Entertainment Website
-Message: Hello guys 
-we didn't go online on twitch for a long time because of obviously my shitty connection , So we will do our best to Broadcast more Tournaments and give tips while we play Dota 2 
-u can watch us on 
+Absolutely YES>>> Here's how I do it.",
+	"Picture": "https://fbcdn-vthumb-a.akamaihd.net/hvthumb-ak-xap1/v/t15.0-10/s130x130/51083_1600027093594903_748971181_n.jpg?oh=bd723192674b9b4be222f56c0fccef03&oe=56A528A6&__gda__=1449758460_2daa27a9e6052edfced212f168f1676b",
+	"Link": "https://www.facebook.com/jasonlsilva/videos/1600022570262022/",
+	"Type": "video",
+	"CreatedTime": "2015-07-23T18:09:59+0000",
+	"Score": "72"},
+	{"Name": "Jason Silva",
+	"Category": "Public Figure",
+	"Message": "Can we harness the secrets of ""Getting In The Zone"? 
+Can we "Hack Our Flow State?  
 
-http://www.twitch.tv/dota2addicts
-We will be online now and have some with you guys
+Absolutely YES>>> Here's how I do it.",
+	"Picture": "https://fbcdn-vthumb-a.akamaihd.net/hvthumb-ak-xap1/v/t15.0-10/s130x130/51083_1600027093594903_748971181_n.jpg?oh=bd723192674b9b4be222f56c0fccef03&oe=56A528A6&__gda__=1449758460_2daa27a9e6052edfced212f168f1676b",
+	"Link": "https://www.facebook.com/jasonlsilva/videos/1600022570262022/",
+	"Type": "video",
+	"CreatedTime": "2015-07-23T18:09:59+0000",
+	"Score": "71"},
+	{"Name": "Jason Silva",
+	"Category": "Public Figure",
+	"Message": "Can we harness the secrets of ""Getting In The Zone"? 
+Can we "Hack Our Flow State?  
 
-#Toby
-Picture: https://fbcdn-photos-e-a.akamaihd.net/hphotos-ak-xaf1/v/t1.0-0/s130x130/12032048_879499732133074_2812107371774778061_n.jpg?oh=37d09c04c3b20ae943bf58f85ffd75bb&oe=569D343F&__gda__=1449041112_3913a60cceb722a5d6aaa523d2faf4d9
-Link: https://www.facebook.com/D2A.Dota2Addicts/photos/a.609443392472044.1073741828.609242875825429/879499732133074/?type=1
-Type: photo
-CreatedTime: 2015-09-15T05:22:36+0000
-Score: 206
--------------------------
-Name: Dota 2 Addicts
-Category: Entertainment Website
-Message: Hello guys 
-we didn't go online on twitch for a long time because of obviously my shitty connection , So we will do our best to Broadcast more Tournaments and give tips while we play Dota 2 
-u can watch us on 
-
-http://www.twitch.tv/dota2addicts
-We will be online now and have some with you guys
-
-#Toby
-Picture: https://fbcdn-photos-e-a.akamaihd.net/hphotos-ak-xaf1/v/t1.0-0/s130x130/12032048_879499732133074_2812107371774778061_n.jpg?oh=37d09c04c3b20ae943bf58f85ffd75bb&oe=569D343F&__gda__=1449041112_3913a60cceb722a5d6aaa523d2faf4d9
-Link: https://www.facebook.com/D2A.Dota2Addicts/photos/a.609443392472044.1073741828.609242875825429/879499732133074/?type=1
-Type: photo
-CreatedTime: 2015-09-15T05:22:36+0000
-Score: 205
--------------------------
-Name: Dota 2 Addicts
-Category: Entertainment Website
-Message: Hello guys 
-we didn't go online on twitch for a long time because of obviously my shitty connection , So we will do our best to Broadcast more Tournaments and give tips while we play Dota 2 
-u can watch us on 
-
-http://www.twitch.tv/dota2addicts
-We will be online now and have some with you guys
-
-#Toby
-Picture: https://fbcdn-photos-e-a.akamaihd.net/hphotos-ak-xaf1/v/t1.0-0/s130x130/12032048_879499732133074_2812107371774778061_n.jpg?oh=37d09c04c3b20ae943bf58f85ffd75bb&oe=569D343F&__gda__=1449041112_3913a60cceb722a5d6aaa523d2faf4d9
-Link: https://www.facebook.com/D2A.Dota2Addicts/photos/a.609443392472044.1073741828.609242875825429/879499732133074/?type=1
-Type: photo
-CreatedTime: 2015-09-15T05:22:36+0000
-Score: 204
--------------------------
-Name: Dota 2 Addicts
-Category: Entertainment Website
-Message: You can watch them getting expired. GGWP valve, eggs cannot be hatched in Dota 2 REBORN.
-Picture: https://fbcdn-photos-f-a.akamaihd.net/hphotos-ak-xpf1/v/t1.0-0/s130x130/12002220_879473788802335_7045803060433305837_n.jpg?oh=fb53692959592f129bfa6a335ac2c592&oe=56A7646B&__gda__=1449994198_5db4be4fabaf3008f2247a87b96cfd2f
-Link: https://www.facebook.com/D2A.Dota2Addicts/photos/a.609443392472044.1073741828.609242875825429/879473788802335/?type=1
-Type: photo
-CreatedTime: 2015-09-15T04:41:18+0000
-Score: 199
--------------------------
-Name: Dota 2 Addicts
-Category: Entertainment Website
-Message: You can watch them getting expired. GGWP valve, eggs cannot be hatched in Dota 2 REBORN.
-Picture: https://fbcdn-photos-f-a.akamaihd.net/hphotos-ak-xpf1/v/t1.0-0/s130x130/12002220_879473788802335_7045803060433305837_n.jpg?oh=fb53692959592f129bfa6a335ac2c592&oe=56A7646B&__gda__=1449994198_5db4be4fabaf3008f2247a87b96cfd2f
-Link: https://www.facebook.com/D2A.Dota2Addicts/photos/a.609443392472044.1073741828.609242875825429/879473788802335/?type=1
-Type: photo
-CreatedTime: 2015-09-15T04:41:18+0000
-Score: 198
--------------------------
-Name: Dota 2 Addicts
-Category: Entertainment Website
-Message: You can watch them getting expired. GGWP valve, eggs cannot be hatched in Dota 2 REBORN.
-Picture: https://fbcdn-photos-f-a.akamaihd.net/hphotos-ak-xpf1/v/t1.0-0/s130x130/12002220_879473788802335_7045803060433305837_n.jpg?oh=fb53692959592f129bfa6a335ac2c592&oe=56A7646B&__gda__=1449994198_5db4be4fabaf3008f2247a87b96cfd2f
-Link: https://www.facebook.com/D2A.Dota2Addicts/photos/a.609443392472044.1073741828.609242875825429/879473788802335/?type=1
-Type: photo
-CreatedTime: 2015-09-15T04:41:18+0000
-Score: 197
--------------------------
-Name: Dota 2 Addicts
-Category: Entertainment Website
-Message: You can watch them getting expired. GGWP valve, eggs cannot be hatched in Dota 2 REBORN.
-Picture: https://fbcdn-photos-f-a.akamaihd.net/hphotos-ak-xpf1/v/t1.0-0/s130x130/12002220_879473788802335_7045803060433305837_n.jpg?oh=fb53692959592f129bfa6a335ac2c592&oe=56A7646B&__gda__=1449994198_5db4be4fabaf3008f2247a87b96cfd2f
-Link: https://www.facebook.com/D2A.Dota2Addicts/photos/a.609443392472044.1073741828.609242875825429/879473788802335/?type=1
-Type: photo
-CreatedTime: 2015-09-15T04:41:18+0000
-Score: 196
--------------------------
-Name: Hearthstone
-Category: Games/Toys
-Message: You're 19 cards into drafting a #Hearthstone Arena deck. Which card do you choose?
-Picture: https://fbcdn-photos-h-a.akamaihd.net/hphotos-ak-xpf1/v/t1.0-0/s130x130/12003327_982236878485747_6555213877174104914_n.jpg?oh=a073733b5dac30b43cf0a3915964e015&oe=565D9902&__gda__=1449017279_3df33ba738d6680ba7464a7784aa7522
-Link: https://www.facebook.com/Hearthstone/photos/a.522822504427189.1073741828.498467596862680/982236878485747/?type=1
-Type: photo
-CreatedTime: 2015-09-14T17:00:01+0000
-Score: 195
--------------------------
-Name: Hearthstone
-Category: Games/Toys
-Message: You're 19 cards into drafting a #Hearthstone Arena deck. Which card do you choose?
-Picture: https://fbcdn-photos-h-a.akamaihd.net/hphotos-ak-xpf1/v/t1.0-0/s130x130/12003327_982236878485747_6555213877174104914_n.jpg?oh=a073733b5dac30b43cf0a3915964e015&oe=565D9902&__gda__=1449017279_3df33ba738d6680ba7464a7784aa7522
-Link: https://www.facebook.com/Hearthstone/photos/a.522822504427189.1073741828.498467596862680/982236878485747/?type=1
-Type: photo
-CreatedTime: 2015-09-14T17:00:01+0000
-Score: 194
--------------------------
-Name: Hearthstone
-Category: Games/Toys
-Message: You're 19 cards into drafting a #Hearthstone Arena deck. Which card do you choose?
-Picture: https://fbcdn-photos-h-a.akamaihd.net/hphotos-ak-xpf1/v/t1.0-0/s130x130/12003327_982236878485747_6555213877174104914_n.jpg?oh=a073733b5dac30b43cf0a3915964e015&oe=565D9902&__gda__=1449017279_3df33ba738d6680ba7464a7784aa7522
-Link: https://www.facebook.com/Hearthstone/photos/a.522822504427189.1073741828.498467596862680/982236878485747/?type=1
-Type: photo
-CreatedTime: 2015-09-14T17:00:01+0000
-Score: 193
--------------------------
-Name: Hearthstone
-Category: Games/Toys
-Message: You're 19 cards into drafting a #Hearthstone Arena deck. Which card do you choose?
-Picture: https://fbcdn-photos-h-a.akamaihd.net/hphotos-ak-xpf1/v/t1.0-0/s130x130/12003327_982236878485747_6555213877174104914_n.jpg?oh=a073733b5dac30b43cf0a3915964e015&oe=565D9902&__gda__=1449017279_3df33ba738d6680ba7464a7784aa7522
-Link: https://www.facebook.com/Hearthstone/photos/a.522822504427189.1073741828.498467596862680/982236878485747/?type=1
-Type: photo
-CreatedTime: 2015-09-14T17:00:01+0000
-Score: 192
--------------------------
-Name: Dota 2 Store PH
-Category: Local Business
-Message: hahaha (Y) rocket is ready :D
-
-source from Wykrhm
-Picture: https://fbcdn-photos-f-a.akamaihd.net/hphotos-ak-xpt1/v/t1.0-0/s130x130/12036777_441648362702491_3976744591278447748_n.png?oh=2bd57153ad0f44d0a57573d85c94748d&oe=569FAA91&__gda__=1450346167_48ed69109276e2eafb9dfdb50c88e383
-Link: https://www.facebook.com/ECbiz.Dota2/photos/a.209254242608572.1073741828.206290026238327/441648362702491/?type=1
-Type: photo
-CreatedTime: 2015-09-15T04:44:46+0000
-Score: 178
--------------------------
-Name: Dota 2 Store PH
-Category: Local Business
-Message: hahaha (Y) rocket is ready :D
-
-source from Wykrhm
-Picture: https://fbcdn-photos-f-a.akamaihd.net/hphotos-ak-xpt1/v/t1.0-0/s130x130/12036777_441648362702491_3976744591278447748_n.png?oh=2bd57153ad0f44d0a57573d85c94748d&oe=569FAA91&__gda__=1450346167_48ed69109276e2eafb9dfdb50c88e383
-Link: https://www.facebook.com/ECbiz.Dota2/photos/a.209254242608572.1073741828.206290026238327/441648362702491/?type=1
-Type: photo
-CreatedTime: 2015-09-15T04:44:46+0000
-Score: 177
--------------------------
-Name: Dota 2 Store PH
-Category: Local Business
-Message: hahaha (Y) rocket is ready :D
-
-source from Wykrhm
-Picture: https://fbcdn-photos-f-a.akamaihd.net/hphotos-ak-xpt1/v/t1.0-0/s130x130/12036777_441648362702491_3976744591278447748_n.png?oh=2bd57153ad0f44d0a57573d85c94748d&oe=569FAA91&__gda__=1450346167_48ed69109276e2eafb9dfdb50c88e383
-Link: https://www.facebook.com/ECbiz.Dota2/photos/a.209254242608572.1073741828.206290026238327/441648362702491/?type=1
-Type: photo
-CreatedTime: 2015-09-15T04:44:46+0000
-Score: 176
--------------------------
-Name: Dota 2 Store PH
-Category: Local Business
-Message: hahaha (Y) rocket is ready :D
-
-source from Wykrhm
-Picture: https://fbcdn-photos-f-a.akamaihd.net/hphotos-ak-xpt1/v/t1.0-0/s130x130/12036777_441648362702491_3976744591278447748_n.png?oh=2bd57153ad0f44d0a57573d85c94748d&oe=569FAA91&__gda__=1450346167_48ed69109276e2eafb9dfdb50c88e383
-Link: https://www.facebook.com/ECbiz.Dota2/photos/a.209254242608572.1073741828.206290026238327/441648362702491/?type=1
-Type: photo
-CreatedTime: 2015-09-15T04:44:46+0000
-Score: 175
--------------------------
-Name: Hearthstone Kitchen and Cellar
-Category: Restaurant/Cafe
-Message: Catch tonight's football games with us! Open at 3:30pm
-Picture: https://fbcdn-photos-b-a.akamaihd.net/hphotos-ak-xpa1/v/t1.0-0/p130x130/12009732_430216730513432_1916291213750789130_n.jpg?oh=a289d3203ee79862a554cbf004e558f8&oe=56A7CD2F&__gda__=1453755849_ff5e06af95f6427f07bc2f86f991bb47
-Link: https://www.facebook.com/hearthstonelv/posts/430216727180099
-Type: offer
-CreatedTime: 2015-09-14T12:39:21+0000
-Score: 165
--------------------------
-Name: Hearthstone Kitchen and Cellar
-Category: Restaurant/Cafe
-Message: Catch tonight's football games with us! Open at 3:30pm
-Picture: https://fbcdn-photos-b-a.akamaihd.net/hphotos-ak-xpa1/v/t1.0-0/p130x130/12009732_430216730513432_1916291213750789130_n.jpg?oh=a289d3203ee79862a554cbf004e558f8&oe=56A7CD2F&__gda__=1453755849_ff5e06af95f6427f07bc2f86f991bb47
-Link: https://www.facebook.com/hearthstonelv/posts/430216727180099
-Type: offer
-CreatedTime: 2015-09-14T12:39:21+0000
-Score: 164
--------------------------
-Name: Hearthstone Kitchen and Cellar
-Category: Restaurant/Cafe
-Message: Catch tonight's football games with us! Open at 3:30pm
-Picture: https://fbcdn-photos-b-a.akamaihd.net/hphotos-ak-xpa1/v/t1.0-0/p130x130/12009732_430216730513432_1916291213750789130_n.jpg?oh=a289d3203ee79862a554cbf004e558f8&oe=56A7CD2F&__gda__=1453755849_ff5e06af95f6427f07bc2f86f991bb47
-Link: https://www.facebook.com/hearthstonelv/posts/430216727180099
-Type: offer
-CreatedTime: 2015-09-14T12:39:21+0000
-Score: 163
--------------------------
-Name: Pie Harbour
-Category: Food/Beverages
-Message: Ice cream pie for the afternoon break 🍦repost from @kuronero96
-Picture: https://fbcdn-photos-d-a.akamaihd.net/hphotos-ak-xla1/v/t1.0-0/p130x130/11986569_611186255690580_7998829036927835651_n.jpg?oh=aa3a1a47a4be1524b0b3adffc3f2f629&oe=56A86CC7&__gda__=1450325531_784c5dbbc73875b2d45457f3480042e1
-Link: https://www.facebook.com/PieHarbour/photos/a.349354148540460.1073741834.239956622813547/611186255690580/?type=1
-Type: photo
-CreatedTime: 2015-09-15T05:48:58+0000
-Score: 159
--------------------------
-Name: Dota 2 Store PH
-Category: Local Business
-Message: RIP Dota 2 Source 1
-Picture: https://fbcdn-photos-g-a.akamaihd.net/hphotos-ak-xtf1/v/t1.0-0/s130x130/11831712_439904262876901_1283421254832368650_n.png?oh=e81310fc16237f518a42668fb2264ff6&oe=5668EA44&__gda__=1450058858_77a8f19db63656dec9f04d1ffe8725ff
-Link: https://www.facebook.com/ECbiz.Dota2/photos/a.209254242608572.1073741828.206290026238327/439904262876901/?type=1
-Type: photo
-CreatedTime: 2015-09-10T07:57:57+0000
-Score: 158
--------------------------
-Name: Dota 2 Store PH
-Category: Local Business
-Message: RIP Dota 2 Source 1
-Picture: https://fbcdn-photos-g-a.akamaihd.net/hphotos-ak-xtf1/v/t1.0-0/s130x130/11831712_439904262876901_1283421254832368650_n.png?oh=e81310fc16237f518a42668fb2264ff6&oe=5668EA44&__gda__=1450058858_77a8f19db63656dec9f04d1ffe8725ff
-Link: https://www.facebook.com/ECbiz.Dota2/photos/a.209254242608572.1073741828.206290026238327/439904262876901/?type=1
-Type: photo
-CreatedTime: 2015-09-10T07:57:57+0000
-Score: 157
--------------------------
-Name: Dota 2 Store PH
-Category: Local Business
-Message: RIP Dota 2 Source 1
-Picture: https://fbcdn-photos-g-a.akamaihd.net/hphotos-ak-xtf1/v/t1.0-0/s130x130/11831712_439904262876901_1283421254832368650_n.png?oh=e81310fc16237f518a42668fb2264ff6&oe=5668EA44&__gda__=1450058858_77a8f19db63656dec9f04d1ffe8725ff
-Link: https://www.facebook.com/ECbiz.Dota2/photos/a.209254242608572.1073741828.206290026238327/439904262876901/?type=1
-Type: photo
-CreatedTime: 2015-09-10T07:57:57+0000
-Score: 156
--------------------------
-Name: Dota 2 Addicts
-Category: Entertainment Website
-Message: No more Dota 2 .... Welcome to Dota 2 Reborn have fun with the bugs boyz 
-
-#Toby
-Picture: https://fbcdn-photos-e-a.akamaihd.net/hphotos-ak-xlf1/v/t1.0-0/s130x130/11960214_876559812427066_3697850507848953733_n.jpg?oh=5bfc192c4954726c3565fa3bb7dd42ae&oe=566FA02E&__gda__=1449399209_6e36d73b3b9c1538c177db772342a47e
-Link: https://www.facebook.com/D2A.Dota2Addicts/photos/a.609443392472044.1073741828.609242875825429/876559812427066/?type=1
-Type: photo
-CreatedTime: 2015-09-10T03:18:13+0000
-Score: 155
--------------------------
-Name: Dota 2 Addicts
-Category: Entertainment Website
-Message: No more Dota 2 .... Welcome to Dota 2 Reborn have fun with the bugs boyz 
-
-#Toby
-Picture: https://fbcdn-photos-e-a.akamaihd.net/hphotos-ak-xlf1/v/t1.0-0/s130x130/11960214_876559812427066_3697850507848953733_n.jpg?oh=5bfc192c4954726c3565fa3bb7dd42ae&oe=566FA02E&__gda__=1449399209_6e36d73b3b9c1538c177db772342a47e
-Link: https://www.facebook.com/D2A.Dota2Addicts/photos/a.609443392472044.1073741828.609242875825429/876559812427066/?type=1
-Type: photo
-CreatedTime: 2015-09-10T03:18:13+0000
-Score: 154
--------------------------
-Name: Dota 2 Addicts
-Category: Entertainment Website
-Message: When u play dota 2 in EU servers and they speak cyka language
-
-#Toby
-Picture: https://fbcdn-photos-f-a.akamaihd.net/hphotos-ak-xlp1/v/t1.0-0/s130x130/11988623_878294245586956_5661395618538389559_n.jpg?oh=0b5df029bacb5812176f10cf72236cc0&oe=56A1971E&__gda__=1453515552_fa99b6d2ae8a494d6490c7b5414b06ed
-Link: https://www.facebook.com/D2A.Dota2Addicts/photos/a.609443392472044.1073741828.609242875825429/878294245586956/?type=1
-Type: photo
-CreatedTime: 2015-09-13T14:49:15+0000
-Score: 154
--------------------------
-Name: Dota 2 Addicts
-Category: Entertainment Website
-Message: No more Dota 2 .... Welcome to Dota 2 Reborn have fun with the bugs boyz 
-
-#Toby
-Picture: https://fbcdn-photos-e-a.akamaihd.net/hphotos-ak-xlf1/v/t1.0-0/s130x130/11960214_876559812427066_3697850507848953733_n.jpg?oh=5bfc192c4954726c3565fa3bb7dd42ae&oe=566FA02E&__gda__=1449399209_6e36d73b3b9c1538c177db772342a47e
-Link: https://www.facebook.com/D2A.Dota2Addicts/photos/a.609443392472044.1073741828.609242875825429/876559812427066/?type=1
-Type: photo
-CreatedTime: 2015-09-10T03:18:13+0000
-Score: 153
--------------------------
-Name: Dota 2 Addicts
-Category: Entertainment Website
-Message: When u play dota 2 in EU servers and they speak cyka language
-
-#Toby
-Picture: https://fbcdn-photos-f-a.akamaihd.net/hphotos-ak-xlp1/v/t1.0-0/s130x130/11988623_878294245586956_5661395618538389559_n.jpg?oh=0b5df029bacb5812176f10cf72236cc0&oe=56A1971E&__gda__=1453515552_fa99b6d2ae8a494d6490c7b5414b06ed
-Link: https://www.facebook.com/D2A.Dota2Addicts/photos/a.609443392472044.1073741828.609242875825429/878294245586956/?type=1
-Type: photo
-CreatedTime: 2015-09-13T14:49:15+0000
-Score: 153
--------------------------
-Name: Dota 2 Addicts
-Category: Entertainment Website
-Message: No more Dota 2 .... Welcome to Dota 2 Reborn have fun with the bugs boyz 
-
-#Toby
-Picture: https://fbcdn-photos-e-a.akamaihd.net/hphotos-ak-xlf1/v/t1.0-0/s130x130/11960214_876559812427066_3697850507848953733_n.jpg?oh=5bfc192c4954726c3565fa3bb7dd42ae&oe=566FA02E&__gda__=1449399209_6e36d73b3b9c1538c177db772342a47e
-Link: https://www.facebook.com/D2A.Dota2Addicts/photos/a.609443392472044.1073741828.609242875825429/876559812427066/?type=1
-Type: photo
-CreatedTime: 2015-09-10T03:18:13+0000
-Score: 152
--------------------------
-Name: Dota 2 Addicts
-Category: Entertainment Website
-Message: When u play dota 2 in EU servers and they speak cyka language
-
-#Toby
-Picture: https://fbcdn-photos-f-a.akamaihd.net/hphotos-ak-xlp1/v/t1.0-0/s130x130/11988623_878294245586956_5661395618538389559_n.jpg?oh=0b5df029bacb5812176f10cf72236cc0&oe=56A1971E&__gda__=1453515552_fa99b6d2ae8a494d6490c7b5414b06ed
-Link: https://www.facebook.com/D2A.Dota2Addicts/photos/a.609443392472044.1073741828.609242875825429/878294245586956/?type=1
-Type: photo
-CreatedTime: 2015-09-13T14:49:15+0000
-Score: 152
--------------------------
-Name: Dota 2 Addicts
-Category: Entertainment Website
-Message: When u play dota 2 in EU servers and they speak cyka language
-
-#Toby
-Picture: https://fbcdn-photos-f-a.akamaihd.net/hphotos-ak-xlp1/v/t1.0-0/s130x130/11988623_878294245586956_5661395618538389559_n.jpg?oh=0b5df029bacb5812176f10cf72236cc0&oe=56A1971E&__gda__=1453515552_fa99b6d2ae8a494d6490c7b5414b06ed
-Link: https://www.facebook.com/D2A.Dota2Addicts/photos/a.609443392472044.1073741828.609242875825429/878294245586956/?type=1
-Type: photo
-CreatedTime: 2015-09-13T14:49:15+0000
-Score: 151
--------------------------
-Name: Dota 2 Store PH
-Category: Local Business
-Message: I'm playing with only 1 hero, guess who :D
-Picture: https://fbcdn-photos-c-a.akamaihd.net/hphotos-ak-xaf1/v/t1.0-0/s130x130/12002777_440294212837906_4797711321360120093_n.png?oh=252dcbb32fb86a249154de149de6c793&oe=566F3E99&__gda__=1449082494_5a41bc0bfcaef1ccb72f973e1102e313
-Link: https://www.facebook.com/ECbiz.Dota2/photos/a.209254242608572.1073741828.206290026238327/440294212837906/?type=1
-Type: photo
-CreatedTime: 2015-09-11T12:14:27+0000
-Score: 150
--------------------------
-Name: Dota 2 Store PH
-Category: Local Business
-Message: I'm playing with only 1 hero, guess who :D
-Picture: https://fbcdn-photos-c-a.akamaihd.net/hphotos-ak-xaf1/v/t1.0-0/s130x130/12002777_440294212837906_4797711321360120093_n.png?oh=252dcbb32fb86a249154de149de6c793&oe=566F3E99&__gda__=1449082494_5a41bc0bfcaef1ccb72f973e1102e313
-Link: https://www.facebook.com/ECbiz.Dota2/photos/a.209254242608572.1073741828.206290026238327/440294212837906/?type=1
-Type: photo
-CreatedTime: 2015-09-11T12:14:27+0000
-Score: 149
--------------------------
-Name: Dota 2 Store PH
-Category: Local Business
-Message: I'm playing with only 1 hero, guess who :D
-Picture: https://fbcdn-photos-c-a.akamaihd.net/hphotos-ak-xaf1/v/t1.0-0/s130x130/12002777_440294212837906_4797711321360120093_n.png?oh=252dcbb32fb86a249154de149de6c793&oe=566F3E99&__gda__=1449082494_5a41bc0bfcaef1ccb72f973e1102e313
-Link: https://www.facebook.com/ECbiz.Dota2/photos/a.209254242608572.1073741828.206290026238327/440294212837906/?type=1
-Type: photo
-CreatedTime: 2015-09-11T12:14:27+0000
-Score: 148
--------------------------
-Name: Dota 2 Store PH
-Category: Local Business
-Message: I'm playing with only 1 hero, guess who :D
-Picture: https://fbcdn-photos-c-a.akamaihd.net/hphotos-ak-xaf1/v/t1.0-0/s130x130/12002777_440294212837906_4797711321360120093_n.png?oh=252dcbb32fb86a249154de149de6c793&oe=566F3E99&__gda__=1449082494_5a41bc0bfcaef1ccb72f973e1102e313
-Link: https://www.facebook.com/ECbiz.Dota2/photos/a.209254242608572.1073741828.206290026238327/440294212837906/?type=1
-Type: photo
-CreatedTime: 2015-09-11T12:14:27+0000
-Score: 147
--------------------------
-Name: Dota 2 Addicts
-Category: Entertainment Website
-Message: If you haven't then start downloading Dota 2 Reborn
-Picture: https://fbcdn-photos-b-a.akamaihd.net/hphotos-ak-xpa1/v/t1.0-0/s130x130/11218904_876384699111244_7219876030851508307_n.png?oh=8a2fd99a4be4146f9f63bbf4789eb53c&oe=56AA543B&__gda__=1454019805_4f13dd0400ba19ca45d037cdcc02c721
-Link: https://www.facebook.com/D2A.Dota2Addicts/photos/a.609443392472044.1073741828.609242875825429/876384699111244/?type=1
-Type: photo
-CreatedTime: 2015-09-09T16:56:38+0000
-Score: 147
--------------------------
-Name: Dota 2 Addicts
-Category: Entertainment Website
-Message: If you haven't then start downloading Dota 2 Reborn
-Picture: https://fbcdn-photos-b-a.akamaihd.net/hphotos-ak-xpa1/v/t1.0-0/s130x130/11218904_876384699111244_7219876030851508307_n.png?oh=8a2fd99a4be4146f9f63bbf4789eb53c&oe=56AA543B&__gda__=1454019805_4f13dd0400ba19ca45d037cdcc02c721
-Link: https://www.facebook.com/D2A.Dota2Addicts/photos/a.609443392472044.1073741828.609242875825429/876384699111244/?type=1
-Type: photo
-CreatedTime: 2015-09-09T16:56:38+0000
-Score: 146
--------------------------
-Name: Dota 2 Addicts
-Category: Entertainment Website
-Message: When i see you again ......
-
-credit : Ryani Than Diabetes
-
-#Toby
-Picture: https://fbcdn-photos-d-a.akamaihd.net/hphotos-ak-xtp1/v/t1.0-0/s130x130/12003341_877090252374022_2906276574798480665_n.jpg?oh=4cb415724f10de0f77bb86e02c6b6e9d&oe=566ED2CB&__gda__=1450031708_41f8ab4c14fbac37b348ac28f428eb6b
-Link: https://www.facebook.com/D2A.Dota2Addicts/photos/a.609443392472044.1073741828.609242875825429/877090252374022/?type=1
-Type: photo
-CreatedTime: 2015-09-11T07:05:30+0000
-Score: 146
--------------------------
-Name: Dota 2 Addicts
-Category: Entertainment Website
-Message: If you haven't then start downloading Dota 2 Reborn
-Picture: https://fbcdn-photos-b-a.akamaihd.net/hphotos-ak-xpa1/v/t1.0-0/s130x130/11218904_876384699111244_7219876030851508307_n.png?oh=8a2fd99a4be4146f9f63bbf4789eb53c&oe=56AA543B&__gda__=1454019805_4f13dd0400ba19ca45d037cdcc02c721
-Link: https://www.facebook.com/D2A.Dota2Addicts/photos/a.609443392472044.1073741828.609242875825429/876384699111244/?type=1
-Type: photo
-CreatedTime: 2015-09-09T16:56:38+0000
-Score: 145
--------------------------
-Name: Dota 2 Addicts
-Category: Entertainment Website
-Message: When i see you again ......
-
-credit : Ryani Than Diabetes
-
-#Toby
-Picture: https://fbcdn-photos-d-a.akamaihd.net/hphotos-ak-xtp1/v/t1.0-0/s130x130/12003341_877090252374022_2906276574798480665_n.jpg?oh=4cb415724f10de0f77bb86e02c6b6e9d&oe=566ED2CB&__gda__=1450031708_41f8ab4c14fbac37b348ac28f428eb6b
-Link: https://www.facebook.com/D2A.Dota2Addicts/photos/a.609443392472044.1073741828.609242875825429/877090252374022/?type=1
-Type: photo
-CreatedTime: 2015-09-11T07:05:30+0000
-Score: 145
--------------------------
-Name: Dota 2 Addicts
-Category: Entertainment Website
-Message: If you haven't then start downloading Dota 2 Reborn
-Picture: https://fbcdn-photos-b-a.akamaihd.net/hphotos-ak-xpa1/v/t1.0-0/s130x130/11218904_876384699111244_7219876030851508307_n.png?oh=8a2fd99a4be4146f9f63bbf4789eb53c&oe=56AA543B&__gda__=1454019805_4f13dd0400ba19ca45d037cdcc02c721
-Link: https://www.facebook.com/D2A.Dota2Addicts/photos/a.609443392472044.1073741828.609242875825429/876384699111244/?type=1
-Type: photo
-CreatedTime: 2015-09-09T16:56:38+0000
-Score: 144
--------------------------
-Name: Dota 2 Addicts
-Category: Entertainment Website
-Message: When i see you again ......
-
-credit : Ryani Than Diabetes
-
-#Toby
-Picture: https://fbcdn-photos-d-a.akamaihd.net/hphotos-ak-xtp1/v/t1.0-0/s130x130/12003341_877090252374022_2906276574798480665_n.jpg?oh=4cb415724f10de0f77bb86e02c6b6e9d&oe=566ED2CB&__gda__=1450031708_41f8ab4c14fbac37b348ac28f428eb6b
-Link: https://www.facebook.com/D2A.Dota2Addicts/photos/a.609443392472044.1073741828.609242875825429/877090252374022/?type=1
-Type: photo
-CreatedTime: 2015-09-11T07:05:30+0000
-Score: 144
--------------------------
-Name: Dota 2 Addicts
-Category: Entertainment Website
-Message: When i see you again ......
-
-credit : Ryani Than Diabetes
-
-#Toby
-Picture: https://fbcdn-photos-d-a.akamaihd.net/hphotos-ak-xtp1/v/t1.0-0/s130x130/12003341_877090252374022_2906276574798480665_n.jpg?oh=4cb415724f10de0f77bb86e02c6b6e9d&oe=566ED2CB&__gda__=1450031708_41f8ab4c14fbac37b348ac28f428eb6b
-Link: https://www.facebook.com/D2A.Dota2Addicts/photos/a.609443392472044.1073741828.609242875825429/877090252374022/?type=1
-Type: photo
-CreatedTime: 2015-09-11T07:05:30+0000
-Score: 143
--------------------------
-Name: Dota 2 Addicts
-Category: Entertainment Website
-Message: Cosplay by Fabiana Cristino
-
-#Toby
-Picture: https://fbcdn-photos-h-a.akamaihd.net/hphotos-ak-xpf1/v/t1.0-0/q81/s130x130/12006273_877089652374082_2966516151206433922_n.jpg?oh=1a1c6d312fdc9692ff8aa6ba05a2314d&oe=56A9F19A&__gda__=1449516428_c0b1635cad2a27f5af520a77d29c60b2
-Link: https://www.facebook.com/D2A.Dota2Addicts/photos/a.609443392472044.1073741828.609242875825429/877089652374082/?type=1
-Type: photo
-CreatedTime: 2015-09-11T07:03:52+0000
-Score: 142
--------------------------
-Name: Dota 2 Addicts
-Category: Entertainment Website
-Message: Cosplay by Fabiana Cristino
-
-#Toby
-Picture: https://fbcdn-photos-h-a.akamaihd.net/hphotos-ak-xpf1/v/t1.0-0/q81/s130x130/12006273_877089652374082_2966516151206433922_n.jpg?oh=1a1c6d312fdc9692ff8aa6ba05a2314d&oe=56A9F19A&__gda__=1449516428_c0b1635cad2a27f5af520a77d29c60b2
-Link: https://www.facebook.com/D2A.Dota2Addicts/photos/a.609443392472044.1073741828.609242875825429/877089652374082/?type=1
-Type: photo
-CreatedTime: 2015-09-11T07:03:52+0000
-Score: 141
--------------------------
-Name: Dota 2 Addicts
-Category: Entertainment Website
-Message: Cosplay by Fabiana Cristino
-
-#Toby
-Picture: https://fbcdn-photos-h-a.akamaihd.net/hphotos-ak-xpf1/v/t1.0-0/q81/s130x130/12006273_877089652374082_2966516151206433922_n.jpg?oh=1a1c6d312fdc9692ff8aa6ba05a2314d&oe=56A9F19A&__gda__=1449516428_c0b1635cad2a27f5af520a77d29c60b2
-Link: https://www.facebook.com/D2A.Dota2Addicts/photos/a.609443392472044.1073741828.609242875825429/877089652374082/?type=1
-Type: photo
-CreatedTime: 2015-09-11T07:03:52+0000
-Score: 140
--------------------------
-Name: Dota 2 Addicts
-Category: Entertainment Website
-Message: Cosplay by Fabiana Cristino
-
-#Toby
-Picture: https://fbcdn-photos-h-a.akamaihd.net/hphotos-ak-xpf1/v/t1.0-0/q81/s130x130/12006273_877089652374082_2966516151206433922_n.jpg?oh=1a1c6d312fdc9692ff8aa6ba05a2314d&oe=56A9F19A&__gda__=1449516428_c0b1635cad2a27f5af520a77d29c60b2
-Link: https://www.facebook.com/D2A.Dota2Addicts/photos/a.609443392472044.1073741828.609242875825429/877089652374082/?type=1
-Type: photo
-CreatedTime: 2015-09-11T07:03:52+0000
-Score: 139
--------------------------
-Name: Dota 2 Store PH
-Category: Local Business
-Message: Anong item ginamit para kay ember spirit? :D
-Picture: https://fbcdn-photos-e-a.akamaihd.net/hphotos-ak-xfa1/v/t1.0-0/s130x130/12003887_439915126209148_2428013894598927529_n.jpg?oh=e2c805c038358ea4efef39857a627ecf&oe=56A69C12&__gda__=1448993472_64a4ecf027fbfb8f11a729acc3b893bc
-Link: https://www.facebook.com/ECbiz.Dota2/photos/a.209254242608572.1073741828.206290026238327/439915126209148/?type=1
-Type: photo
-CreatedTime: 2015-09-10T09:13:30+0000
-Score: 138
--------------------------
-Name: Dota 2 Store PH
-Category: Local Business
-Message: Anong item ginamit para kay ember spirit? :D
-Picture: https://fbcdn-photos-e-a.akamaihd.net/hphotos-ak-xfa1/v/t1.0-0/s130x130/12003887_439915126209148_2428013894598927529_n.jpg?oh=e2c805c038358ea4efef39857a627ecf&oe=56A69C12&__gda__=1448993472_64a4ecf027fbfb8f11a729acc3b893bc
-Link: https://www.facebook.com/ECbiz.Dota2/photos/a.209254242608572.1073741828.206290026238327/439915126209148/?type=1
-Type: photo
-CreatedTime: 2015-09-10T09:13:30+0000
-Score: 137
--------------------------
-Name: Dota 2 Store PH
-Category: Local Business
-Message: Anong item ginamit para kay ember spirit? :D
-Picture: https://fbcdn-photos-e-a.akamaihd.net/hphotos-ak-xfa1/v/t1.0-0/s130x130/12003887_439915126209148_2428013894598927529_n.jpg?oh=e2c805c038358ea4efef39857a627ecf&oe=56A69C12&__gda__=1448993472_64a4ecf027fbfb8f11a729acc3b893bc
-Link: https://www.facebook.com/ECbiz.Dota2/photos/a.209254242608572.1073741828.206290026238327/439915126209148/?type=1
-Type: photo
-CreatedTime: 2015-09-10T09:13:30+0000
-Score: 136
--------------------------
-Name: Dota 2 Store PH
-Category: Local Business
-Message: Anong item ginamit para kay ember spirit? :D
-Picture: https://fbcdn-photos-e-a.akamaihd.net/hphotos-ak-xfa1/v/t1.0-0/s130x130/12003887_439915126209148_2428013894598927529_n.jpg?oh=e2c805c038358ea4efef39857a627ecf&oe=56A69C12&__gda__=1448993472_64a4ecf027fbfb8f11a729acc3b893bc
-Link: https://www.facebook.com/ECbiz.Dota2/photos/a.209254242608572.1073741828.206290026238327/439915126209148/?type=1
-Type: photo
-CreatedTime: 2015-09-10T09:13:30+0000
-Score: 135
--------------------------
-Name: StarCraft
-Category: Games/Toys
-Message: Legacy of the Void is coming November 10.
-Picture: https://fbcdn-vthumb-a.akamaihd.net/hvthumb-ak-xfp1/v/t15.0-10/s130x130/11403595_10153568219117457_200312168_n.jpg?oh=1220bd4000926217e617c6c5d5824f98&oe=565FC9EC&__gda__=1453252698_f7404a18663991f93b0127566c0f61ee
-Link: https://www.facebook.com/StarCraft/videos/10153568198777457/
-Type: video
-CreatedTime: 2015-09-13T18:00:59+0000
-Score: 132
--------------------------
-Name: StarCraft
-Category: Games/Toys
-Message: Legacy of the Void is coming November 10.
-Picture: https://fbcdn-vthumb-a.akamaihd.net/hvthumb-ak-xfp1/v/t15.0-10/s130x130/11403595_10153568219117457_200312168_n.jpg?oh=1220bd4000926217e617c6c5d5824f98&oe=565FC9EC&__gda__=1453252698_f7404a18663991f93b0127566c0f61ee
-Link: https://www.facebook.com/StarCraft/videos/10153568198777457/
-Type: video
-CreatedTime: 2015-09-13T18:00:59+0000
-Score: 131
--------------------------
-Name: Hearthstone Vietnam
-Category: Games/Toys
-Message: [CÂU CHUYỆN VỀ FLAVOR TEXT CỦA DREADSTEED] 
-Tạm dịch: Crescendo đã tự mình triệu hồi con chiến mã này và cưỡi nó khi chiến thắng The Grand Tourment. Dù vó ngựa của anh bước tới đâu, đằng sau luôn có một binh đoàn kỵ sĩ phóng theo, hỗ trợ cho nhà vô địch huyền thoại.
-
-Vào tháng 3/2015, tài khoản crescendo1909 post lên reddit một bài viết cảm động, về việc anh đã tìm đến Hearthstone và có được niềm vui ở tựa game này thế nào, cùng với lời tạm biệt trước khi bước vào phẫu thuật điều trị ung thư. "Sau vài ngày tới, tôi vào viện và có thể sẽ không bao giờ trở lại." Bài viết chia tay nhận được chú ý lớn từ cộng đồng với hàng ngàn lượt upvote và những bình luận động viên, khích lệ tới từ người chơi Hearthstone và cả đội ngũ nhân viên Blizzard. Trong vài tháng sau, tài khoản crescendo1909 không còn hoạt động trên reddit nữa.
-
-Khi TGT ra mắt, ngay lập tức mối liên hệ giữa Dreadsteed và Crescendo1909 được tìm ra. Và đáng mừng hơn hết, Crescendo xuất hiện, viết lời cảm ơn cộng đồng và Blizzard đồng thời thông báo rằng anh vẫn đang chiến đấu với căn bệnh trong 5 tháng qua và sẽ sớm đủ khoẻ để tiếp tục chơi Hearthstone.
-
-Dreadsteed, với chỉ số nhỏ bé và có phần yếu đuối nhưng luôn trở lại kiên cường mỗi khi bị đánh gục, cùng Flavor Text đầy khích lệ, quả là một món quà tuyệt vời của Blizzard cho người chơi của mình.
-
-Nguồn: tổng hợp từ Reddit
-Picture: https://fbcdn-photos-g-a.akamaihd.net/hphotos-ak-xfl1/v/t1.0-0/s130x130/11988344_903457573078912_2230379291591013847_n.jpg?oh=0291dbaa285f20038c55fe0ee4ef3d71&oe=566039A3&__gda__=1449103294_c7bc29c34d65ab2c75be22c3d2cc7446
-Link: https://www.facebook.com/hearthstone.vn/photos/a.626046347486704.1073741829.556264481131558/903457573078912/?type=1
-Type: photo
-CreatedTime: 2015-09-09T05:50:54+0000
-Score: 131
--------------------------
-Name: StarCraft
-Category: Games/Toys
-Message: Legacy of the Void is coming November 10.
-Picture: https://fbcdn-vthumb-a.akamaihd.net/hvthumb-ak-xfp1/v/t15.0-10/s130x130/11403595_10153568219117457_200312168_n.jpg?oh=1220bd4000926217e617c6c5d5824f98&oe=565FC9EC&__gda__=1453252698_f7404a18663991f93b0127566c0f61ee
-Link: https://www.facebook.com/StarCraft/videos/10153568198777457/
-Type: video
-CreatedTime: 2015-09-13T18:00:59+0000
-Score: 130
--------------------------
-Name: Hearthstone Vietnam
-Category: Games/Toys
-Message: [CÂU CHUYỆN VỀ FLAVOR TEXT CỦA DREADSTEED] 
-Tạm dịch: Crescendo đã tự mình triệu hồi con chiến mã này và cưỡi nó khi chiến thắng The Grand Tourment. Dù vó ngựa của anh bước tới đâu, đằng sau luôn có một binh đoàn kỵ sĩ phóng theo, hỗ trợ cho nhà vô địch huyền thoại.
-
-Vào tháng 3/2015, tài khoản crescendo1909 post lên reddit một bài viết cảm động, về việc anh đã tìm đến Hearthstone và có được niềm vui ở tựa game này thế nào, cùng với lời tạm biệt trước khi bước vào phẫu thuật điều trị ung thư. "Sau vài ngày tới, tôi vào viện và có thể sẽ không bao giờ trở lại." Bài viết chia tay nhận được chú ý lớn từ cộng đồng với hàng ngàn lượt upvote và những bình luận động viên, khích lệ tới từ người chơi Hearthstone và cả đội ngũ nhân viên Blizzard. Trong vài tháng sau, tài khoản crescendo1909 không còn hoạt động trên reddit nữa.
-
-Khi TGT ra mắt, ngay lập tức mối liên hệ giữa Dreadsteed và Crescendo1909 được tìm ra. Và đáng mừng hơn hết, Crescendo xuất hiện, viết lời cảm ơn cộng đồng và Blizzard đồng thời thông báo rằng anh vẫn đang chiến đấu với căn bệnh trong 5 tháng qua và sẽ sớm đủ khoẻ để tiếp tục chơi Hearthstone.
-
-Dreadsteed, với chỉ số nhỏ bé và có phần yếu đuối nhưng luôn trở lại kiên cường mỗi khi bị đánh gục, cùng Flavor Text đầy khích lệ, quả là một món quà tuyệt vời của Blizzard cho người chơi của mình.
-
-Nguồn: tổng hợp từ Reddit
-Picture: https://fbcdn-photos-g-a.akamaihd.net/hphotos-ak-xfl1/v/t1.0-0/s130x130/11988344_903457573078912_2230379291591013847_n.jpg?oh=0291dbaa285f20038c55fe0ee4ef3d71&oe=566039A3&__gda__=1449103294_c7bc29c34d65ab2c75be22c3d2cc7446
-Link: https://www.facebook.com/hearthstone.vn/photos/a.626046347486704.1073741829.556264481131558/903457573078912/?type=1
-Type: photo
-CreatedTime: 2015-09-09T05:50:54+0000
-Score: 130
--------------------------
-Name: Hearthstone Vietnam
-Category: Games/Toys
-Message: [CÂU CHUYỆN VỀ FLAVOR TEXT CỦA DREADSTEED] 
-Tạm dịch: Crescendo đã tự mình triệu hồi con chiến mã này và cưỡi nó khi chiến thắng The Grand Tourment. Dù vó ngựa của anh bước tới đâu, đằng sau luôn có một binh đoàn kỵ sĩ phóng theo, hỗ trợ cho nhà vô địch huyền thoại.
-
-Vào tháng 3/2015, tài khoản crescendo1909 post lên reddit một bài viết cảm động, về việc anh đã tìm đến Hearthstone và có được niềm vui ở tựa game này thế nào, cùng với lời tạm biệt trước khi bước vào phẫu thuật điều trị ung thư. "Sau vài ngày tới, tôi vào viện và có thể sẽ không bao giờ trở lại." Bài viết chia tay nhận được chú ý lớn từ cộng đồng với hàng ngàn lượt upvote và những bình luận động viên, khích lệ tới từ người chơi Hearthstone và cả đội ngũ nhân viên Blizzard. Trong vài tháng sau, tài khoản crescendo1909 không còn hoạt động trên reddit nữa.
-
-Khi TGT ra mắt, ngay lập tức mối liên hệ giữa Dreadsteed và Crescendo1909 được tìm ra. Và đáng mừng hơn hết, Crescendo xuất hiện, viết lời cảm ơn cộng đồng và Blizzard đồng thời thông báo rằng anh vẫn đang chiến đấu với căn bệnh trong 5 tháng qua và sẽ sớm đủ khoẻ để tiếp tục chơi Hearthstone.
-
-Dreadsteed, với chỉ số nhỏ bé và có phần yếu đuối nhưng luôn trở lại kiên cường mỗi khi bị đánh gục, cùng Flavor Text đầy khích lệ, quả là một món quà tuyệt vời của Blizzard cho người chơi của mình.
-
-Nguồn: tổng hợp từ Reddit
-Picture: https://fbcdn-photos-g-a.akamaihd.net/hphotos-ak-xfl1/v/t1.0-0/s130x130/11988344_903457573078912_2230379291591013847_n.jpg?oh=0291dbaa285f20038c55fe0ee4ef3d71&oe=566039A3&__gda__=1449103294_c7bc29c34d65ab2c75be22c3d2cc7446
-Link: https://www.facebook.com/hearthstone.vn/photos/a.626046347486704.1073741829.556264481131558/903457573078912/?type=1
-Type: photo
-CreatedTime: 2015-09-09T05:50:54+0000
-Score: 129
--------------------------
-Name: Hearthstone Vietnam
-Category: Games/Toys
-Message: [CÂU CHUYỆN VỀ FLAVOR TEXT CỦA DREADSTEED] 
-Tạm dịch: Crescendo đã tự mình triệu hồi con chiến mã này và cưỡi nó khi chiến thắng The Grand Tourment. Dù vó ngựa của anh bước tới đâu, đằng sau luôn có một binh đoàn kỵ sĩ phóng theo, hỗ trợ cho nhà vô địch huyền thoại.
-
-Vào tháng 3/2015, tài khoản crescendo1909 post lên reddit một bài viết cảm động, về việc anh đã tìm đến Hearthstone và có được niềm vui ở tựa game này thế nào, cùng với lời tạm biệt trước khi bước vào phẫu thuật điều trị ung thư. "Sau vài ngày tới, tôi vào viện và có thể sẽ không bao giờ trở lại." Bài viết chia tay nhận được chú ý lớn từ cộng đồng với hàng ngàn lượt upvote và những bình luận động viên, khích lệ tới từ người chơi Hearthstone và cả đội ngũ nhân viên Blizzard. Trong vài tháng sau, tài khoản crescendo1909 không còn hoạt động trên reddit nữa.
-
-Khi TGT ra mắt, ngay lập tức mối liên hệ giữa Dreadsteed và Crescendo1909 được tìm ra. Và đáng mừng hơn hết, Crescendo xuất hiện, viết lời cảm ơn cộng đồng và Blizzard đồng thời thông báo rằng anh vẫn đang chiến đấu với căn bệnh trong 5 tháng qua và sẽ sớm đủ khoẻ để tiếp tục chơi Hearthstone.
-
-Dreadsteed, với chỉ số nhỏ bé và có phần yếu đuối nhưng luôn trở lại kiên cường mỗi khi bị đánh gục, cùng Flavor Text đầy khích lệ, quả là một món quà tuyệt vời của Blizzard cho người chơi của mình.
-
-Nguồn: tổng hợp từ Reddit
-Picture: https://fbcdn-photos-g-a.akamaihd.net/hphotos-ak-xfl1/v/t1.0-0/s130x130/11988344_903457573078912_2230379291591013847_n.jpg?oh=0291dbaa285f20038c55fe0ee4ef3d71&oe=566039A3&__gda__=1449103294_c7bc29c34d65ab2c75be22c3d2cc7446
-Link: https://www.facebook.com/hearthstone.vn/photos/a.626046347486704.1073741829.556264481131558/903457573078912/?type=1
-Type: photo
-CreatedTime: 2015-09-09T05:50:54+0000
-Score: 128
--------------------------
-Name: Razer
-Category: Electronics
-Message: [LIVE] playing Metal Gear Solid 5. Wet and Wild Works going down. Come hang http://www.twitch.tv/Razer
-Picture: https://fbcdn-photos-e-a.akamaihd.net/hphotos-ak-xtf1/v/t1.0-0/s130x130/11060003_10154228679847576_5179582150366435475_n.jpg?oh=61b7b59016e069efd706eff8f31dc709&oe=569F11C2&__gda__=1453989434_2ed66a4f61307b91dfb6e31b438bd285
-Link: https://www.facebook.com/razer/photos/a.77781772575.101784.13848807575/10154228679847576/?type=1
-Type: photo
-CreatedTime: 2015-09-08T21:03:21+0000
-Score: 119
--------------------------
-Name: Razer
-Category: Electronics
-Message: [LIVE] playing Metal Gear Solid 5. Wet and Wild Works going down. Come hang http://www.twitch.tv/Razer
-Picture: https://fbcdn-photos-e-a.akamaihd.net/hphotos-ak-xtf1/v/t1.0-0/s130x130/11060003_10154228679847576_5179582150366435475_n.jpg?oh=61b7b59016e069efd706eff8f31dc709&oe=569F11C2&__gda__=1453989434_2ed66a4f61307b91dfb6e31b438bd285
-Link: https://www.facebook.com/razer/photos/a.77781772575.101784.13848807575/10154228679847576/?type=1
-Type: photo
-CreatedTime: 2015-09-08T21:03:21+0000
-Score: 118
--------------------------
-Name: Dota 2 Addicts
-Category: Entertainment Website
-Message: GGWP ~ Servers are down. What to do now? ;(
-Picture: https://fbcdn-photos-h-a.akamaihd.net/hphotos-ak-xaf1/v/t1.0-0/s130x130/11987037_876376995778681_737232301802879068_n.png?oh=a418dc95bc8222a42c027989b01766ab&oe=566EA07A&__gda__=1449192735_2e2b00778af1800616696fc0a05d849f
-Link: https://www.facebook.com/D2A.Dota2Addicts/photos/a.609443392472044.1073741828.609242875825429/876376995778681/?type=1
-Type: photo
-CreatedTime: 2015-09-09T16:36:49+0000
-Score: 118
--------------------------
-Name: Dota 2 Addicts
-Category: Entertainment Website
-Message: GGWP ~ Servers are down. What to do now? ;(
-Picture: https://fbcdn-photos-h-a.akamaihd.net/hphotos-ak-xaf1/v/t1.0-0/s130x130/11987037_876376995778681_737232301802879068_n.png?oh=a418dc95bc8222a42c027989b01766ab&oe=566EA07A&__gda__=1449192735_2e2b00778af1800616696fc0a05d849f
-Link: https://www.facebook.com/D2A.Dota2Addicts/photos/a.609443392472044.1073741828.609242875825429/876376995778681/?type=1
-Type: photo
-CreatedTime: 2015-09-09T16:36:49+0000
-Score: 117
--------------------------
-Name: Razer
-Category: Electronics
-Message: [LIVE] playing Metal Gear Solid 5. Wet and Wild Works going down. Come hang http://www.twitch.tv/Razer
-Picture: https://fbcdn-photos-e-a.akamaihd.net/hphotos-ak-xtf1/v/t1.0-0/s130x130/11060003_10154228679847576_5179582150366435475_n.jpg?oh=61b7b59016e069efd706eff8f31dc709&oe=569F11C2&__gda__=1453989434_2ed66a4f61307b91dfb6e31b438bd285
-Link: https://www.facebook.com/razer/photos/a.77781772575.101784.13848807575/10154228679847576/?type=1
-Type: photo
-CreatedTime: 2015-09-08T21:03:21+0000
-Score: 117
--------------------------
-Name: Dota 2 Addicts
-Category: Entertainment Website
-Message: GGWP ~ Servers are down. What to do now? ;(
-Picture: https://fbcdn-photos-h-a.akamaihd.net/hphotos-ak-xaf1/v/t1.0-0/s130x130/11987037_876376995778681_737232301802879068_n.png?oh=a418dc95bc8222a42c027989b01766ab&oe=566EA07A&__gda__=1449192735_2e2b00778af1800616696fc0a05d849f
-Link: https://www.facebook.com/D2A.Dota2Addicts/photos/a.609443392472044.1073741828.609242875825429/876376995778681/?type=1
-Type: photo
-CreatedTime: 2015-09-09T16:36:49+0000
-Score: 116
--------------------------
-Name: Razer
-Category: Electronics
-Message: [LIVE] playing Metal Gear Solid 5. Wet and Wild Works going down. Come hang http://www.twitch.tv/Razer
-Picture: https://fbcdn-photos-e-a.akamaihd.net/hphotos-ak-xtf1/v/t1.0-0/s130x130/11060003_10154228679847576_5179582150366435475_n.jpg?oh=61b7b59016e069efd706eff8f31dc709&oe=569F11C2&__gda__=1453989434_2ed66a4f61307b91dfb6e31b438bd285
-Link: https://www.facebook.com/razer/photos/a.77781772575.101784.13848807575/10154228679847576/?type=1
-Type: photo
-CreatedTime: 2015-09-08T21:03:21+0000
-Score: 116
--------------------------
-Name: Dota 2 Addicts
-Category: Entertainment Website
-Message: GGWP ~ Servers are down. What to do now? ;(
-Picture: https://fbcdn-photos-h-a.akamaihd.net/hphotos-ak-xaf1/v/t1.0-0/s130x130/11987037_876376995778681_737232301802879068_n.png?oh=a418dc95bc8222a42c027989b01766ab&oe=566EA07A&__gda__=1449192735_2e2b00778af1800616696fc0a05d849f
-Link: https://www.facebook.com/D2A.Dota2Addicts/photos/a.609443392472044.1073741828.609242875825429/876376995778681/?type=1
-Type: photo
-CreatedTime: 2015-09-09T16:36:49+0000
-Score: 115
--------------------------
-Name: Hearthstone CZ/SK
-Category: Entertainment Website
-Message: Poznáte, která karta na sobě nese toto dílo od Luke Manciniho?
-Picture: https://fbcdn-photos-b-a.akamaihd.net/hphotos-ak-xtp1/v/t1.0-0/s130x130/12004932_838903006230127_7816619814227970174_n.jpg?oh=cb34a064f12e6de69dccdab1b79754e3&oe=5663844F&__gda__=1453763544_f3deb1e4fc5ae7990760e41ea4a981c8
-Link: https://www.facebook.com/HearthstoneCZ/photos/a.428689527251479.1073741828.428284423958656/838903006230127/?type=1
-Type: photo
-CreatedTime: 2015-09-09T14:50:43+0000
-Score: 114
--------------------------
-Name: Hearthstone CZ/SK
-Category: Entertainment Website
-Message: Poznáte, která karta na sobě nese toto dílo od Luke Manciniho?
-Picture: https://fbcdn-photos-b-a.akamaihd.net/hphotos-ak-xtp1/v/t1.0-0/s130x130/12004932_838903006230127_7816619814227970174_n.jpg?oh=cb34a064f12e6de69dccdab1b79754e3&oe=5663844F&__gda__=1453763544_f3deb1e4fc5ae7990760e41ea4a981c8
-Link: https://www.facebook.com/HearthstoneCZ/photos/a.428689527251479.1073741828.428284423958656/838903006230127/?type=1
-Type: photo
-CreatedTime: 2015-09-09T14:50:43+0000
-Score: 113
--------------------------
-Name: Hearthstone CZ/SK
-Category: Entertainment Website
-Message: Poznáte, která karta na sobě nese toto dílo od Luke Manciniho?
-Picture: https://fbcdn-photos-b-a.akamaihd.net/hphotos-ak-xtp1/v/t1.0-0/s130x130/12004932_838903006230127_7816619814227970174_n.jpg?oh=cb34a064f12e6de69dccdab1b79754e3&oe=5663844F&__gda__=1453763544_f3deb1e4fc5ae7990760e41ea4a981c8
-Link: https://www.facebook.com/HearthstoneCZ/photos/a.428689527251479.1073741828.428284423958656/838903006230127/?type=1
-Type: photo
-CreatedTime: 2015-09-09T14:50:43+0000
-Score: 112
--------------------------
-Name: Hearthstone CZ/SK
-Category: Entertainment Website
-Message: Poznáte, která karta na sobě nese toto dílo od Luke Manciniho?
-Picture: https://fbcdn-photos-b-a.akamaihd.net/hphotos-ak-xtp1/v/t1.0-0/s130x130/12004932_838903006230127_7816619814227970174_n.jpg?oh=cb34a064f12e6de69dccdab1b79754e3&oe=5663844F&__gda__=1453763544_f3deb1e4fc5ae7990760e41ea4a981c8
-Link: https://www.facebook.com/HearthstoneCZ/photos/a.428689527251479.1073741828.428284423958656/838903006230127/?type=1
-Type: photo
-CreatedTime: 2015-09-09T14:50:43+0000
-Score: 111
--------------------------
-Name: Dota 2 Store PH
-Category: Local Business
-Message: Vegeta nga ba o Invoker?
-Picture: https://fbcdn-photos-h-a.akamaihd.net/hphotos-ak-xpf1/v/t1.0-0/s130x130/11913237_439720359561958_1876194151758845281_n.jpg?oh=72756ce6b065440898a8e38d36712b64&oe=569CC220&__gda__=1449776541_fdd0fb3066db1d36a19164b6c66f8f8b
-Link: https://www.facebook.com/ECbiz.Dota2/photos/a.209254242608572.1073741828.206290026238327/439720359561958/?type=1
-Type: photo
-CreatedTime: 2015-09-09T13:16:29+0000
-Score: 110
--------------------------
-Name: Dota 2 Store PH
-Category: Local Business
-Message: Vegeta nga ba o Invoker?
-Picture: https://fbcdn-photos-h-a.akamaihd.net/hphotos-ak-xpf1/v/t1.0-0/s130x130/11913237_439720359561958_1876194151758845281_n.jpg?oh=72756ce6b065440898a8e38d36712b64&oe=569CC220&__gda__=1449776541_fdd0fb3066db1d36a19164b6c66f8f8b
-Link: https://www.facebook.com/ECbiz.Dota2/photos/a.209254242608572.1073741828.206290026238327/439720359561958/?type=1
-Type: photo
-CreatedTime: 2015-09-09T13:16:29+0000
-Score: 109
--------------------------
-Name: Dota 2 Store PH
-Category: Local Business
-Message: Vegeta nga ba o Invoker?
-Picture: https://fbcdn-photos-h-a.akamaihd.net/hphotos-ak-xpf1/v/t1.0-0/s130x130/11913237_439720359561958_1876194151758845281_n.jpg?oh=72756ce6b065440898a8e38d36712b64&oe=569CC220&__gda__=1449776541_fdd0fb3066db1d36a19164b6c66f8f8b
-Link: https://www.facebook.com/ECbiz.Dota2/photos/a.209254242608572.1073741828.206290026238327/439720359561958/?type=1
-Type: photo
-CreatedTime: 2015-09-09T13:16:29+0000
-Score: 108
--------------------------
-Name: Dota 2 Store PH
-Category: Local Business
-Message: Vegeta nga ba o Invoker?
-Picture: https://fbcdn-photos-h-a.akamaihd.net/hphotos-ak-xpf1/v/t1.0-0/s130x130/11913237_439720359561958_1876194151758845281_n.jpg?oh=72756ce6b065440898a8e38d36712b64&oe=569CC220&__gda__=1449776541_fdd0fb3066db1d36a19164b6c66f8f8b
-Link: https://www.facebook.com/ECbiz.Dota2/photos/a.209254242608572.1073741828.206290026238327/439720359561958/?type=1
-Type: photo
-CreatedTime: 2015-09-09T13:16:29+0000
-Score: 107
--------------------------
-Name: Dota 2 Addicts
-Category: Entertainment Website
-Message: Introducing Dota Levels + reborn update will be coming to main client tomorrow or day after tomorrow.
-Picture: https://fbcdn-photos-g-a.akamaihd.net/hphotos-ak-xat1/v/t1.0-0/s130x130/11999031_876116429138071_4369125359160184773_n.png?oh=998a8b9f08572a7e900680e5b145f59d&oe=5662555A&__gda__=1450058022_680ebe3360fade38523698f7d24840d7
-Link: https://www.facebook.com/D2A.Dota2Addicts/photos/a.609443392472044.1073741828.609242875825429/876116429138071/?type=1
-Type: photo
-CreatedTime: 2015-09-09T04:40:51+0000
-Score: 102
--------------------------
-Name: Pie Harbour
-Category: Food/Beverages
-Message: "Where are we going for lunch?" - The most difficult question in the earth. 
-Here you go!
-
-Lunch at #PieHarbour every Friday!
-
-#pieday
-Picture: https://fbcdn-photos-b-a.akamaihd.net/hphotos-ak-xtp1/v/t1.0-0/p130x130/10435841_608372062638666_8605910014928161663_n.jpg?oh=6d6fa5fd14cafbf80e0656ef4730811e&oe=566E8D93&__gda__=1449080836_33dd4b9aab61b6463aff678d15631eca
-Link: https://www.facebook.com/PieHarbour/photos/a.248450065297536.1073741829.239956622813547/608372062638666/?type=1
-Type: photo
-CreatedTime: 2015-09-10T01:45:00+0000
-Score: 101
--------------------------
-Name: Dota 2 Addicts
-Category: Entertainment Website
-Message: Introducing Dota Levels + reborn update will be coming to main client tomorrow or day after tomorrow.
-Picture: https://fbcdn-photos-g-a.akamaihd.net/hphotos-ak-xat1/v/t1.0-0/s130x130/11999031_876116429138071_4369125359160184773_n.png?oh=998a8b9f08572a7e900680e5b145f59d&oe=5662555A&__gda__=1450058022_680ebe3360fade38523698f7d24840d7
-Link: https://www.facebook.com/D2A.Dota2Addicts/photos/a.609443392472044.1073741828.609242875825429/876116429138071/?type=1
-Type: photo
-CreatedTime: 2015-09-09T04:40:51+0000
-Score: 101
--------------------------
-Name: Dota 2 Addicts
-Category: Entertainment Website
-Message: Introducing Dota Levels + reborn update will be coming to main client tomorrow or day after tomorrow.
-Picture: https://fbcdn-photos-g-a.akamaihd.net/hphotos-ak-xat1/v/t1.0-0/s130x130/11999031_876116429138071_4369125359160184773_n.png?oh=998a8b9f08572a7e900680e5b145f59d&oe=5662555A&__gda__=1450058022_680ebe3360fade38523698f7d24840d7
-Link: https://www.facebook.com/D2A.Dota2Addicts/photos/a.609443392472044.1073741828.609242875825429/876116429138071/?type=1
-Type: photo
-CreatedTime: 2015-09-09T04:40:51+0000
-Score: 100
--------------------------
-Name: Pie Harbour
-Category: Food/Beverages
-Message: "Where are we going for lunch?" - The most difficult question in the earth. 
-Here you go!
-
-Lunch at #PieHarbour every Friday!
-
-#pieday
-Picture: https://fbcdn-photos-b-a.akamaihd.net/hphotos-ak-xtp1/v/t1.0-0/p130x130/10435841_608372062638666_8605910014928161663_n.jpg?oh=6d6fa5fd14cafbf80e0656ef4730811e&oe=566E8D93&__gda__=1449080836_33dd4b9aab61b6463aff678d15631eca
-Link: https://www.facebook.com/PieHarbour/photos/a.248450065297536.1073741829.239956622813547/608372062638666/?type=1
-Type: photo
-CreatedTime: 2015-09-10T01:45:00+0000
-Score: 100
--------------------------
-Name: Dota 2 Addicts
-Category: Entertainment Website
-Message: Introducing Dota Levels + reborn update will be coming to main client tomorrow or day after tomorrow.
-Picture: https://fbcdn-photos-g-a.akamaihd.net/hphotos-ak-xat1/v/t1.0-0/s130x130/11999031_876116429138071_4369125359160184773_n.png?oh=998a8b9f08572a7e900680e5b145f59d&oe=5662555A&__gda__=1450058022_680ebe3360fade38523698f7d24840d7
-Link: https://www.facebook.com/D2A.Dota2Addicts/photos/a.609443392472044.1073741828.609242875825429/876116429138071/?type=1
-Type: photo
-CreatedTime: 2015-09-09T04:40:51+0000
-Score: 99
--------------------------
-Name: Pie Harbour
-Category: Food/Beverages
-Message: "Where are we going for lunch?" - The most difficult question in the earth. 
-Here you go!
-
-Lunch at #PieHarbour every Friday!
-
-#pieday
-Picture: https://fbcdn-photos-b-a.akamaihd.net/hphotos-ak-xtp1/v/t1.0-0/p130x130/10435841_608372062638666_8605910014928161663_n.jpg?oh=6d6fa5fd14cafbf80e0656ef4730811e&oe=566E8D93&__gda__=1449080836_33dd4b9aab61b6463aff678d15631eca
-Link: https://www.facebook.com/PieHarbour/photos/a.248450065297536.1073741829.239956622813547/608372062638666/?type=1
-Type: photo
-CreatedTime: 2015-09-10T01:45:00+0000
-Score: 99
--------------------------
-Name: Pie Harbour
-Category: Food/Beverages
-Message: "Where are we going for lunch?" - The most difficult question in the earth. 
-Here you go!
-
-Lunch at #PieHarbour every Friday!
-
-#pieday
-Picture: https://fbcdn-photos-b-a.akamaihd.net/hphotos-ak-xtp1/v/t1.0-0/p130x130/10435841_608372062638666_8605910014928161663_n.jpg?oh=6d6fa5fd14cafbf80e0656ef4730811e&oe=566E8D93&__gda__=1449080836_33dd4b9aab61b6463aff678d15631eca
-Link: https://www.facebook.com/PieHarbour/photos/a.248450065297536.1073741829.239956622813547/608372062638666/?type=1
-Type: photo
-CreatedTime: 2015-09-10T01:45:00+0000
-Score: 98
--------------------------
-Name: Dota 2 Store PH
-Category: Local Business
-Message: Cool, gangsta or arcana?
-Picture: https://fbcdn-photos-h-a.akamaihd.net/hphotos-ak-xtp1/v/t1.0-0/s130x130/12004942_439614906239170_4100349324330790314_n.jpg?oh=2eea604db4a2467de795c6717d121cad&oe=5671B9B4&__gda__=1449474851_63422b434c2d4947b5c21d8b9db6bdb8
-Link: https://www.facebook.com/ECbiz.Dota2/photos/a.209254242608572.1073741828.206290026238327/439614906239170/?type=1
-Type: photo
-CreatedTime: 2015-09-09T03:05:40+0000
-Score: 98
--------------------------
-Name: Dota 2 Store PH
-Category: Local Business
-Message: Cool, gangsta or arcana?
-Picture: https://fbcdn-photos-h-a.akamaihd.net/hphotos-ak-xtp1/v/t1.0-0/s130x130/12004942_439614906239170_4100349324330790314_n.jpg?oh=2eea604db4a2467de795c6717d121cad&oe=5671B9B4&__gda__=1449474851_63422b434c2d4947b5c21d8b9db6bdb8
-Link: https://www.facebook.com/ECbiz.Dota2/photos/a.209254242608572.1073741828.206290026238327/439614906239170/?type=1
-Type: photo
-CreatedTime: 2015-09-09T03:05:40+0000
-Score: 97
--------------------------
-Name: Dota 2 Store PH
-Category: Local Business
-Message: Cool, gangsta or arcana?
-Picture: https://fbcdn-photos-h-a.akamaihd.net/hphotos-ak-xtp1/v/t1.0-0/s130x130/12004942_439614906239170_4100349324330790314_n.jpg?oh=2eea604db4a2467de795c6717d121cad&oe=5671B9B4&__gda__=1449474851_63422b434c2d4947b5c21d8b9db6bdb8
-Link: https://www.facebook.com/ECbiz.Dota2/photos/a.209254242608572.1073741828.206290026238327/439614906239170/?type=1
-Type: photo
-CreatedTime: 2015-09-09T03:05:40+0000
-Score: 96
--------------------------
-Name: Dota 2 Store PH
-Category: Local Business
-Message: Cool, gangsta or arcana?
-Picture: https://fbcdn-photos-h-a.akamaihd.net/hphotos-ak-xtp1/v/t1.0-0/s130x130/12004942_439614906239170_4100349324330790314_n.jpg?oh=2eea604db4a2467de795c6717d121cad&oe=5671B9B4&__gda__=1449474851_63422b434c2d4947b5c21d8b9db6bdb8
-Link: https://www.facebook.com/ECbiz.Dota2/photos/a.209254242608572.1073741828.206290026238327/439614906239170/?type=1
-Type: photo
-CreatedTime: 2015-09-09T03:05:40+0000
-Score: 95
+Absolutely YES>>> Here's how I do it.",
+	"Picture": "https://fbcdn-vthumb-a.akamaihd.net/hvthumb-ak-xap1/v/t15.0-10/s130x130/51083_1600027093594903_748971181_n.jpg?oh=bd723192674b9b4be222f56c0fccef03&oe=56A528A6&__gda__=1449758460_2daa27a9e6052edfced212f168f1676b",
+	"Link": "https://www.facebook.com/jasonlsilva/videos/1600022570262022/",
+	"Type": "video",
+	"CreatedTime": "2015-07-23T18:09:59+0000",
+	"Score": "70"},
+	{"Name": "The Daily Atheist",
+	"Category": "Media/News/Publishing",
+	"Message": "Where has this video been all my life? Must watch. 
+Cred: Darkmatter2525",
+	"Picture": "https://fbcdn-vthumb-a.akamaihd.net/hvthumb-ak-xpt1/v/t15.0-10/s130x130/11331435_10153104428782956_1317642173_n.jpg?oh=abde5bbdfd35336769d08c5738479c3b&oe=566A5781&__gda__=1453244442_1827877ce33c66046d851762e9ead77a",
+	"Link": "https://www.facebook.com/OfficialDailyAtheist/videos/470170996475063/",
+	"Type": "video",
+	"CreatedTime": "2015-07-16T23:00:25+0000",
+	"Score": "69"},
+	{"Name": "The Daily Atheist",
+	"Category": "Media/News/Publishing",
+	"Message": "Where has this video been all my life? Must watch. 
+Cred: Darkmatter2525",
+	"Picture": "https://fbcdn-vthumb-a.akamaihd.net/hvthumb-ak-xpt1/v/t15.0-10/s130x130/11331435_10153104428782956_1317642173_n.jpg?oh=abde5bbdfd35336769d08c5738479c3b&oe=566A5781&__gda__=1453244442_1827877ce33c66046d851762e9ead77a",
+	"Link": "https://www.facebook.com/OfficialDailyAtheist/videos/470170996475063/",
+	"Type": "video",
+	"CreatedTime": "2015-07-16T23:00:25+0000",
+	"Score": "68"},
+	{"Name": "The Daily Atheist",
+	"Category": "Media/News/Publishing",
+	"Message": "Where has this video been all my life? Must watch. 
+Cred: Darkmatter2525",
+	"Picture": "https://fbcdn-vthumb-a.akamaihd.net/hvthumb-ak-xpt1/v/t15.0-10/s130x130/11331435_10153104428782956_1317642173_n.jpg?oh=abde5bbdfd35336769d08c5738479c3b&oe=566A5781&__gda__=1453244442_1827877ce33c66046d851762e9ead77a",
+	"Link": "https://www.facebook.com/OfficialDailyAtheist/videos/470170996475063/",
+	"Type": "video",
+	"CreatedTime": "2015-07-16T23:00:25+0000",
+	"Score": "67"},
+	{"Name": "The Daily Atheist",
+	"Category": "Media/News/Publishing",
+	"Message": "Where has this video been all my life? Must watch. 
+Cred: Darkmatter2525",
+	"Picture": "https://fbcdn-vthumb-a.akamaihd.net/hvthumb-ak-xpt1/v/t15.0-10/s130x130/11331435_10153104428782956_1317642173_n.jpg?oh=abde5bbdfd35336769d08c5738479c3b&oe=566A5781&__gda__=1453244442_1827877ce33c66046d851762e9ead77a",
+	"Link": "https://www.facebook.com/OfficialDailyAtheist/videos/470170996475063/",
+	"Type": "video",
+	"CreatedTime": "2015-07-16T23:00:25+0000",
+	"Score": "66"},
+	}]
+}

@@ -629,21 +629,24 @@ module.exports = function(passport) {
 				//Print output
 				i = 0;
 			
-				var feedText = "";
+				var feedText = '{"Posts": [\n';
 				
 				console.log("Printing ranked list");
 				while (i < allFeed.length) {
-					feedText = feedText + "-------------------------\n";
-					feedText = feedText + "Name: " + allFeed[i]['Name'] + "\n";
-					feedText = feedText + "Category: " + allFeed[i]['Category'] + "\n";
-					feedText = feedText + "Message: " + allFeed[i]['Message'] + "\n";
-					feedText = feedText + "Picture: " + allFeed[i]['Picture'] + "\n";
-					feedText = feedText + "Link: " + allFeed[i]['Link'] + "\n";
-					feedText = feedText + "Type: " + allFeed[i]['Type'] + "\n";
-					feedText = feedText + "CreatedTime: " + allFeed[i]['CreatedTime'] + "\n";
-					feedText = feedText + "Score: " + allFeed[i]['Score'] + "\n";
+					feedText = feedText + '\t{"Name": ' + '"' + allFeed[i]['Name'] + '",\n';
+					feedText = feedText + '\t"Category": ' + '"' + allFeed[i]['Category'] + '",\n';
+					var msg = '';
+					msg += allFeed[i]['Message'];
+					msg = msg.replace('"', '""').replace('\n', '').replace('\r', '');
+					feedText = feedText + '\t"Message": ' + '"' + msg + '",\n';
+					feedText = feedText + '\t"Picture": ' + '"' + allFeed[i]['Picture'] + '",\n';
+					feedText = feedText + '\t"Link": ' + '"' + allFeed[i]['Link'] + '",\n';
+					feedText = feedText + '\t"Type": ' + '"' + allFeed[i]['Type'] + '",\n';
+					feedText = feedText + '\t"CreatedTime": ' + '"' + allFeed[i]['CreatedTime'] + '",\n';
+					feedText = feedText + '\t"Score": ' + '"' + allFeed[i]['Score'] + '"},\n';
 					i++;
 				}
+				feedText += '\t}]\n}';
 				
 				fs.writeFile('./log/properFeed.txt', feedText, function (err) {
 								if (err) {
