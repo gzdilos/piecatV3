@@ -1,0 +1,46 @@
+\newcommand{\etalchar}[1]{$^{#1}$}
+\begin{thebibliography}{BMAC13}
+
+\bibitem[ACG{\etalchar{+}}14]{Aga2014}
+Deepak Agarwal, Bee-Chung Chen, Rupesh Gupta, Joshua Hartman, Qi~He, Anand
+  Iyer, Sumanth Kolar, Yiming Ma, Pannagadatta Shivaswamy, Ajit Singh, et~al.
+\newblock Activity ranking in linkedin feed.
+\newblock In {\em Proceedings of the 20th ACM SIGKDD international conference
+  on Knowledge discovery and data mining}, pages 1603--1612. ACM, 2014.
+
+\bibitem[BMAC13]{Bur2013}
+Matthew Burgess, Alessandra Mazzia, Eytan Adar, and Michael~J Cafarella.
+\newblock Leveraging noisy lists for social feed ranking.
+\newblock In {\em ICWSM}, 2013.
+
+\bibitem[BRR10]{bonds2010myspace}
+Jennifer Bonds-Raacke and John Raacke.
+\newblock Myspace and facebook: Identifying dimensions of uses and
+  gratifications for friend networking sites.
+\newblock {\em Individual Differences Research}, 8(1):27--33, 2010.
+
+\bibitem[Cle04]{clemmensen2004four}
+Torkil Clemmensen.
+\newblock Four approaches to user modelling-a qualitative research interview
+  study of hci professionals' practice.
+\newblock {\em Interacting with computers}, 16(4):799--829, 2004.
+
+\bibitem[LTL{\etalchar{+}}10]{LiTiaLee2010}
+Huajing Li, Yuan Tian, Wang-Chien Lee, C~Lee Giles, and Meng-Chang Chen.
+\newblock Personalized feed recommendation service for social networks.
+\newblock In {\em Social Computing (SocialCom), 2010 IEEE Second International
+  Conference on}, pages 96--103. IEEE, 2010.
+
+\bibitem[NH12]{nadkarni2012people}
+Ashwini Nadkarni and Stefan~G Hofmann.
+\newblock Why do people use facebook?
+\newblock {\em Personality and individual differences}, 52(3):243--249, 2012.
+
+\bibitem[SAC{\etalchar{+}}08]{szomszor2008semantic}
+Martin Szomszor, Harith Alani, Ivan Cantador, Kieron O’Hara, and Nigel
+  Shadbolt.
+\newblock {\em Semantic modelling of user interests based on cross-folksonomy
+  analysis}.
+\newblock Springer, 2008.
+
+\end{thebibliography}
