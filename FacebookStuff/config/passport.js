@@ -427,7 +427,6 @@ module.exports = function(passport) {
 					FB.setAccessToken(refreshToken);
 					FB.api('/v2.3/me/home', function (response) {
 						if (response && !response.error) {
-							
 							//console.log(typeof response.data);
 							//var size = 100;
 							var i = 0;
@@ -629,24 +628,37 @@ module.exports = function(passport) {
 				//Print output
 				i = 0;
 			
-				var feedText = '{"Posts": [\n';
+				var feedText = '[';
 				
 				console.log("Printing ranked list");
-				while (i < allFeed.length) {
-					feedText = feedText + '\t{"Name": ' + '"' + allFeed[i]['Name'] + '",\n';
-					feedText = feedText + '\t"Category": ' + '"' + allFeed[i]['Category'] + '",\n';
+				while (i < allFeed.length-1) {
+					feedText = feedText + '{"Name": ' + '"' + allFeed[i]['Name'] + '",\n';
+					feedText = feedText + '"Category": ' + '"' + allFeed[i]['Category'] + '",\n';
 					var msg = '';
 					msg += allFeed[i]['Message'];
-					msg = msg.replace('"', '""').replace('\n', '').replace('\r', '');
-					feedText = feedText + '\t"Message": ' + '"' + msg + '",\n';
-					feedText = feedText + '\t"Picture": ' + '"' + allFeed[i]['Picture'] + '",\n';
-					feedText = feedText + '\t"Link": ' + '"' + allFeed[i]['Link'] + '",\n';
-					feedText = feedText + '\t"Type": ' + '"' + allFeed[i]['Type'] + '",\n';
-					feedText = feedText + '\t"CreatedTime": ' + '"' + allFeed[i]['CreatedTime'] + '",\n';
-					feedText = feedText + '\t"Score": ' + '"' + allFeed[i]['Score'] + '"},\n';
+					formatStr(msg);
+					msg = msg.replace(/[\u0000-\u0019]+/g,""); 
+					msg = "DUMMY MESSAGE";
+					feedText = feedText + '"Message": ' + '"' + msg + '",\n';
+					feedText = feedText + '"Picture": ' + '"' + allFeed[i]['Picture'] + '",\n';
+					feedText = feedText + '"Link": ' + '"' + allFeed[i]['Link'] + '",\n';
+					feedText = feedText + '"Type": ' + '"' + allFeed[i]['Type'] + '",\n';
+					feedText = feedText + '"CreatedTime": ' + '"' + allFeed[i]['CreatedTime'] + '",\n';
+					feedText = feedText + '"Score": ' + '"' + allFeed[i]['Score'] + '"},\n';
 					i++;
 				}
-				feedText += '\t}]\n}';
+				feedText = feedText + '{"Name": ' + '"' + allFeed[i]['Name'] + '",\n';
+					feedText = feedText + '"Category": ' + '"' + allFeed[i]['Category'] + '",\n';
+					var msg = '';
+					msg += allFeed[i]['Message'];
+					msg = msg.replace('"', '').replace('\r', '');
+					msg = "DUMMY MESSAGE";
+					feedText = feedText + '"Message": ' + '"' + msg + '",\n';
+					feedText = feedText + '"Picture": ' + '"' + allFeed[i]['Picture'] + '",\n';
+					feedText = feedText + '"Link": ' + '"' + allFeed[i]['Link'] + '",\n';
+					feedText = feedText + '"Type": ' + '"' + allFeed[i]['Type'] + '",\n';
+					feedText = feedText + '"CreatedTime": ' + '"' + allFeed[i]['CreatedTime'] + '",\n';
+				feedText = feedText + '"Score": ' + '"' + allFeed[i]['Score'] + '"}]';
 				
 				fs.writeFile('./log/properFeed.txt', feedText, function (err) {
 								if (err) {
@@ -659,7 +671,46 @@ module.exports = function(passport) {
 		}
 			
 		});
-		
+		function formatStr(str) {
+			//var re = /\0/g;
+			// str = str.replace(/\n/g, " ")  
+							   // .replace(/\\'/g, "\\'")
+							   // .replace(/\\&/g, "\\&")
+							   // .replace(/\\r/g, " ")
+							   // .replace(/\\t/g, "\\t")
+							   // .replace(/\\b/g, "")
+							   // .replace(/\\f/g, "\\f")
+							   // .replace('"','')
+							   // .replace('""','')
+							   // .replace('"""','')
+							   // .replace(re, "");
+								// str = str.replace(/\n/g, " ")  
+							   // .replace(/\\'/g, "\\'")
+							   // .replace(/\\&/g, "\\&")
+							   // .replace(/\\r/g, " ")
+							   // .replace(/\\t/g, "\\t")
+							   // .replace(/\\b/g, "")
+							   // .replace(/\\f/g, "\\f")
+							   // .replace('"','')
+							   // .replace('""','')
+							   // .replace('"""','')
+							   // .replace(/"/g,"")
+							   // .replace(re, "");
+								// str = str.replace(/\n/g, " ")  
+							   // .replace(/\\'/g, "\\'")
+							   // .replace(/\\&/g, "\\&")
+							   // .replace(/\\r/g, " ")
+							   // .replace(/\\t/g, "\\t")
+							   // .replace(/\\b/g, "")
+							   // .replace(/\\f/g, "\\f")
+							   // .replace('"','')
+							   // .replace('""','')
+							   // .replace('"""','')
+							   // .replace(/"/g,"")
+							   // .replace(re, "");
+			str = str.replace(/['"]+/g, '');
+			str.replace(/[\x00-\x1F\x7F-\x9F]/g, "");
+		}
 		function waitFriends() {
 				if (!finishedFriends) {
 						//console.log("waiting osis");

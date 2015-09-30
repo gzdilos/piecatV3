@@ -12,35 +12,22 @@
 <body>
 <script type="text/javascript" src='http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js'></script>
 <script type="text/javascript">
+
+$(document).ready(function() {
 	$.getJSON( '/getPosts', function( data ) {
-		var headers = '';
-        headers += '<th> Name </th>';
-		headers += '<th> Category </th>';
-		headers += '<th> Message </th>';
-		headers += '<th> Picture </th>';
-		headers += '<th> Link </th>';
-		headers += '<th> Type </th>';
-		headers += '<th> CreatedTime </th>';		
-		headers += '<th> Score </th>';
-		var tableContent = '';
+		var listContent = '';
 		// For each item in our JSON, add a table row and cells to the content string
-		$.each(data.Posts, function(){
-			tableContent += '<tr>';
-			tableContent += '<td>' + this.Name + '</td>';
-            tableContent += '<td>' + this.Category + '</td>';
-            tableContent += '<td>' + this.Message + '</td>';
-            tableContent += '<td>' + this.Picture + '</td>';
-            tableContent += '<td>' + this.Link + '</td>';
-            tableContent += '<td>' + this.Type + '</td>';
-            tableContent += '<td>' + this.CreatedTime + '</td>';
-            tableContent += '<td>' + this.Score + '</td>';
-			tableContent += '</tr>';
+		$.each(data.posts, function(){
+			listContent += '<b>' + this.Name + '</b><br>';
+            listContent += '<b>' + this.Message + '</b><br>';
+            listContent += '<img src="' + this.Picture + '"><br>';
+            listContent += '<b>' + this.CreatedTime + '</b><br>';
 		});
         
         // Inject the whole content string into our existing HTML table
-        $('#postsList table tbody').html(tableContent);
-        $('#postsList table thead').html(headers);
-	});
+        $('#postsList').html(listContent)
+	})
+ });  
 	
 </script>
 
@@ -57,16 +44,9 @@
         <div class="col-sm-6">
             <div class="well">
                 <h3 class="text-primary"><span class="fa fa-facebook"></span> Facebook</h3>
-
-                    <p>
-						Posts Here...
-                    </p>
 					<br>
                     <div id="postsList">
-					   <table>
-                          <thead>
-						  <tbody>
-					   </table>
+
                     </div>
             </div>
         </div>

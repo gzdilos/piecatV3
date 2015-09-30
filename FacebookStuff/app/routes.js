@@ -96,7 +96,8 @@ module.exports = function(app, passport) {
             }
             var verified = JSON.stringify(data);
             var parsed = JSON.parse(verified);
-            res.json(parsed);
+            parsed = JSON.parse(parsed);
+            res.json({posts: parsed});
         });
     });
 	
