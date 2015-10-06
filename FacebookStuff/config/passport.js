@@ -636,9 +636,9 @@ module.exports = function(passport) {
 					feedText = feedText + '"Category": ' + '"' + allFeed[i]['Category'] + '",\n';
 					var msg = '';
 					msg += allFeed[i]['Message'];
-					formatStr(msg);
+					meg = formatStr(msg);
 					msg = msg.replace(/[\u0000-\u0019]+/g,""); 
-					msg = "DUMMY MESSAGE";
+					//msg = "";
 					feedText = feedText + '"Message": ' + '"' + msg + '",\n';
 					feedText = feedText + '"Picture": ' + '"' + allFeed[i]['Picture'] + '",\n';
 					feedText = feedText + '"Link": ' + '"' + allFeed[i]['Link'] + '",\n';
@@ -651,8 +651,8 @@ module.exports = function(passport) {
 					feedText = feedText + '"Category": ' + '"' + allFeed[i]['Category'] + '",\n';
 					var msg = '';
 					msg += allFeed[i]['Message'];
+					msg = formatStr(msg);
 					msg = msg.replace('"', '').replace('\r', '');
-					msg = "DUMMY MESSAGE";
 					feedText = feedText + '"Message": ' + '"' + msg + '",\n';
 					feedText = feedText + '"Picture": ' + '"' + allFeed[i]['Picture'] + '",\n';
 					feedText = feedText + '"Link": ' + '"' + allFeed[i]['Link'] + '",\n';
@@ -709,7 +709,8 @@ module.exports = function(passport) {
 							   // .replace(/"/g,"")
 							   // .replace(re, "");
 			str = str.replace(/['"]+/g, '');
-			str.replace(/[\x00-\x1F\x7F-\x9F]/g, "");
+			str = str.replace(/[\x00-\x1F\x7F-\x9F]/g, "");
+			return str.replace('"','');
 		}
 		function waitFriends() {
 				if (!finishedFriends) {

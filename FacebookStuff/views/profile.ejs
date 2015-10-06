@@ -18,10 +18,13 @@ $(document).ready(function() {
 		var listContent = '';
 		// For each item in our JSON, add a table row and cells to the content string
 		$.each(data.posts, function(){
-			listContent += '<b>' + this.Name + '</b><br>';
-            listContent += '<b>' + this.Message + '</b><br>';
+			listContent += '<div align="center" style="background-color:white; padding:5px">';
+			listContent += '<font size="6" style="padding:0px">' + this.Name + '</font><br>';
+			listContent += '<font size="1">' + this.CreatedTime + '</font><br><br>';
+            listContent += '<font size="2">' + this.Message + '</font><br>';
             listContent += '<img src="' + this.Picture + '"><br>';
-            listContent += '<b>' + this.CreatedTime + '</b><br>';
+			listContent += '</div>';
+			listContent += '<br><br>';
 		});
         
         // Inject the whole content string into our existing HTML table
@@ -34,7 +37,7 @@ $(document).ready(function() {
 <div class="container">
 
     <div class="page-header text-center">
-        <h1><span class="fa fa-anchor"></span> Profile Page</h1>
+        <h1><span class="fa fa-anchor"></span> Facebook Feed </h1>
         <a href="/logout" class="btn btn-default btn-sm">Logout</a>
     </div>
 
@@ -42,7 +45,7 @@ $(document).ready(function() {
 
         <!-- FACEBOOK INFORMATION -->
         <div class="col-sm-6">
-            <div class="well">
+            <div class="well" align="center">
                 <h3 class="text-primary"><span class="fa fa-facebook"></span> Facebook</h3>
 					<br>
                     <div id="postsList">
