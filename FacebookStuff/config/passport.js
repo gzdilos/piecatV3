@@ -598,17 +598,51 @@ module.exports = function(passport) {
 				
 				//Subtract score for diversity
 				i = 0;
-				var diversityScore = 80;
-				while (i != allFeed.length - 1) {
-					var feedItem1 = allFeed[i];
-					var feedItem2 = allFeed[i+1];
+				
+				var diversityFeed[];
+				
+				var diversityScoreType = 20;
+				var diversityScoreCategory = 60;
+				var diversityScoreName = 120;
+				
+				while (i != allFeed.length) {
+					var feedItem = allFeed[i];
+					var found = false;
+					
+					int j = 0;
+					
+					while (j != diversityFeed.length && !found) {
+						var tempItem = diversityFeed[i];
 						
+						if (feedItem['Type'] && tempItem['Type'] && feedItem['Type'].indexOf(tempItem['Type']) > -1) {
+							feedItem['Score'] = feedItem['Score'] - diversityScoreType;
+							
+							if (feedItem['Category'] && tempItem['Category'] && feedItem['Category'].indexOf(tempItem['Category']) > -1) {
+								feedItem['Score'] = feedItem['Score'] - diversityScoreCategory;
+								
+								if (feedItem['Name'] && tempItem['Name'] && feedItem['Name'].indexOf(tempItem['Name']) > -1) {
+									feedItem['Score'] = feedItem['Score'] - diversityScoreName;
+									found = true;
+								}
+								found = true;
+							}
+							found = true;
+						}
+					
+						j++;
+					}
+					
+					if (j == diversityFeed.length) {
+						diversityFeed.push(feedItem);
+					}
 					//console.log(feedItem['Type']);
+					
+					/*
 					if (feedItem1['Type'] && feedItem2['Type'] && feedItem1['Type'].indexOf(feedItem2['Type']) > -1) {
 						feedItem2['Score'] = feedItem2['Score'] - diversityScore;
 					} else if (feedItem1['Category'] && feedItem2['Category'] && feedItem1['Category'].indexOf(feedItem2['Category']) > -1) {
 						feedItem2['Score'] = feedItem2['Score'] - diversityScore;
-					} 
+					} */
 					
 					i++;
 				}
