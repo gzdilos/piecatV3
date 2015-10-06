@@ -601,7 +601,7 @@ module.exports = function(passport) {
 				//Subtract score for diversity
 				i = 0;
 				
-				var diversityFeed;
+				var diversityFeed = [];
 				
 				var diversityScoreType = 10;
 				var diversityScoreCategory = 20;
