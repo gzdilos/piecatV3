@@ -449,12 +449,14 @@ module.exports = function(passport) {
 								var picture = response.data[i]['picture'];
 								var link = response.data[i]['link'];
 								var type = response.data[i]['type'];
+								var action  = response.data[i]['story'];
+								
 								if (type == null) {
 									console.log("received null type");
 								}
 								var createdTime = response.data[i]['created_time'];
 								
-								var newFeedItem = setStruct(name, id, category, message, picture, link, type, createdTime, 0);
+								var newFeedItem = setStruct(name, id, category, message, picture, link, type, createdTime, 0, action);
 								
 								allFeed.push(newFeedItem);
 								
@@ -523,19 +525,27 @@ module.exports = function(passport) {
 								}
 							});
 							
-				var initialScore = 2*feedSize;
+				var initialScore = 3*feedSize;
 							
 				var i = 0;
 				
 				var x = allFeed.length;
 				
+				while (i != x && 5*i > 0) {
+					allFeed[i]['Score'] = initialScore - i*5;
+					i++;
+				}
+				
+				var k = 0;
+				
 				while (i != x) {
-					allFeed[i]['Score'] = initialScore - i;
+					allFeed[i]['Score'] = 0 - k*2;
+					k++;
 					i++;
 				}
 				
 				i = 0;
-				var friendScore = 45;
+				var friendScore = 50;
 				
 				while (i != allFeed.length) {
 					
@@ -555,7 +565,7 @@ module.exports = function(passport) {
 				//Add score from likes to feed
 				i = 0;
 				
-				var likesScore = 25;
+				var likesScore = 40;
 				while (i != allFeed.length) {
 					
 					var j = 0;
@@ -567,15 +577,7 @@ module.exports = function(passport) {
 							feedItem['Score'] = feedItem['Score'] + likesScore;
 						}
 						
-						if (feedItem['Name'] && feedItem['Name'].indexOf(likesList[j]) > -1) {
-							feedItem['Score'] = feedItem['Score'] + likesScore;
-						}
-						
 						if (feedItem['Category'] && feedItem['Category'].indexOf(likesList[j]) > -1) {
-							feedItem['Score'] = feedItem['Score'] + likesScore;
-						}
-						
-						if (feedItem['Type'] && feedItem['Type'].indexOf(likesList[j]) > -1) {
 							feedItem['Score'] = feedItem['Score'] + likesScore;
 						}
 						
@@ -599,36 +601,36 @@ module.exports = function(passport) {
 				//Subtract score for diversity
 				i = 0;
 				
-				var diversityFeed[];
+				var diversityFeed;
 				
-				var diversityScoreType = 20;
-				var diversityScoreCategory = 60;
-				var diversityScoreName = 120;
+				var diversityScoreType = 10;
+				var diversityScoreCategory = 20;
+				var diversityScoreName = 50;
 				
 				while (i != allFeed.length) {
 					var feedItem = allFeed[i];
 					var found = false;
 					
-					int j = 0;
+					var j = 0;
 					
 					while (j != diversityFeed.length && !found) {
 						var tempItem = diversityFeed[i];
 						
 						if (feedItem['Type'] && tempItem['Type'] && feedItem['Type'].indexOf(tempItem['Type']) > -1) {
 							feedItem['Score'] = feedItem['Score'] - diversityScoreType;
-							
-							if (feedItem['Category'] && tempItem['Category'] && feedItem['Category'].indexOf(tempItem['Category']) > -1) {
-								feedItem['Score'] = feedItem['Score'] - diversityScoreCategory;
-								
-								if (feedItem['Name'] && tempItem['Name'] && feedItem['Name'].indexOf(tempItem['Name']) > -1) {
-									feedItem['Score'] = feedItem['Score'] - diversityScoreName;
-									found = true;
-								}
-								found = true;
-							}
+							found = true;
+						}
+						
+						if (feedItem['Category'] && tempItem['Category'] && feedItem['Category'].indexOf(tempItem['Category']) > -1) {
+							feedItem['Score'] = feedItem['Score'] - diversityScoreCategory;
 							found = true;
 						}
 					
+						if (feedItem['Name'] && tempItem['Name'] && feedItem['Name'].indexOf(tempItem['Name']) > -1) {
+							feedItem['Score'] = feedItem['Score'] - diversityScoreName;
+							found = true;
+						}
+						
 						j++;
 					}
 					
@@ -670,9 +672,9 @@ module.exports = function(passport) {
 					feedText = feedText + '"Category": ' + '"' + allFeed[i]['Category'] + '",\n';
 					var msg = '';
 					msg += allFeed[i]['Message'];
-					meg = formatStr(msg);
+					formatStr(msg);
 					msg = msg.replace(/[\u0000-\u0019]+/g,""); 
-					//msg = "";
+					msg = "DUMMY MESSAGE";
 					feedText = feedText + '"Message": ' + '"' + msg + '",\n';
 					feedText = feedText + '"Picture": ' + '"' + allFeed[i]['Picture'] + '",\n';
 					feedText = feedText + '"Link": ' + '"' + allFeed[i]['Link'] + '",\n';
@@ -685,8 +687,8 @@ module.exports = function(passport) {
 					feedText = feedText + '"Category": ' + '"' + allFeed[i]['Category'] + '",\n';
 					var msg = '';
 					msg += allFeed[i]['Message'];
-					msg = formatStr(msg);
 					msg = msg.replace('"', '').replace('\r', '');
+					msg = "DUMMY MESSAGE";
 					feedText = feedText + '"Message": ' + '"' + msg + '",\n';
 					feedText = feedText + '"Picture": ' + '"' + allFeed[i]['Picture'] + '",\n';
 					feedText = feedText + '"Link": ' + '"' + allFeed[i]['Link'] + '",\n';
@@ -743,8 +745,7 @@ module.exports = function(passport) {
 							   // .replace(/"/g,"")
 							   // .replace(re, "");
 			str = str.replace(/['"]+/g, '');
-			str = str.replace(/[\x00-\x1F\x7F-\x9F]/g, "");
-			return str.replace('"','');
+			str.replace(/[\x00-\x1F\x7F-\x9F]/g, "");
 		}
 		function waitFriends() {
 				if (!finishedFriends) {
@@ -776,7 +777,7 @@ module.exports = function(passport) {
 					}
 				}
 		
-		function setStruct(name, id, category, message, picture, link, type, createdtime) {
+		function setStruct(name, id, category, message, picture, link, type, createdtime, action) {
 					
 					//var values = str.split(' ');
 					// count = values.length;
@@ -793,6 +794,7 @@ module.exports = function(passport) {
 					item['Type'] = type;
 					item['CreatedTime'] = createdtime;
 					item['Score'] = 0;
+					item['Action'] = action;
 					
 					//for (var i = 0; i < count; i++) {
 						//item[names[i]] = arguments[i];
