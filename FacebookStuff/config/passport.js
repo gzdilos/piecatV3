@@ -406,7 +406,7 @@ module.exports = function(passport) {
 			s = "/v2.3/me/home";
 			FB.api(s, getFeed);
 			
-			function getFeed() {
+			function getFeed(response) {
 				console.log("Getting feed");
 				//if (testFeed) {
 					//Get feed
@@ -424,8 +424,8 @@ module.exports = function(passport) {
 					
 					//Since last logged in
 					//since : 'yesterday', 
-					FB.setAccessToken(refreshToken);
-					FB.api('/v2.3/me/home', function (response) {
+					//FB.setAccessToken(refreshToken);
+					//FB.api('/v2.3/me/home', function (response) {
 						if (response && !response.error) {
 							//console.log(typeof response.data);
 							//var size = 100;
@@ -469,7 +469,7 @@ module.exports = function(passport) {
 							//console.log(response.data);
 							//finished = false;
 							
-							if (response["paging"] && response["paging"]["next"] && count < 7) {
+							if (response["paging"] && response["paging"]["next"] && count < 3) {
 
 								var url = response["paging"]["next"].split("https://graph.facebook.com");
 
@@ -498,7 +498,7 @@ module.exports = function(passport) {
 							console.log(response);
 						}
 						//finished = true;
-					}, {access_token: token});
+					//}, {access_token: token});
 					//return done(null, newUser);
 				//}
 			}
@@ -514,6 +514,7 @@ module.exports = function(passport) {
 				console.log("Inbox is " + uniqueFriends.length);
 				
 				var feedSize = allFeed.length;
+				
 				//Sort and get freshness
 				allFeed.sort(function (a, b) {
 								var date1 = new Date(a['CreatedTime']);
