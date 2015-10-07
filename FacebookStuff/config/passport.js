@@ -450,15 +450,16 @@ module.exports = function(passport) {
 								var link = response.data[i]['link'];
 								var type = response.data[i]['type'];
 								var action  = response.data[i]['story'];
-								
+								var source = response.data[i]['source'];
 								if (type == null) {
 									console.log("received null type");
 								}
 								var createdTime = response.data[i]['created_time'];
 								
-								var newFeedItem = setStruct(name, id, category, message, picture, link, type, createdTime, 0, action);
+								var newFeedItem = setStruct(name, id, category, message, picture, link, type, createdTime, action, source);
 								
 								allFeed.push(newFeedItem);
+								//console.log(newFeedItem);
 								
 								//str = str + JSON.stringify(response.data[i], null, 2);
 								i++;
@@ -468,7 +469,7 @@ module.exports = function(passport) {
 							//console.log(response.data);
 							//finished = false;
 							
-							if (response["paging"] && response["paging"]["next"] && count < 3) {
+							if (response["paging"] && response["paging"]["next"] && count < 7) {
 
 								var url = response["paging"]["next"].split("https://graph.facebook.com");
 
@@ -601,42 +602,62 @@ module.exports = function(passport) {
 				//Subtract score for diversity
 				i = 0;
 				
-				var diversityFeed = [];
+				var diversityFeedType = [];
+				var diversityFeedCategory = [];
+				var diversityFeedName = [];
+				var diversityFeedLink = [];
 				
 				var diversityScoreType = 10;
 				var diversityScoreCategory = 20;
 				var diversityScoreName = 50;
+				var diversityLink = 100;
 				
 				while (i != allFeed.length) {
 					var feedItem = allFeed[i];
-					var found = false;
 					
 					var j = 0;
 					
-					while (j != diversityFeed.length && !found) {
-						var tempItem = diversityFeed[i];
-						
+					while (j != diversityFeedType.length) {
+						var tempItem = diversityFeedType[j];			
 						if (feedItem['Type'] && tempItem['Type'] && feedItem['Type'].indexOf(tempItem['Type']) > -1) {
 							feedItem['Score'] = feedItem['Score'] - diversityScoreType;
-							found = true;
 						}
-						
+						j++;
+					}
+					diversityFeedType.push(feedItem);
+					
+					j=0;
+					found = false;
+					while (j != diversityFeedLink.length) {
+						var tempItem = diversityFeedLink[j];	
+						if (feedItem['Link'] && tempItem['Link'] && feedItem['Link'].indexOf(tempItem['Link']) > -1) {
+							feedItem['Score'] = feedItem['Score'] - diversityScoreType;
+							console.log("subtracting from feed item for having same link");
+						}
+						j++;
+					}
+					diversityFeedLink.push(feedItem);
+					
+					j=0;
+					while (j != diversityFeedCategory.length) {
+						var tempItem = diversityFeedCategory[j];		
 						if (feedItem['Category'] && tempItem['Category'] && feedItem['Category'].indexOf(tempItem['Category']) > -1) {
 							feedItem['Score'] = feedItem['Score'] - diversityScoreCategory;
-							found = true;
 						}
+						j++;
+					}
+					diversityFeedCategory.push(feedItem);
 					
+					j=0;
+					while (j != diversityFeedName.length) {
+						var tempItem = diversityFeedName[j];
 						if (feedItem['Name'] && tempItem['Name'] && feedItem['Name'].indexOf(tempItem['Name']) > -1) {
 							feedItem['Score'] = feedItem['Score'] - diversityScoreName;
 							found = true;
 						}
-						
 						j++;
 					}
-					
-					if (j == diversityFeed.length) {
-						diversityFeed.push(feedItem);
-					}
+					diversityFeedName.push(feedItem);
 					//console.log(feedItem['Type']);
 					
 					/*
@@ -678,7 +699,9 @@ module.exports = function(passport) {
 					feedText = feedText + '"Message": ' + '"' + msg + '",\n';
 					feedText = feedText + '"Picture": ' + '"' + allFeed[i]['Picture'] + '",\n';
 					feedText = feedText + '"Link": ' + '"' + allFeed[i]['Link'] + '",\n';
+					feedText = feedText + '"Source": ' + '"' + allFeed[i]['Source'] + '",\n';
 					feedText = feedText + '"Type": ' + '"' + allFeed[i]['Type'] + '",\n';
+					feedText = feedText + '"Action": ' + '"' + allFeed[i]['Action'] + '",\n';
 					feedText = feedText + '"CreatedTime": ' + '"' + allFeed[i]['CreatedTime'] + '",\n';
 					feedText = feedText + '"Score": ' + '"' + allFeed[i]['Score'] + '"},\n';
 					i++;
@@ -692,7 +715,9 @@ module.exports = function(passport) {
 					feedText = feedText + '"Message": ' + '"' + msg + '",\n';
 					feedText = feedText + '"Picture": ' + '"' + allFeed[i]['Picture'] + '",\n';
 					feedText = feedText + '"Link": ' + '"' + allFeed[i]['Link'] + '",\n';
+					feedText = feedText + '"Source": ' + '"' + allFeed[i]['Source'] + '",\n';
 					feedText = feedText + '"Type": ' + '"' + allFeed[i]['Type'] + '",\n';
+					feedText = feedText + '"Action": ' + '"' + allFeed[i]['Action'] + '",\n';
 					feedText = feedText + '"CreatedTime": ' + '"' + allFeed[i]['CreatedTime'] + '",\n';
 				feedText = feedText + '"Score": ' + '"' + allFeed[i]['Score'] + '"}]';
 				
@@ -777,7 +802,7 @@ module.exports = function(passport) {
 					}
 				}
 		
-		function setStruct(name, id, category, message, picture, link, type, createdtime, action) {
+		function setStruct(name, id, category, message, picture, link, type, createdtime, action, source) {
 					
 					//var values = str.split(' ');
 					// count = values.length;
@@ -795,6 +820,7 @@ module.exports = function(passport) {
 					item['CreatedTime'] = createdtime;
 					item['Score'] = 0;
 					item['Action'] = action;
+					item['Source'] = source;
 					
 					//for (var i = 0; i < count; i++) {
 						//item[names[i]] = arguments[i];
