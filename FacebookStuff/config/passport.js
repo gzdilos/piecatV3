@@ -568,6 +568,7 @@ module.exports = function(passport) {
 				i = 0;
 				
 				var likesScore = 40;
+				
 				while (i != allFeed.length) {
 					
 					var j = 0;
@@ -600,76 +601,16 @@ module.exports = function(passport) {
 					}
 				});
 				
+				//Add score for socialite
+				//Socialite
+				//Add more score
+				/*
+				if (socialte) {
+					addScoreSocial()
+				}*/
+				
 				//Subtract score for diversity
-				i = 0;
-				
-				var diversityFeedType = [];
-				var diversityFeedCategory = [];
-				var diversityFeedName = [];
-				var diversityFeedLink = [];
-				
-				var diversityScoreType = 10;
-				var diversityScoreCategory = 20;
-				var diversityScoreName = 50;
-				var diversityLink = 100;
-				
-				while (i != allFeed.length) {
-					var feedItem = allFeed[i];
-					
-					var j = 0;
-					
-					while (j != diversityFeedType.length) {
-						var tempItem = diversityFeedType[j];			
-						if (feedItem['Type'] && tempItem['Type'] && feedItem['Type'].indexOf(tempItem['Type']) > -1) {
-							feedItem['Score'] = feedItem['Score'] - diversityScoreType;
-						}
-						j++;
-					}
-					diversityFeedType.push(feedItem);
-					
-					j=0;
-					found = false;
-					while (j != diversityFeedLink.length) {
-						var tempItem = diversityFeedLink[j];	
-						if (feedItem['Link'] && tempItem['Link'] && feedItem['Link'].indexOf(tempItem['Link']) > -1) {
-							feedItem['Score'] = feedItem['Score'] - diversityScoreType;
-							console.log("subtracting from feed item for having same link");
-						}
-						j++;
-					}
-					diversityFeedLink.push(feedItem);
-					
-					j=0;
-					while (j != diversityFeedCategory.length) {
-						var tempItem = diversityFeedCategory[j];		
-						if (feedItem['Category'] && tempItem['Category'] && feedItem['Category'].indexOf(tempItem['Category']) > -1) {
-							feedItem['Score'] = feedItem['Score'] - diversityScoreCategory;
-						}
-						j++;
-					}
-					diversityFeedCategory.push(feedItem);
-					
-					j=0;
-					while (j != diversityFeedName.length) {
-						var tempItem = diversityFeedName[j];
-						if (feedItem['Name'] && tempItem['Name'] && feedItem['Name'].indexOf(tempItem['Name']) > -1) {
-							feedItem['Score'] = feedItem['Score'] - diversityScoreName;
-							found = true;
-						}
-						j++;
-					}
-					diversityFeedName.push(feedItem);
-					//console.log(feedItem['Type']);
-					
-					/*
-					if (feedItem1['Type'] && feedItem2['Type'] && feedItem1['Type'].indexOf(feedItem2['Type']) > -1) {
-						feedItem2['Score'] = feedItem2['Score'] - diversityScore;
-					} else if (feedItem1['Category'] && feedItem2['Category'] && feedItem1['Category'].indexOf(feedItem2['Category']) > -1) {
-						feedItem2['Score'] = feedItem2['Score'] - diversityScore;
-					} */
-					
-					i++;
-				}
+				subDivNorm();
 				
 				//Sort by scores
 				allFeed.sort(function (a, b) {
@@ -831,6 +772,307 @@ module.exports = function(passport) {
 					return item;
 		}
 		
+		function subDivNorm() {
+			var i = 0;
+			
+			var diversityFeedType = [];
+			var diversityFeedCategory = [];
+			var diversityFeedName = [];
+			var diversityFeedLink = [];
+			
+			var diversityScoreType = 10;
+			var diversityScoreCategory = 20;
+			var diversityScoreName = 50;
+			var diversityLink = 100;
+			
+			while (i != allFeed.length) {
+				var feedItem = allFeed[i];
+				
+				var j = 0;
+				
+				while (j != diversityFeedType.length) {
+					var tempItem = diversityFeedType[j];			
+					if (feedItem['Type'] && tempItem['Type'] && feedItem['Type'].indexOf(tempItem['Type']) > -1) {
+						feedItem['Score'] = feedItem['Score'] - diversityScoreType;
+					}
+					j++;
+				}
+				diversityFeedType.push(feedItem);
+				
+				j=0;
+				found = false;
+				while (j != diversityFeedLink.length) {
+					var tempItem = diversityFeedLink[j];	
+					if (feedItem['Link'] && tempItem['Link'] && feedItem['Link'].indexOf(tempItem['Link']) > -1) {
+						feedItem['Score'] = feedItem['Score'] - diversityScoreType;
+						console.log("subtracting from feed item for having same link");
+					}
+					j++;
+				}
+				diversityFeedLink.push(feedItem);
+				
+				j=0;
+				while (j != diversityFeedCategory.length) {
+					var tempItem = diversityFeedCategory[j];		
+					if (feedItem['Category'] && tempItem['Category'] && feedItem['Category'].indexOf(tempItem['Category']) > -1) {
+						feedItem['Score'] = feedItem['Score'] - diversityScoreCategory;
+					}
+					j++;
+				}
+				diversityFeedCategory.push(feedItem);
+				
+				j=0;
+				while (j != diversityFeedName.length) {
+					var tempItem = diversityFeedName[j];
+					if (feedItem['Name'] && tempItem['Name'] && feedItem['Name'].indexOf(tempItem['Name']) > -1) {
+						feedItem['Score'] = feedItem['Score'] - diversityScoreName;
+						found = true;
+					}
+					j++;
+				}
+				diversityFeedName.push(feedItem);
+				
+				i++;
+			}
+		}
+		
+		function subDivNews() {
+			var i = 0;
+			var skip = false;
+			var diversityFeedType = [];
+			var diversityFeedCategory = [];
+			var diversityFeedName = [];
+			var diversityFeedLink = [];
+			
+			var diversityScoreType = 10;
+			var diversityScoreCategory = 20;
+			var diversityScoreName = 50;
+			var diversityLink = 100;
+			
+			while (i != allFeed.length) {
+				var feedItem = allFeed[i];
+				
+				var j = 0;
+				
+				while (j != diversityFeedCategory.length) {
+					var tempItem = diversityFeedCategory[j];	
+
+					if (feed['Category'] && feedItem['Category'].indexOf("news") > -1) {
+						break;
+					}					
+					if (feedItem['Category'] && tempItem['Category'] && feedItem['Category'].indexOf(tempItem['Category']) > -1) {
+						feedItem['Score'] = feedItem['Score'] - diversityScoreCategory;
+					}
+					j++;
+				}
+				
+				if (feed['Category'] && feedItem['Category'].indexOf("news") > -1) {
+					skip = true;
+				} else {
+					diversityFeedCategory.push(feedItem);
+				}
+				
+				j = 0;
+				
+				while (j != diversityFeedType.length && !skip) {
+					var tempItem = diversityFeedType[j];
+
+					if (feedItem['Type'] && tempItem['Type'] && feedItem['Type'].indexOf(tempItem['Type']) > -1) {
+						feedItem['Score'] = feedItem['Score'] - diversityScoreType;
+					}
+					j++;
+				}
+				
+				if (!skip) {
+					diversityFeedType.push(feedItem);
+				}
+				
+				j=0;
+				
+				while (j != diversityFeedLink.length && !skip) {
+					var tempItem = diversityFeedLink[j];	
+					if (feedItem['Link'] && tempItem['Link'] && feedItem['Link'].indexOf(tempItem['Link']) > -1) {
+						feedItem['Score'] = feedItem['Score'] - diversityScoreType;
+						console.log("subtracting from feed item for having same link");
+					}
+					j++;
+				}
+				
+				if (!skip) {
+					diversityFeedLink.push(feedItem && !skip);
+				}
+				
+				j=0;
+				while (j != diversityFeedName.length) {
+					var tempItem = diversityFeedName[j];
+					if (feedItem['Name'] && tempItem['Name'] && feedItem['Name'].indexOf(tempItem['Name']) > -1) {
+						feedItem['Score'] = feedItem['Score'] - diversityScoreName;
+						found = true;
+					}
+					j++;
+				}
+				
+				if (!skip) {
+					diversityFeedName.push(feedItem);	
+				}
+				
+				skip = false;
+				
+				i++;
+			}
+		}
+		
+		function subDivFollower() {
+			var i = 0;
+			
+			var diversityFeedType = [];
+			var diversityFeedCategory = [];
+			var diversityFeedName = [];
+			var diversityFeedLink = [];
+			
+			var diversityScoreType = 10;
+			var diversityScoreCategory = 20;
+			var diversityScoreName = 50;
+			var diversityLink = 100;
+			
+			while (i != allFeed.length) {
+				var feedItem = allFeed[i];
+				
+				var j = 0;
+				
+				while (j != diversityFeedType.length) {
+					var tempItem = diversityFeedType[j];			
+					if (feedItem['Type'] && tempItem['Type'] && feedItem['Type'].indexOf(tempItem['Type']) > -1) {
+						feedItem['Score'] = feedItem['Score'] - diversityScoreType;
+					}
+					j++;
+				}
+				diversityFeedType.push(feedItem);
+				
+				j=0;
+				found = false;
+				while (j != diversityFeedLink.length) {
+					var tempItem = diversityFeedLink[j];	
+					if (feedItem['Link'] && tempItem['Link'] && feedItem['Link'].indexOf(tempItem['Link']) > -1) {
+						feedItem['Score'] = feedItem['Score'] - diversityScoreType;
+						console.log("subtracting from feed item for having same link");
+					}
+					j++;
+				}
+				diversityFeedLink.push(feedItem);
+				
+				j=0;
+				while (j != diversityFeedCategory.length) {
+					var tempItem = diversityFeedCategory[j];		
+					if (feedItem['Category'] && tempItem['Category'] && feedItem['Category'].indexOf(tempItem['Category']) > -1) {
+						feedItem['Score'] = feedItem['Score'] - diversityScoreCategory;
+					}
+					j++;
+				}
+				diversityFeedCategory.push(feedItem);
+				
+				j=0;
+				while (j != diversityFeedName.length) {
+					var tempItem = diversityFeedName[j];
+					if (feedItem['Name'] && tempItem['Name'] && feedItem['Name'].indexOf(tempItem['Name']) > -1) {
+						feedItem['Score'] = feedItem['Score'] - diversityScoreName;
+						found = true;
+					}
+					j++;
+				}
+				diversityFeedName.push(feedItem);
+				
+				i++;
+			}
+		}
+		
+		function subDivSocial() {
+			var i = 0;
+			
+			var diversityFeedType = [];
+			var diversityFeedCategory = [];
+			var diversityFeedName = [];
+			var diversityFeedLink = [];
+			
+			var diversityScoreType = 10;
+			var diversityScoreCategory = 20;
+			var diversityScoreName = 50;
+			var diversityLink = 100;
+			
+			while (i != allFeed.length) {
+				var feedItem = allFeed[i];
+				
+				var j = 0;
+				
+				while (j != diversityFeedType.length) {
+					var tempItem = diversityFeedType[j];			
+					if (feedItem['Type'] && tempItem['Type'] && feedItem['Type'].indexOf(tempItem['Type']) > -1) {
+						feedItem['Score'] = feedItem['Score'] - diversityScoreType;
+					}
+					j++;
+				}
+				diversityFeedType.push(feedItem);
+				
+				j=0;
+				found = false;
+				while (j != diversityFeedLink.length) {
+					var tempItem = diversityFeedLink[j];	
+					if (feedItem['Link'] && tempItem['Link'] && feedItem['Link'].indexOf(tempItem['Link']) > -1) {
+						feedItem['Score'] = feedItem['Score'] - diversityScoreType;
+						console.log("subtracting from feed item for having same link");
+					}
+					j++;
+				}
+				diversityFeedLink.push(feedItem);
+				
+				j=0;
+				while (j != diversityFeedCategory.length) {
+					var tempItem = diversityFeedCategory[j];		
+					if (feedItem['Category'] && tempItem['Category'] && feedItem['Category'].indexOf(tempItem['Category']) > -1) {
+						feedItem['Score'] = feedItem['Score'] - diversityScoreCategory;
+					}
+					j++;
+				}
+				diversityFeedCategory.push(feedItem);
+				
+				j=0;
+				while (j != diversityFeedName.length) {
+					var tempItem = diversityFeedName[j];
+					if (feedItem['Name'] && tempItem['Name'] && feedItem['Name'].indexOf(tempItem['Name']) > -1) {
+						feedItem['Score'] = feedItem['Score'] - diversityScoreName;
+						found = true;
+					}
+					j++;
+				}
+				diversityFeedName.push(feedItem);
+				
+				i++;
+			}
+		}
+
+		function addScoreSocial() {
+			var i = 0;
+			var smallInc = 20;
+			var largeInc = 60;
+			while(i != allFeed.length) {
+				
+				var item = allFeed[i];
+				
+				if (item['Category']) {
+					
+				} else {
+					allFeed[i]['Score'] = allFeed[i]['Score'] + smallInc;
+				}
+				
+				if (item['Action']) {
+					
+				} else {
+					allFeed[i]['Score'] = allFeed[i]['Score'] + largeInc;
+				}
+				
+				i++;
+			}
+		}
 		//}
 
     }));
