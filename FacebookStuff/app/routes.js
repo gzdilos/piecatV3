@@ -64,6 +64,15 @@ module.exports = function(app, passport) {
     // route for facebook authentication and login
 	//console.log ("Auth1");
     app.get('/auth/facebook', passport.authenticate('facebook', { scope : 'user_about_me, read_stream, user_likes, read_mailbox' })); //'read_stream, 
+	
+	app.get('/setType', function(req, res) {
+		console.log(req.query);
+		fs.writeFile('./log/userType.txt', req.query.userType, function (err) {
+								if (err) {
+									return console.log(err);
+								}
+						});
+	});
 	//console.log ("Auth2");
     //handle the callback after facebook has authenticated the user
     // app.get('/auth/facebook/callback',
