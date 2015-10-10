@@ -172,6 +172,7 @@ module.exports = function(passport) {
 		var finishedLikes = false;
 		var finishedFeed = false;
 		var finishedFriends = false;
+		var userType = "";
 		//Assume we have the access token
 		//Only can pull 100 feed items apparently
 		process.nextTick(function() {
@@ -392,6 +393,15 @@ module.exports = function(passport) {
 								console.log("finished getting friends...");
 								//getFeed();
 							});
+							
+							//Reading user types
+							fs.readFile('./log/userType.txt', 'utf8', function (err,data) {
+								if (err) {
+									return console.log(err);
+								}
+								userType = data;
+								console.log(data);
+							});
 						} else {
 							//Print out error message
 							console.log(response);
@@ -589,6 +599,19 @@ module.exports = function(passport) {
 					i++;
 				}
 				
+				console.log("Received userType: " + userType);
+				console.log("Received type: " + typeof(userType));
+				//Add score for socialite
+				//Socialite
+				//Add more score
+				if (userType.indexOf("Socialite") > -1) {
+					addScoreSocial();
+				} else if (userType.indexOf("Follower") > -1) {
+					addScoreFollower();
+				} else if (userType.indexOf("News Reader") > -1) {
+					addScoreNews();
+				}
+				
 				//Sort by scores
 				allFeed.sort(function (a, b) {
 					var score1 = a['Score'];
@@ -601,16 +624,12 @@ module.exports = function(passport) {
 					}
 				});
 				
-				//Add score for socialite
-				//Socialite
-				//Add more score
-				/*
-				if (socialte) {
-					addScoreSocial()
-				}*/
-				
 				//Subtract score for diversity
-				subDivNorm();
+				if (userType.indexOf("News Reader") > -1) {
+					subDivNews();
+				} else {
+					subDivNorm();
+				}
 				
 				//Sort by scores
 				allFeed.sort(function (a, b) {
@@ -1067,6 +1086,42 @@ module.exports = function(passport) {
 				if (item['Action']) {
 					
 				} else {
+					allFeed[i]['Score'] = allFeed[i]['Score'] + largeInc;
+				}
+				
+				i++;
+			}
+		}
+		
+		function addScoreFollower() {
+			var i = 0;
+			var smallInc = 20;
+			var largeInc = 60;
+			while(i != allFeed.length) {
+				
+				var item = allFeed[i];
+				
+				if (item['Category']) {
+					allFeed[i]['Score'] = allFeed[i]['Score'] + largeInc;
+				}
+				
+				if (item['Action']) {
+					allFeed[i]['Score'] = allFeed[i]['Score'] + smallInc;
+				}
+				
+				i++;
+			}
+		}
+		
+		function addScoreNews() {
+			var i = 0;
+			var smallInc = 20;
+			var largeInc = 60;
+			while(i != allFeed.length) {
+				
+				var item = allFeed[i];
+				
+				if (item['Category'].indexOf("news") > -1) {
 					allFeed[i]['Score'] = allFeed[i]['Score'] + largeInc;
 				}
 				
