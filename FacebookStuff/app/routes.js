@@ -72,6 +72,7 @@ module.exports = function(app, passport) {
 									return console.log(err);
 								}
 						});
+		res.redirect('/auth/facebook');
 	});
 	//console.log ("Auth2");
     //handle the callback after facebook has authenticated the user

@@ -631,38 +631,44 @@ module.exports = function(passport) {
 				
 				console.log("Printing ranked list");
 				while (i < allFeed.length-1) {
-					feedText = feedText + '{"Name": ' + '"' + allFeed[i]['Name'] + '",\n';
+					var name = allFeed[i]['Name'];
+					name = formatStr(name);
+					feedText = feedText + '{"Name": ' + '"' + name + '",\n';
 					feedText = feedText + '"Category": ' + '"' + allFeed[i]['Category'] + '",\n';
 					var msg = '';
 					msg += allFeed[i]['Message'];
-					formatStr(msg);
-					msg = msg.replace(/[\u0000-\u0019]+/g,""); 
-					msg = msg.replace(/"/g, '');
+					msg = formatStr(msg);
 					//msg = "DUMMY MESSAGE";
 					feedText = feedText + '"Message": ' + '"' + msg + '",\n';
 					feedText = feedText + '"Picture": ' + '"' + allFeed[i]['Picture'] + '",\n';
 					feedText = feedText + '"Link": ' + '"' + allFeed[i]['Link'] + '",\n';
 					feedText = feedText + '"Source": ' + '"' + allFeed[i]['Source'] + '",\n';
 					feedText = feedText + '"Type": ' + '"' + allFeed[i]['Type'] + '",\n';
-					feedText = feedText + '"Action": ' + '"' + allFeed[i]['Action'] + '",\n';
+					var action = allFeed[i]['Action'];
+					action = formatStr(action);
+					feedText = feedText + '"Action": ' + '"' + action + '",\n';
 					feedText = feedText + '"CreatedTime": ' + '"' + allFeed[i]['CreatedTime'] + '",\n';
 					feedText = feedText + '"Score": ' + '"' + allFeed[i]['Score'] + '"},\n';
 					i++;
 				}
-				feedText = feedText + '{"Name": ' + '"' + allFeed[i]['Name'] + '",\n';
+					var name = allFeed[i]['Name'];
+					name = formatStr(name);
+					feedText = feedText + '{"Name": ' + '"' + name + '",\n';
 					feedText = feedText + '"Category": ' + '"' + allFeed[i]['Category'] + '",\n';
 					var msg = '';
-					msg += allFeed[i]['Message'];
-					msg = msg.replace(/"/g, '');
+					msg = msg += allFeed[i]['Message'];
+					formatStr(msg);
 					//msg = "DUMMY MESSAGE";
 					feedText = feedText + '"Message": ' + '"' + msg + '",\n';
 					feedText = feedText + '"Picture": ' + '"' + allFeed[i]['Picture'] + '",\n';
 					feedText = feedText + '"Link": ' + '"' + allFeed[i]['Link'] + '",\n';
 					feedText = feedText + '"Source": ' + '"' + allFeed[i]['Source'] + '",\n';
 					feedText = feedText + '"Type": ' + '"' + allFeed[i]['Type'] + '",\n';
-					feedText = feedText + '"Action": ' + '"' + allFeed[i]['Action'] + '",\n';
+					var action = allFeed[i]['Action'];
+					action = formatStr(action);
+					feedText = feedText + '"Action": ' + '"' + action + '",\n';
 					feedText = feedText + '"CreatedTime": ' + '"' + allFeed[i]['CreatedTime'] + '",\n';
-				feedText = feedText + '"Score": ' + '"' + allFeed[i]['Score'] + '"}]';
+					feedText = feedText + '"Score": ' + '"' + allFeed[i]['Score'] + '"}]';
 				
 				fs.writeFile('./log/properFeed.txt', feedText, function (err) {
 								if (err) {
@@ -676,44 +682,14 @@ module.exports = function(passport) {
 			
 		});
 		function formatStr(str) {
-			//var re = /\0/g;
-			// str = str.replace(/\n/g, " ")  
-							   // .replace(/\\'/g, "\\'")
-							   // .replace(/\\&/g, "\\&")
-							   // .replace(/\\r/g, " ")
-							   // .replace(/\\t/g, "\\t")
-							   // .replace(/\\b/g, "")
-							   // .replace(/\\f/g, "\\f")
-							   // .replace('"','')
-							   // .replace('""','')
-							   // .replace('"""','')
-							   // .replace(re, "");
-								// str = str.replace(/\n/g, " ")  
-							   // .replace(/\\'/g, "\\'")
-							   // .replace(/\\&/g, "\\&")
-							   // .replace(/\\r/g, " ")
-							   // .replace(/\\t/g, "\\t")
-							   // .replace(/\\b/g, "")
-							   // .replace(/\\f/g, "\\f")
-							   // .replace('"','')
-							   // .replace('""','')
-							   // .replace('"""','')
-							   // .replace(/"/g,"")
-							   // .replace(re, "");
-								// str = str.replace(/\n/g, " ")  
-							   // .replace(/\\'/g, "\\'")
-							   // .replace(/\\&/g, "\\&")
-							   // .replace(/\\r/g, " ")
-							   // .replace(/\\t/g, "\\t")
-							   // .replace(/\\b/g, "")
-							   // .replace(/\\f/g, "\\f")
-							   // .replace('"','')
-							   // .replace('""','')
-							   // .replace('"""','')
-							   // .replace(/"/g,"")
-							   // .replace(re, "");
+			if (!str) {
+				return str;
+			} 
 			str = str.replace(/['"]+/g, '');
-			str.replace(/[\x00-\x1F\x7F-\x9F]/g, "");
+			str = str.replace(/[\x00-\x1F\x7F-\x9F]/g, "");
+			str = str.replace(/[\u0000-\u0019]+/g,""); 
+			str = str.replace(/"/g, '');
+			return str;
 		}
 		function waitFriends() {
 				if (!finishedFriends) {
