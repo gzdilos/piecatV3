@@ -675,8 +675,8 @@ module.exports = function(passport) {
 					feedText = feedText + '{"Name": ' + '"' + name + '",\n';
 					feedText = feedText + '"Category": ' + '"' + allFeed[i]['Category'] + '",\n';
 					var msg = '';
-					msg = msg += allFeed[i]['Message'];
-					formatStr(msg);
+					msg += allFeed[i]['Message'];
+					msg = formatStr(msg);
 					//msg = "DUMMY MESSAGE";
 					feedText = feedText + '"Message": ' + '"' + msg + '",\n';
 					feedText = feedText + '"Picture": ' + '"' + allFeed[i]['Picture'] + '",\n';
@@ -852,7 +852,7 @@ module.exports = function(passport) {
 				while (j != diversityFeedCategory.length) {
 					var tempItem = diversityFeedCategory[j];	
 
-					if (feed['Category'] && feedItem['Category'].indexOf("news") > -1) {
+					if (feedItem['Category'] && feedItem['Category'].indexOf("news") > -1) {
 						break;
 					}					
 					if (feedItem['Category'] && tempItem['Category'] && feedItem['Category'].indexOf(tempItem['Category']) > -1) {
@@ -861,7 +861,7 @@ module.exports = function(passport) {
 					j++;
 				}
 				
-				if (feed['Category'] && feedItem['Category'].indexOf("news") > -1) {
+				if (feedItem['Category'] && feedItem['Category'].indexOf("news") > -1) {
 					skip = true;
 				} else {
 					diversityFeedCategory.push(feedItem);
@@ -1057,12 +1057,11 @@ module.exports = function(passport) {
 					
 				} else {
 					allFeed[i]['Score'] = allFeed[i]['Score'] + smallInc;
-				}
-				
-				if (item['Action']) {
+					if (item['Action']) {
 					
-				} else {
-					allFeed[i]['Score'] = allFeed[i]['Score'] + largeInc;
+					} else {
+						allFeed[i]['Score'] = allFeed[i]['Score'] + largeInc;
+					}
 				}
 				
 				i++;
@@ -1078,12 +1077,12 @@ module.exports = function(passport) {
 				var item = allFeed[i];
 				
 				if (item['Category']) {
-					allFeed[i]['Score'] = allFeed[i]['Score'] + largeInc;
-				}
-				
-				if (item['Action']) {
 					allFeed[i]['Score'] = allFeed[i]['Score'] + smallInc;
+					if (!item['Action']) {
+						allFeed[i]['Score'] = allFeed[i]['Score'] + largeInc;
+					}
 				}
+
 				
 				i++;
 			}
@@ -1094,11 +1093,13 @@ module.exports = function(passport) {
 			var smallInc = 20;
 			var largeInc = 60;
 			while(i != allFeed.length) {
-				
 				var item = allFeed[i];
 				
-				if (item['Category'].indexOf("news") > -1) {
+				if (item['Category'] && item['Category'].indexOf("news") > -1) {
 					allFeed[i]['Score'] = allFeed[i]['Score'] + largeInc;
+					if (!item['Action']) {
+						allFeed[i]['Score'] = allFeed[i]['Score'] + smallInc;
+					}
 				}
 				
 				i++;
