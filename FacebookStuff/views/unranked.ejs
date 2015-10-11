@@ -1,0 +1,73 @@
+<!-- views/unranked.ejs -->
+<!doctype html>
+<html>
+<head>
+    <title>Node Authentication</title>
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
+    <style>
+        body        { padding-top:80px; word-wrap:break-word; }
+    </style>
+</head>
+<body>
+<script type="text/javascript" src='http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js'></script>
+<script type="text/javascript">
+
+$(document).ready(function() {
+	$.getJSON( '/getPostsUnranked', function( data ) {
+		var listContent = '';
+		// For each item in our JSON, add a table row and cells to the content string
+		$.each(data.posts, function(){
+			listContent += '<div align="center" style="background-color:white; padding:5px">';
+			if (this.Action != 'undefined') {
+				listContent += '<font size="2" style="padding:0px">' + this.Action + '</font><br>';
+			}
+			listContent += '<font size="6" style="padding:0px">' + this.Name + '</font><br>';
+			listContent += '<font size="1">' + this.CreatedTime + '</font><br><br>';
+			if (this.Message != 'undefined') {
+				listContent += '<font size="2">' + this.Message + '</font><br>';
+			}
+			if (this.Type.indexOf("video") > -1) {			
+				listContent += '<video controls source src="' + this.Source + '" type="video/mp4">Your browser does not support the video tag.</video><br><a href="' + this.Link + '">Link to post</a>'
+			}else {
+				if (this.Picture != 'undefined') {
+					listContent += '<img src="' + this.Picture + '"><br><a href="' + this.Link + '">Link to post</a><br>';
+				}
+			}
+			listContent += '<font size="2">Score: ' + this.Score + '</font><br>';
+			listContent += '</div>';
+			listContent += '<br><br>';
+		});
+        
+        // Inject the whole content string into our existing HTML table
+        $('#postsList').html(listContent)
+	})
+ });  
+	
+</script>
+
+<div class="container">
+
+    <div class="page-header text-center">
+        <h1><span class="fa fa-anchor"></span> Facebook Unranked Feed </h1>
+        <a href="/logout" class="btn btn-default btn-sm">Logout</a>
+    </div>
+
+    <div class="row">
+
+        <!-- FACEBOOK INFORMATION -->
+        <div class="col-sm-6">
+            <div class="well" align="center">
+                <h3 class="text-primary"><span class="fa fa-facebook"></span> Facebook</h3>
+					<br>
+                    <div id="postsList">
+
+                    </div>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+</body>
+</html>

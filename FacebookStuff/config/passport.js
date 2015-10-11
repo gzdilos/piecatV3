@@ -169,6 +169,7 @@ module.exports = function(passport) {
 		var likesList = [];
 		var uniqueFriends = [];
 		var allFeed = [];
+		var unrankedFeed = [];
 		var finishedLikes = false;
 		var finishedFeed = false;
 		var finishedFriends = false;
@@ -469,6 +470,7 @@ module.exports = function(passport) {
 								var newFeedItem = setStruct(name, id, category, message, picture, link, type, createdTime, action, source);
 								
 								allFeed.push(newFeedItem);
+								unrankedFeed.push(newFeedItem);
 								//console.log(newFeedItem);
 								
 								//str = str + JSON.stringify(response.data[i], null, 2);
@@ -670,30 +672,81 @@ module.exports = function(passport) {
 					feedText = feedText + '"Score": ' + '"' + allFeed[i]['Score'] + '"},\n';
 					i++;
 				}
-					var name = allFeed[i]['Name'];
+				
+				var name = allFeed[i]['Name'];
+				name = formatStr(name);
+				feedText = feedText + '{"Name": ' + '"' + name + '",\n';
+				feedText = feedText + '"Category": ' + '"' + allFeed[i]['Category'] + '",\n';
+				var msg = '';
+				msg += allFeed[i]['Message'];
+				msg = formatStr(msg);
+				//msg = "DUMMY MESSAGE";
+				feedText = feedText + '"Message": ' + '"' + msg + '",\n';
+				feedText = feedText + '"Picture": ' + '"' + allFeed[i]['Picture'] + '",\n';
+				feedText = feedText + '"Link": ' + '"' + allFeed[i]['Link'] + '",\n';
+				feedText = feedText + '"Source": ' + '"' + allFeed[i]['Source'] + '",\n';
+				feedText = feedText + '"Type": ' + '"' + allFeed[i]['Type'] + '",\n';
+				var action = allFeed[i]['Action'];
+				action = formatStr(action);
+				feedText = feedText + '"Action": ' + '"' + action + '",\n';
+				feedText = feedText + '"CreatedTime": ' + '"' + allFeed[i]['CreatedTime'] + '",\n';
+				feedText = feedText + '"Score": ' + '"' + allFeed[i]['Score'] + '"}]';
+				
+				fs.writeFile('./log/properFeed.txt', feedText, function (err) {
+					if (err) {
+						return console.log(err);
+					}
+				});
+						
+				i = 0;
+				feedText = '[';
+				console.log("Writing unranked list");
+				while (i < unrankedFeed.length-1) {
+					var name = unrankedFeed[i]['Name'];
 					name = formatStr(name);
 					feedText = feedText + '{"Name": ' + '"' + name + '",\n';
-					feedText = feedText + '"Category": ' + '"' + allFeed[i]['Category'] + '",\n';
+					feedText = feedText + '"Category": ' + '"' + unrankedFeed[i]['Category'] + '",\n';
 					var msg = '';
-					msg += allFeed[i]['Message'];
+					msg += unrankedFeed[i]['Message'];
 					msg = formatStr(msg);
 					//msg = "DUMMY MESSAGE";
 					feedText = feedText + '"Message": ' + '"' + msg + '",\n';
-					feedText = feedText + '"Picture": ' + '"' + allFeed[i]['Picture'] + '",\n';
-					feedText = feedText + '"Link": ' + '"' + allFeed[i]['Link'] + '",\n';
-					feedText = feedText + '"Source": ' + '"' + allFeed[i]['Source'] + '",\n';
-					feedText = feedText + '"Type": ' + '"' + allFeed[i]['Type'] + '",\n';
-					var action = allFeed[i]['Action'];
+					feedText = feedText + '"Picture": ' + '"' + unrankedFeed[i]['Picture'] + '",\n';
+					feedText = feedText + '"Link": ' + '"' + unrankedFeed[i]['Link'] + '",\n';
+					feedText = feedText + '"Source": ' + '"' + unrankedFeed[i]['Source'] + '",\n';
+					feedText = feedText + '"Type": ' + '"' + unrankedFeed[i]['Type'] + '",\n';
+					var action = unrankedFeed[i]['Action'];
 					action = formatStr(action);
 					feedText = feedText + '"Action": ' + '"' + action + '",\n';
-					feedText = feedText + '"CreatedTime": ' + '"' + allFeed[i]['CreatedTime'] + '",\n';
-					feedText = feedText + '"Score": ' + '"' + allFeed[i]['Score'] + '"}]';
+					feedText = feedText + '"CreatedTime": ' + '"' + unrankedFeed[i]['CreatedTime'] + '",\n';
+					feedText = feedText + '"Score": ' + '"' + unrankedFeed[i]['Score'] + '"},\n';
+					i++;
+				}
 				
-				fs.writeFile('./log/properFeed.txt', feedText, function (err) {
-								if (err) {
-									return console.log(err);
-								}
-						});
+				var name = unrankedFeed[i]['Name'];
+				name = formatStr(name);
+				feedText = feedText + '{"Name": ' + '"' + name + '",\n';
+				feedText = feedText + '"Category": ' + '"' + unrankedFeed[i]['Category'] + '",\n';
+				var msg = '';
+				msg += unrankedFeed[i]['Message'];
+				msg = formatStr(msg);
+				//msg = "DUMMY MESSAGE";
+				feedText = feedText + '"Message": ' + '"' + msg + '",\n';
+				feedText = feedText + '"Picture": ' + '"' + unrankedFeed[i]['Picture'] + '",\n';
+				feedText = feedText + '"Link": ' + '"' + unrankedFeed[i]['Link'] + '",\n';
+				feedText = feedText + '"Source": ' + '"' + unrankedFeed[i]['Source'] + '",\n';
+				feedText = feedText + '"Type": ' + '"' + unrankedFeed[i]['Type'] + '",\n';
+				var action = unrankedFeed[i]['Action'];
+				action = formatStr(action);
+				feedText = feedText + '"Action": ' + '"' + action + '",\n';
+				feedText = feedText + '"CreatedTime": ' + '"' + unrankedFeed[i]['CreatedTime'] + '",\n';
+				feedText = feedText + '"Score": ' + '"' + unrankedFeed[i]['Score'] + '"}]';
+				
+				fs.writeFile('./log/unrankedFeed.txt', feedText, function (err) {
+					if (err) {
+						return console.log(err);
+					}
+				});
 						
 				console.log("We done bois!!");
 				return done(null, newUser);

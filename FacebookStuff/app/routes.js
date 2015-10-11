@@ -54,6 +54,9 @@ module.exports = function(app, passport) {
         res.render('profile.ejs')
     });
 	
+	app.get('/unranked', isLoggedIn, function(req, res) {
+        res.render('unranked.ejs')
+    });
 	// app.get('/profile', function(req, res) {
         // res.render('profile.ejs');
     // });
@@ -101,6 +104,18 @@ module.exports = function(app, passport) {
 	
 	app.get('/getPosts', function(req, res) {
         fs.readFile('../FacebookStuff/log/properFeed.txt', 'utf8', function (err,data) {
+            if (err) {
+                return console.log(err);
+            }
+            var verified = JSON.stringify(data);
+            var parsed = JSON.parse(verified);
+            parsed = JSON.parse(parsed);
+            res.json({posts: parsed});
+        });
+    });
+	
+	app.get('/getPostsUnranked', function(req, res) {
+        fs.readFile('../FacebookStuff/log/unrankedFeed.txt', 'utf8', function (err,data) {
             if (err) {
                 return console.log(err);
             }
