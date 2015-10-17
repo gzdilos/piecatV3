@@ -1,6 +1,11 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: sample-thesis.aux
+A level-1 auxiliary file: abstract.aux
+A level-1 auxiliary file: acknowledgements.aux
 A level-1 auxiliary file: introduction.aux
 A level-1 auxiliary file: background.aux
-A level-1 auxiliary file: plan.aux
+A level-1 auxiliary file: design.aux
+A level-1 auxiliary file: implementation.aux
+A level-1 auxiliary file: evaluation.aux
+A level-1 auxiliary file: conclusion.aux
 The style file: alpha.bst
 Database file #1: pubs.bib

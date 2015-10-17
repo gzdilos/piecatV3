@@ -2,9 +2,19 @@
 \contentsline {chapter}{\numberline {2}Background}{3}
 \contentsline {section}{\numberline {2.1}User Modelling}{3}
 \contentsline {section}{\numberline {2.2}Ranking Algorithms}{6}
-\contentsline {chapter}{\numberline {3}Plan}{11}
+\contentsline {chapter}{\numberline {3}Design}{11}
 \contentsline {section}{\numberline {3.1}Proposal}{11}
 \contentsline {section}{\numberline {3.2}User Modelling}{11}
 \contentsline {section}{\numberline {3.3}Overall Design of the System}{12}
 \contentsline {section}{\numberline {3.4}Evaluation Plan}{14}
-\contentsline {chapter}{Bibliography}{16}
+\contentsline {chapter}{\numberline {4}Implementation}{16}
+\contentsline {section}{\numberline {4.1}Proposal}{16}
+\contentsline {section}{\numberline {4.2}User Modelling}{16}
+\contentsline {section}{\numberline {4.3}Overall Design of the System}{17}
+\contentsline {section}{\numberline {4.4}Evaluation Plan}{19}
+\contentsline {chapter}{\numberline {5}Evaluation}{21}
+\contentsline {section}{\numberline {5.1}Results}{21}
+\contentsline {section}{\numberline {5.2}Discussion}{21}
+\contentsline {chapter}{\numberline {6}Conclusion}{22}
+\contentsline {section}{\numberline {6.1}Future Work}{22}
+\contentsline {chapter}{Bibliography}{23}

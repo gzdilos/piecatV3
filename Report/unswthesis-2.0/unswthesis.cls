@@ -205,6 +205,7 @@
 \newcommand{\thesisdegree}[1]{\gdef\ThesisDegreeName{#1}}
 \newcommand{\thesisdate}[1]{\gdef\ThesisDate{#1}}
 \newcommand{\thesissupervisor}[1]{\gdef\ThesisSupervisorName{#1}}
+\newcommand{\thesisassessor}[1]{\gdef\ThesisAssessorName{#1}}
 
 \newcommand{\ThesisTitle}{\@latex@error{No \noexpand\thesistitle given}\@ehc}
 % Made a change here
@@ -214,6 +215,7 @@
 \newcommand{\ThesisDegreeName}{\@latex@error{No \noexpand\thesisdegree given}\@ehc}
 \newcommand{\ThesisDate}{\@latex@error{No \noexpand\thesisdate given}\@ehc}
 \newcommand{\ThesisSupervisorName}{\@latex@error{No \noexpand\thesissupervisor given}\@ehc}
+\newcommand{\ThesisAssessorName}{\@latex@error{No \noexpand\thesisassessor given}\@ehc}
 
 \newcommand{\ThesisInsideMark}{}
 \newcommand{\ThesisOutsideMark}{}
@@ -448,17 +450,18 @@ Graduate Research.
             by
 	    \vskip 0pt plus 2fill%
 	    {\largecoverpagefont \ThesisAuthor \par}%
-            \vskip 0pt plus 12fill % Was 12
+            \vskip 0pt plus 10fill % Was 12
 	    Thesis submitted as a requirement for the degree of\\[1ex]
             \ThesisDegreeName \par%
-	    \vskip 0pt plus 12fill % was 12
-            \begin{tabular}{@{}@{}rl} % was @{}rl
+	    \vskip 0pt plus 10fill % was 12
+            \begin{tabular}{@{}rl} % was @{}rl
               Submitted: & \ThesisDate \vrule width 0pt depth 8pt\\
-              Supervisor: & \ThesisSupervisorName
+              Supervisor: & \ThesisSupervisorName \vrule width 0pt depth 8pt\\
+			  Assessor: & \ThesisAssessorName
 			  %Student ID: & \ThesisAuthorZid \vrule width 0pt depth 8pt\\
-              %Topic ID: & \ThesisTopicID
+			  %Topic ID: & \ThesisTopicID
             \end{tabular}
-            \hfill
+            %\hfill
             \begin{tabular}{rl@{}} % was r1@{}
 			  %Submitted: & \ThesisDate \vrule width 0pt depth 8pt\\
               %Supervisor: & \ThesisSupervisorName	
