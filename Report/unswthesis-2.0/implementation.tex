@@ -9,6 +9,32 @@
 \ldots
 \end{itemize}
 
+Our aim was to create a more personalized view of the Facebook feed. The implementation of this solution followed a top down approach. The problem was broken down into the following parts:
+
+\begin{itemize}
+ 	\item Pulling Data From Facebook Feed
+	\item Ranking Algorithm
+  	\item User Interface
+\ldots
+\end{itemize}
+
+To implement this solution we have used nodejs due to it's flexibility and diversity. Nodejs also has many modules that allows simpler and easy to understand interactions with the Facebook API. 
+
+\section{Facebook API and App}
+
+\begin{itemize}
+	\item Facebook App
+  	\item Nodejs modules
+	\item Permission Tokens
+\ldots 
+\end{itemize}
+
+Facebook requires the creation of an app in order to allow a website to pull any data from Facebook. The app begins in a test mode where a limited amount of users would be able to 
+
+To grab the feed data from Facebook we utilized nodejs module written by Thuzi. This module communicates with the Graph API provided by Facebook that is used to gather information from the feed. Another module that was used was the passport-facebook module written by Jared Hanson. This module was mainly used to allow ease of authentication for Facebook. This means that we do not directly control the authentication and we are not capable of storing usernames or passwords. 
+
+Before we can begin pulling data from the feed we first need to get permissions from the user about which data that we need. 
+
 \section{Ranking Algorithm}
 
 \begin{itemize}
@@ -16,26 +42,60 @@
 \ldots
 \end{itemize}
 
+The algorithm for ranking the feed from Facebook comes from the combination of many other algorithms that have been researched. The algorithm contains the following key components:
+
+\begin{itemize}
+	\item Topic Classification
+ 	\item Connections
+  	\item Freshness
+	\item Diversity
+	\item User Modelling
+\ldots
+\end{itemize}
+
+Each set component will provide either a positive or negative score to each feed post that we have received from the feed.
+
+Our implementation of the Topic classification module followed an idea from Szo~\cite{szomszor2008semantic} where a search of Wikipedia can be used to generalise the tag to be a topic. To do this we decided to go through the user's likes and do a wikipedia search in order to determine the topic. To do the Wikipedia search we utilized a nodejs module called wikipedia-js written by kenshiro.
+
+Our implementation of the Connections module involved looking at the friends the user's has recently messaged. We do not directly look into the message but do consider the friend that the user has recently talked to. 
+
+Our implementation of the Freshness followed an idea from Aga~\cite{Aga2014} where we assigned a score to each post and decreased the score depending on the post's creation time. 
+
+Our implementation of the Diversity followed an idea from Aga~\cite{Aga2014} where we apply a negative score to consecutive posts that are similar.
+
+To do user modelling, we generalized three major models. These models came from the research done by Bon~\cite{bonds2010myspace} and Nad~\cite{nadkarni2012people}. They were:
+
+\begin{itemize}
+	\item Socialite
+ 	\item News Reader
+  	\item Follower
+\ldots
+\end{itemize}
+
+A Socialite is a user who mainly uses Facebook to see posts from friends or families.
+
+A News Reader is a user who mainly uses Facebook to keep up-to-date with the news.
+
+A Follower is a user who uses Facebook to see posts from organisations.
+
+These may not be the only types of users so we conducted a survey and used a survey distributor called Survey Monkey to distribute the survey. We received over 100 responses and have analysed these responses for any particular notable patterns. In this analysis we have concluded that the three types that we concluded that the three types that we orignally have was suitable.
+
 \section{User Interface}
 
 \begin{itemize}
-  \item Discuss our user interface
-  \item Mention it is not focus
+  	\item Picture of interface
+  	\item Walkthrough?
 \ldots
 \end{itemize}
 
 \section{Problems Encountered}
 
 \begin{itemize}
-  \item Discuss challenges that we faced
+  	\item Facebook API Limitations
+	\item Paging
+	\item Asynchronous vs Synchronous
 \ldots
 \end{itemize}
 
-\section{Facebook API Limitations}
 
-\begin{itemize}
-  \item This could probably be included in the problems encountered
-  \item Talk about Facebook api
-\ldots
-\end{itemize}
 
