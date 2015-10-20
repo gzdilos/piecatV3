@@ -3,18 +3,18 @@
 \contentsline {section}{\numberline {2.1}User Modelling}{3}
 \contentsline {section}{\numberline {2.2}Ranking Algorithms}{6}
 \contentsline {chapter}{\numberline {3}Design}{11}
-\contentsline {section}{\numberline {3.1}Proposal}{11}
-\contentsline {section}{\numberline {3.2}User Modelling}{11}
-\contentsline {section}{\numberline {3.3}Overall Design of the System}{12}
-\contentsline {section}{\numberline {3.4}Evaluation Plan}{14}
-\contentsline {chapter}{\numberline {4}Implementation}{16}
-\contentsline {section}{\numberline {4.1}Proposal}{16}
-\contentsline {section}{\numberline {4.2}User Modelling}{16}
-\contentsline {section}{\numberline {4.3}Overall Design of the System}{17}
-\contentsline {section}{\numberline {4.4}Evaluation Plan}{19}
-\contentsline {chapter}{\numberline {5}Evaluation}{21}
-\contentsline {section}{\numberline {5.1}Results}{21}
-\contentsline {section}{\numberline {5.2}Discussion}{21}
-\contentsline {chapter}{\numberline {6}Conclusion}{22}
-\contentsline {section}{\numberline {6.1}Future Work}{22}
-\contentsline {chapter}{Bibliography}{23}
+\contentsline {section}{\numberline {3.1}User Modelling}{11}
+\contentsline {section}{\numberline {3.2}System Architecture}{12}
+\contentsline {chapter}{\numberline {4}Implementation}{14}
+\contentsline {section}{\numberline {4.1}Approach}{14}
+\contentsline {section}{\numberline {4.2}Facebook API and App}{15}
+\contentsline {section}{\numberline {4.3}Ranking Algorithm}{15}
+\contentsline {section}{\numberline {4.4}User Interface}{17}
+\contentsline {section}{\numberline {4.5}Problems Encountered}{17}
+\contentsline {chapter}{\numberline {5}Evaluation}{18}
+\contentsline {section}{\numberline {5.1}Evaluation Method}{18}
+\contentsline {section}{\numberline {5.2}Results}{19}
+\contentsline {section}{\numberline {5.3}Discussion}{19}
+\contentsline {chapter}{\numberline {6}Conclusion}{20}
+\contentsline {section}{\numberline {6.1}Future Work}{20}
+\contentsline {chapter}{Bibliography}{21}
