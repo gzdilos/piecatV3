@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2015.10.17)  21 OCT 2015 00:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2015.10.17)  21 OCT 2015 13:42
 entering extended mode
 **C:/Users/Geoffrey/Desktop/piecatV3/Report/unswthesis-2.0/sample-thesis.tex
 (C:/Users/Geoffrey/Desktop/piecatV3/Report/unswthesis-2.0/sample-thesis.tex
@@ -313,29 +313,49 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 ]
 [12 <./images/blockdiagram.jpg>]) [13] (implementation.tex
 Chapter 4.
-[14
+
+Underfull \vbox (badness 3000) has occurred while \output is active []
+
+ [14
 
 
 
-] [15]
-Overfull \hbox (10.22087pt too wide) in paragraph at lines 58--59
-[]\OT1/cmr/m/n/10.95 Our im-ple-men-ta-tion of the Topic clas-si-fi-ca-tion mod
--ule fol-lowed an idea from Szo [[]]
+]
+[15] [16] <images/mainscreen.png, id=124, 873.2625pt x 333.49594pt>
+File: images/mainscreen.png Graphic file (type png)
+
+<use images/mainscreen.png>
+Package pdftex.def Info: images/mainscreen.png used on input line 68.
+(pdftex.def)             Requested size: 436.63017pt x 166.74756pt.
+
+Overfull \hbox (24.0652pt too wide) in paragraph at lines 68--69
+ [] 
  []
 
-[16]) [17] (evaluation.tex
+<images/rankedFeed.png, id=126, 874.01532pt x 654.19406pt>
+File: images/rankedFeed.png Graphic file (type png)
+
+<use images/rankedFeed.png>
+Package pdftex.def Info: images/rankedFeed.png used on input line 77.
+(pdftex.def)             Requested size: 437.00659pt x 327.09622pt.
+
+Overfull \hbox (24.44162pt too wide) in paragraph at lines 77--78
+ [] 
+ []
+
+[17 <./images/mainscreen.png>]) [18 <./images/rankedFeed.png>] (evaluation.tex
 Chapter 5.
-[18
+[19
 
 
 
 ]
 
-LaTeX Warning: Reference `app1' on page 19 undefined on input line 29.
+LaTeX Warning: Reference `app1' on page 20 undefined on input line 29.
 
-) [19] (conclusion.tex
+) [20] (conclusion.tex
 Chapter 6.
-) [20
+) [21
 
 
 
@@ -343,7 +363,7 @@ Chapter 6.
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ™ in font cmr10!
-) [21
+) [22
 
 
 
@@ -355,10 +375,10 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 3264 strings out of 493673
- 49546 string characters out of 3141951
+ 3274 strings out of 493673
+ 49780 string characters out of 3141951
  120991 words of memory out of 3000000
- 6522 multiletter control sequences out of 15000+200000
+ 6530 multiletter control sequences out of 15000+200000
  17884 words of font info for 43 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
  36i,13n,45p,1105b,424s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -371,9 +391,9 @@ sktop/Miktex/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Geoffrey/Desktop
 ktex/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/Geoffrey/Desktop/Mikte
 x/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/Geoffrey/Desktop/Miktex/fonts/t
 ype1/urw/helvetic/uhvr8a.pfb>
-Output written on sample-thesis.pdf (27 pages, 492831 bytes).
+Output written on sample-thesis.pdf (28 pages, 585736 bytes).
 PDF statistics:
- 167 PDF objects out of 1000 (max. 8388607)
+ 175 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 31 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 41 words of extra memory for PDF output out of 10000 (max. 10000000)
 
