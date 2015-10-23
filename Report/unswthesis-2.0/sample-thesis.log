@@ -1,13 +1,13 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2015.10.17)  21 OCT 2015 13:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2015.10.23)  23 OCT 2015 14:39
 entering extended mode
-**C:/Users/Geoffrey/Desktop/piecatV3/Report/unswthesis-2.0/sample-thesis.tex
-(C:/Users/Geoffrey/Desktop/piecatV3/Report/unswthesis-2.0/sample-thesis.tex
+**C:/Users/Geoffrey/Desktop/piecatV2/Report/unswthesis-2.0/sample-thesis.tex
+(C:/Users/Geoffrey/Desktop/piecatV2/Report/unswthesis-2.0/sample-thesis.tex
 LaTeX2e <2015/01/01> patch level 2
 Babel <3.9m> and hyphenation patterns for 69 languages loaded.
 (unswthesis.cls
 Document Class: unswthesis 2015/04/30 v2.0.1 Faculty of Engineering, University
  of NSW Thesis Class
-(C:\Users\Geoffrey\Desktop\Miktex\tex\latex\fancyhdr\fancyhdr.sty
+(C:\Users\Geoffrey\Desktop\MiKTex\tex\latex\fancyhdr\fancyhdr.sty
 \fancy@headwidth=\skip41
 \f@ncyO@elh=\skip42
 \f@ncyO@erh=\skip43
@@ -18,43 +18,43 @@ Document Class: unswthesis 2015/04/30 v2.0.1 Faculty of Engineering, University
 \f@ncyO@olf=\skip48
 \f@ncyO@orf=\skip49
 )
-(C:\Users\Geoffrey\Desktop\Miktex\tex\latex\graphics\graphics.sty
+(C:\Users\Geoffrey\Desktop\MiKTex\tex\latex\graphics\graphics.sty
 Package: graphics 2014/10/28 v1.0p Standard LaTeX Graphics (DPC,SPQR)
 
-(C:\Users\Geoffrey\Desktop\Miktex\tex\latex\graphics\trig.sty
+(C:\Users\Geoffrey\Desktop\MiKTex\tex\latex\graphics\trig.sty
 Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 )
-(C:\Users\Geoffrey\Desktop\Miktex\tex\latex\00miktex\graphics.cfg
+(C:\Users\Geoffrey\Desktop\MiKTex\tex\latex\00miktex\graphics.cfg
 File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
 )
 Package graphics Info: Driver file: pdftex.def on input line 94.
 
-(C:\Users\Geoffrey\Desktop\Miktex\tex\latex\pdftex-def\pdftex.def
+(C:\Users\Geoffrey\Desktop\MiKTex\tex\latex\pdftex-def\pdftex.def
 File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
 
-(C:\Users\Geoffrey\Desktop\Miktex\tex\generic\oberdiek\infwarerr.sty
+(C:\Users\Geoffrey\Desktop\MiKTex\tex\generic\oberdiek\infwarerr.sty
 Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 )
-(C:\Users\Geoffrey\Desktop\Miktex\tex\generic\oberdiek\ltxcmds.sty
+(C:\Users\Geoffrey\Desktop\MiKTex\tex\generic\oberdiek\ltxcmds.sty
 Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
 \Gread@gobject=\count79
 ))
-(C:\Users\Geoffrey\Desktop\Miktex\tex\latex\units\units.sty
+(C:\Users\Geoffrey\Desktop\MiKTex\tex\latex\units\units.sty
 Package: units 1998/08/04 v0.9b Typesetting units
 
-(C:\Users\Geoffrey\Desktop\Miktex\tex\latex\base\ifthen.sty
+(C:\Users\Geoffrey\Desktop\MiKTex\tex\latex\base\ifthen.sty
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
-(C:\Users\Geoffrey\Desktop\Miktex\tex\latex\units\nicefrac.sty
+(C:\Users\Geoffrey\Desktop\MiKTex\tex\latex\units\nicefrac.sty
 Package: nicefrac 1998/08/04 v0.9b Nice fractions
 \L@UnitsRaiseDisplaystyle=\skip50
 \L@UnitsRaiseTextstyle=\skip51
 \L@UnitsRaiseScriptstyle=\skip52
 ))
-(C:\Users\Geoffrey\Desktop\Miktex\tex\latex\base\book.cls
+(C:\Users\Geoffrey\Desktop\MiKTex\tex\latex\base\book.cls
 Document Class: book 2014/09/29 v1.4h Standard LaTeX document class
-(C:\Users\Geoffrey\Desktop\Miktex\tex\latex\base\bk11.clo
+(C:\Users\Geoffrey\Desktop\MiKTex\tex\latex\base\bk11.clo
 File: bk11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count80
@@ -70,28 +70,28 @@ File: bk11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip54
 \bibindent=\dimen102
 )
-(C:\Users\Geoffrey\Desktop\Miktex\tex\latex\sauerj\collect.sty
+(C:\Users\Geoffrey\Desktop\MiKTex\tex\latex\sauerj\collect.sty
 Package: collect 2004/09/12 v0.9 collect the contents of an environment
 \CE@tmp@out=\write3
 )
 \CE@@@bstract@out=\write4
 
-(C:\Users\Geoffrey\Desktop\Miktex\tex\latex\geometry\geometry.sty
+(C:\Users\Geoffrey\Desktop\MiKTex\tex\latex\geometry\geometry.sty
 Package: geometry 2010/09/12 v5.6 Page Geometry
 
-(C:\Users\Geoffrey\Desktop\Miktex\tex\latex\graphics\keyval.sty
+(C:\Users\Geoffrey\Desktop\MiKTex\tex\latex\graphics\keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks14
 )
-(C:\Users\Geoffrey\Desktop\Miktex\tex\generic\oberdiek\ifpdf.sty
+(C:\Users\Geoffrey\Desktop\MiKTex\tex\generic\oberdiek\ifpdf.sty
 Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
 Package ifpdf Info: pdfTeX in PDF mode is detected.
 )
-(C:\Users\Geoffrey\Desktop\Miktex\tex\generic\oberdiek\ifvtex.sty
+(C:\Users\Geoffrey\Desktop\MiKTex\tex\generic\oberdiek\ifvtex.sty
 Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
 Package ifvtex Info: VTeX not detected.
 )
-(C:\Users\Geoffrey\Desktop\Miktex\tex\generic\ifxetex\ifxetex.sty
+(C:\Users\Geoffrey\Desktop\MiKTex\tex\generic\ifxetex\ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
 \Gm@cnth=\count89
@@ -107,18 +107,18 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@layoutvoffset=\dimen110
 \Gm@dimlist=\toks15
 
-(C:\Users\Geoffrey\Desktop\Miktex\tex\latex\geometry\geometry.cfg))
+(C:\Users\Geoffrey\Desktop\MiKTex\tex\latex\geometry\geometry.cfg))
 \botmargin=\skip55
 )
-(C:\Users\Geoffrey\Desktop\Miktex\tex\latex\graphics\graphicx.sty
+(C:\Users\Geoffrey\Desktop\MiKTex\tex\latex\graphics\graphicx.sty
 Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 \Gin@req@height=\dimen111
 \Gin@req@width=\dimen112
 )
-(C:\Users\Geoffrey\Desktop\Miktex\tex\latex\caption\caption.sty
+(C:\Users\Geoffrey\Desktop\MiKTex\tex\latex\caption\caption.sty
 Package: caption 2015/09/17 v3.3-111 Customizing captions (AR)
 
-(C:\Users\Geoffrey\Desktop\Miktex\tex\latex\caption\caption3.sty
+(C:\Users\Geoffrey\Desktop\MiKTex\tex\latex\caption\caption3.sty
 Package: caption3 2015/09/20 v1.7-115 caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 57.
 \captionmargin=\dimen113
@@ -148,7 +148,7 @@ LaTeX Font Info:    ... okay on input line 41.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 41.
 LaTeX Font Info:    ... okay on input line 41.
 
-(C:\Users\Geoffrey\Desktop\Miktex\tex\context\base\supp-pdf.mkii
+(C:\Users\Geoffrey\Desktop\MiKTex\tex\context\base\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count93
 \scratchdimen=\dimen120
@@ -201,7 +201,7 @@ LaTeX Font Info:    ... okay on input line 41.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 LaTeX Font Info:    Try loading font information for OT1+phv on input line 45.
-(C:\Users\Geoffrey\Desktop\Miktex\tex\latex\psnfss\ot1phv.fd
+(C:\Users\Geoffrey\Desktop\MiKTex\tex\latex\psnfss\ot1phv.fd
 File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
 )
 <crest.pdf, id=1, 147.27522pt x 154.20912pt>
@@ -232,7 +232,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 5.
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 8.
- (C:\Users\Geoffrey\Desktop\Miktex\tex\latex\base\omscmr.fd
+ (C:\Users\Geoffrey\Desktop\MiKTex\tex\latex\base\omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
@@ -321,41 +321,60 @@ Underfull \vbox (badness 3000) has occurred while \output is active []
 
 
 ]
-[15] [16] <images/mainscreen.png, id=124, 873.2625pt x 333.49594pt>
+[15] [16] <images/usermodelChart.png, id=124, 602.25pt x 372.39125pt>
+File: images/usermodelChart.png Graphic file (type png)
+
+<use images/usermodelChart.png>
+Package pdftex.def Info: images/usermodelChart.png used on input line 64.
+(pdftex.def)             Requested size: 481.80064pt x 297.91339pt.
+
+Overfull \hbox (69.23567pt too wide) in paragraph at lines 64--65
+ [] 
+ []
+
+
+Underfull \vbox (badness 7631) has occurred while \output is active []
+
+ [17 <./images/usermodelChart.png>]
+<images/mainscreen.png, id=130, 873.2625pt x 333.49594pt>
 File: images/mainscreen.png Graphic file (type png)
 
 <use images/mainscreen.png>
-Package pdftex.def Info: images/mainscreen.png used on input line 68.
+Package pdftex.def Info: images/mainscreen.png used on input line 73.
 (pdftex.def)             Requested size: 436.63017pt x 166.74756pt.
 
-Overfull \hbox (24.0652pt too wide) in paragraph at lines 68--69
+Overfull \hbox (24.0652pt too wide) in paragraph at lines 73--74
  [] 
  []
 
-<images/rankedFeed.png, id=126, 874.01532pt x 654.19406pt>
+<images/rankedFeed.png, id=131, 874.01532pt x 654.19406pt>
 File: images/rankedFeed.png Graphic file (type png)
 
 <use images/rankedFeed.png>
-Package pdftex.def Info: images/rankedFeed.png used on input line 77.
+Package pdftex.def Info: images/rankedFeed.png used on input line 82.
 (pdftex.def)             Requested size: 437.00659pt x 327.09622pt.
 
-Overfull \hbox (24.44162pt too wide) in paragraph at lines 77--78
+Overfull \hbox (24.44162pt too wide) in paragraph at lines 82--83
  [] 
  []
 
-[17 <./images/mainscreen.png>]) [18 <./images/rankedFeed.png>] (evaluation.tex
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [18 <./images/mainscreen.png>] [19 <./images/rankedFeed.png>]) [20] (evaluatio
+n.tex
 Chapter 5.
-[19
+[21
 
 
 
 ]
 
-LaTeX Warning: Reference `app1' on page 20 undefined on input line 29.
+LaTeX Warning: Reference `app1' on page 22 undefined on input line 29.
 
-) [20] (conclusion.tex
+) [22] (conclusion.tex
 Chapter 6.
-) [21
+) [23
 
 
 
@@ -363,7 +382,7 @@ Chapter 6.
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ™ in font cmr10!
-) [22
+) [24
 
 
 
@@ -375,25 +394,25 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 3274 strings out of 493673
- 49780 string characters out of 3141951
+ 3279 strings out of 493673
+ 49917 string characters out of 3141951
  120991 words of memory out of 3000000
- 6530 multiletter control sequences out of 15000+200000
+ 6534 multiletter control sequences out of 15000+200000
  17884 words of font info for 43 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
  36i,13n,45p,1105b,424s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Users/Geoffrey/Desktop/Miktex/fonts/enc/dvips/fontname/8r.enc}<C:/Users/G
-eoffrey/Desktop/Miktex/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/Geof
-frey/Desktop/Miktex/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Geoffre
-y/Desktop/Miktex/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Geoffrey/De
-sktop/Miktex/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Geoffrey/Desktop
-/Miktex/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Geoffrey/Desktop/Mi
-ktex/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/Geoffrey/Desktop/Mikte
-x/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/Geoffrey/Desktop/Miktex/fonts/t
+{C:/Users/Geoffrey/Desktop/MiKTex/fonts/enc/dvips/fontname/8r.enc}<C:/Users/G
+eoffrey/Desktop/MiKTex/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/Geof
+frey/Desktop/MiKTex/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Geoffre
+y/Desktop/MiKTex/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Geoffrey/De
+sktop/MiKTex/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Geoffrey/Desktop
+/MiKTex/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Geoffrey/Desktop/Mi
+KTex/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/Geoffrey/Desktop/MiKTe
+x/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/Geoffrey/Desktop/MiKTex/fonts/t
 ype1/urw/helvetic/uhvr8a.pfb>
-Output written on sample-thesis.pdf (28 pages, 585736 bytes).
+Output written on sample-thesis.pdf (30 pages, 610611 bytes).
 PDF statistics:
- 175 PDF objects out of 1000 (max. 8388607)
+ 183 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 41 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 46 words of extra memory for PDF output out of 10000 (max. 10000000)
 

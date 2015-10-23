@@ -9,12 +9,12 @@
 \contentsline {section}{\numberline {4.1}Approach}{14}
 \contentsline {section}{\numberline {4.2}Facebook API and App}{15}
 \contentsline {section}{\numberline {4.3}Ranking Algorithm}{15}
-\contentsline {section}{\numberline {4.4}User Interface}{17}
-\contentsline {section}{\numberline {4.5}Problems Encountered}{18}
-\contentsline {chapter}{\numberline {5}Evaluation}{19}
-\contentsline {section}{\numberline {5.1}Evaluation Method}{19}
-\contentsline {section}{\numberline {5.2}Results}{20}
-\contentsline {section}{\numberline {5.3}Discussion}{20}
-\contentsline {chapter}{\numberline {6}Conclusion}{21}
-\contentsline {section}{\numberline {6.1}Future Work}{21}
-\contentsline {chapter}{Bibliography}{22}
+\contentsline {section}{\numberline {4.4}User Interface}{18}
+\contentsline {section}{\numberline {4.5}Problems Encountered}{19}
+\contentsline {chapter}{\numberline {5}Evaluation}{21}
+\contentsline {section}{\numberline {5.1}Evaluation Method}{21}
+\contentsline {section}{\numberline {5.2}Results}{22}
+\contentsline {section}{\numberline {5.3}Discussion}{22}
+\contentsline {chapter}{\numberline {6}Conclusion}{23}
+\contentsline {section}{\numberline {6.1}Future Work}{23}
+\contentsline {chapter}{Bibliography}{24}
