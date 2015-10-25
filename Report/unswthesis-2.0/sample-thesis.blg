@@ -9,3 +9,12 @@ A level-1 auxiliary file: evaluation.aux
 A level-1 auxiliary file: conclusion.aux
 The style file: alpha.bst
 Database file #1: pubs.bib
+Name 1 in "Statista," has a comma at the end for entry statistica2015facebook
+while executing---line 1185 of file alpha.bst
+Name 1 in "Statista," has a comma at the end for entry statistica2015facebook
+while executing---line 1185 of file alpha.bst
+Name 1 in "Statista," has a comma at the end for entry statistica2015facebook
+while executing---line 1185 of file alpha.bst
+Name 1 in "Statista," has a comma at the end for entry statistica2015facebook
+while executing---line 1250 of file alpha.bst
+(There were 4 error messages)

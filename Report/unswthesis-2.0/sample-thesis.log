@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2015.10.23)  23 OCT 2015 14:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2015.10.23)  25 OCT 2015 18:22
 entering extended mode
 **C:/Users/Geoffrey/Desktop/piecatV2/Report/unswthesis-2.0/sample-thesis.tex
 (C:/Users/Geoffrey/Desktop/piecatV2/Report/unswthesis-2.0/sample-thesis.tex
@@ -225,35 +225,32 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 {C:/Users/Geoffrey/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./crest.
 pdf>]
 (abstract.tex
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 5.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 5.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 5.
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 8.
- (C:\Users\Geoffrey\Desktop\MiKTex\tex\latex\base\omscmr.fd
-File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 8.
-)
-[2
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+) [2
 
 
 ] (acknowledgements.tex) [3
 
 
 
-] (sample-thesis.toc [4
+] (sample-thesis.toc
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <10.95> on input line 3.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 3.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 3.
+ [4
 
 
 ])
 \tf@toc=\write5
- [5] [6
+ [5]
+[6
 
-]
-(introduction.tex
+] (introduction.tex
 Chapter 1.
 [1
 
@@ -261,120 +258,230 @@ Chapter 1.
 
 ]) [2] (background.tex
 Chapter 2.
-[3
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 14.
+(C:\Users\Geoffrey\Desktop\MiKTex\tex\latex\base\omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 14.
+ [3
 
 
 
-] <images/factoranalysis.jpg, id=78, 415.5525pt x 388.45125pt>
+]
+<images/factoranalysis.jpg, id=77, 415.5525pt x 388.45125pt>
 File: images/factoranalysis.jpg Graphic file (type jpg)
 
 <use images/factoranalysis.jpg>
-Package pdftex.def Info: images/factoranalysis.jpg used on input line 31.
+Package pdftex.def Info: images/factoranalysis.jpg used on input line 22.
 (pdftex.def)             Requested size: 249.33342pt x 233.07254pt.
  [4 <./images/factoranalysis.jpg>] [5] [6]
-[7] <images/freshness.jpg, id=92, 207.77625pt x 194.22563pt>
+[7] [8] <images/freshness.jpg, id=95, 207.77625pt x 194.22563pt>
 File: images/freshness.jpg Graphic file (type jpg)
 
 <use images/freshness.jpg>
-Package pdftex.def Info: images/freshness.jpg used on input line 95.
+Package pdftex.def Info: images/freshness.jpg used on input line 84.
 (pdftex.def)             Requested size: 166.2212pt x 155.3807pt.
 
-Underfull \vbox (badness 5607) has occurred while \output is active []
-
- [8]
 <images/diversity.jpg, id=96, 251.43938pt x 248.42813pt>
 File: images/diversity.jpg Graphic file (type jpg)
 
 <use images/diversity.jpg>
-Package pdftex.def Info: images/diversity.jpg used on input line 102.
+Package pdftex.def Info: images/diversity.jpg used on input line 91.
 (pdftex.def)             Requested size: 201.15176pt x 198.74277pt.
- [9 <./images/freshness.jpg> <./images/diversity.jpg>] <images/connections.jpg,
- id=100, 268.75406pt x 108.405pt>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [9 <./images/freshness.jpg>] <images/connections.jpg, id=100, 268.75406pt x 10
+8.405pt>
 File: images/connections.jpg Graphic file (type jpg)
 
 <use images/connections.jpg>
-Package pdftex.def Info: images/connections.jpg used on input line 111.
+Package pdftex.def Info: images/connections.jpg used on input line 100.
 (pdftex.def)             Requested size: 215.00354pt x 86.7241pt.
-) [10 <./images/connections.jpg>] (design.tex
+) [10 <./images/diversity.jpg> <./images/connections.jpg>] (design.tex
 Chapter 3.
-<images/blockdiagram.jpg, id=104, 499.8675pt x 481.8pt>
-File: images/blockdiagram.jpg Graphic file (type jpg)
+<images/SurveyQuestion.png, id=104, 721.94719pt x 404.26031pt>
+File: images/SurveyQuestion.png Graphic file (type png)
 
-<use images/blockdiagram.jpg>
-Package pdftex.def Info: images/blockdiagram.jpg used on input line 17.
-(pdftex.def)             Requested size: 299.9228pt x 289.08221pt.
+<use images/SurveyQuestion.png>
+Package pdftex.def Info: images/SurveyQuestion.png used on input line 14.
+(pdftex.def)             Requested size: 505.35959pt x 282.98029pt.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Overfull \hbox (92.79462pt too wide) in paragraph at lines 14--15
+ [] 
+ []
+
+
+Underfull \vbox (badness 1642) has occurred while \output is active []
 
  [11
 
 
 
 ]
-[12 <./images/blockdiagram.jpg>]) [13] (implementation.tex
+[12 <./images/SurveyQuestion.png>] [13]
+<images/newblockdiagram.png, id=115, 617.30624pt x 695.59875pt>
+File: images/newblockdiagram.png Graphic file (type png)
+
+<use images/newblockdiagram.png>
+Package pdftex.def Info: images/newblockdiagram.png used on input line 40.
+(pdftex.def)             Requested size: 370.3866pt x 417.36247pt.
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+ [14 <./images/newblockdiagram.png>]
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+) [15]
+[16] (implementation.tex
 Chapter 4.
-
-Underfull \vbox (badness 3000) has occurred while \output is active []
-
- [14
+[17
 
 
 
 ]
-[15] [16] <images/usermodelChart.png, id=124, 602.25pt x 372.39125pt>
-File: images/usermodelChart.png Graphic file (type png)
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+ <images/UMLFeed.png, id=130, 210.7875pt x 324.21124pt>
+File: images/UMLFeed.png Graphic file (type png)
 
-<use images/usermodelChart.png>
-Package pdftex.def Info: images/usermodelChart.png used on input line 64.
+<use images/UMLFeed.png>
+Package pdftex.def Info: images/UMLFeed.png used on input line 43.
+(pdftex.def)             Requested size: 168.63022pt x 259.36934pt.
+
+Underfull \vbox (badness 1210) has occurred while \output is active []
+
+ [18]
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+
+[19 <./images/UMLFeed.png>] [20]
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+ [21]
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+
+<images/surveyTable.png, id=145, 496.10344pt x 452.4403pt>
+File: images/surveyTable.png Graphic file (type png)
+
+<use images/surveyTable.png>
+Package pdftex.def Info: images/surveyTable.png used on input line 115.
+(pdftex.def)             Requested size: 396.88329pt x 361.95274pt.
+ [22]
+<images/usermodelChart2.png, id=149, 602.25pt x 372.39125pt>
+File: images/usermodelChart2.png Graphic file (type png)
+
+<use images/usermodelChart2.png>
+Package pdftex.def Info: images/usermodelChart2.png used on input line 122.
 (pdftex.def)             Requested size: 481.80064pt x 297.91339pt.
 
-Overfull \hbox (69.23567pt too wide) in paragraph at lines 64--65
- [] 
- []
-
-
-Underfull \vbox (badness 7631) has occurred while \output is active []
-
- [17 <./images/usermodelChart.png>]
-<images/mainscreen.png, id=130, 873.2625pt x 333.49594pt>
-File: images/mainscreen.png Graphic file (type png)
-
-<use images/mainscreen.png>
-Package pdftex.def Info: images/mainscreen.png used on input line 73.
-(pdftex.def)             Requested size: 436.63017pt x 166.74756pt.
-
-Overfull \hbox (24.0652pt too wide) in paragraph at lines 73--74
- [] 
- []
-
-<images/rankedFeed.png, id=131, 874.01532pt x 654.19406pt>
-File: images/rankedFeed.png Graphic file (type png)
-
-<use images/rankedFeed.png>
-Package pdftex.def Info: images/rankedFeed.png used on input line 82.
-(pdftex.def)             Requested size: 437.00659pt x 327.09622pt.
-
-Overfull \hbox (24.44162pt too wide) in paragraph at lines 82--83
+Overfull \hbox (69.23567pt too wide) in paragraph at lines 122--123
  [] 
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [18 <./images/mainscreen.png>] [19 <./images/rankedFeed.png>]) [20] (evaluatio
-n.tex
+ [23 <./images/surveyTable.png>]
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ò in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ú in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ù in font cmr10!
+ [24 <./images/usermodelChart2.png>] [25]
+<images/mainscreen.png, id=162, 873.2625pt x 333.49594pt>
+File: images/mainscreen.png Graphic file (type png)
+
+<use images/mainscreen.png>
+Package pdftex.def Info: images/mainscreen.png used on input line 142.
+(pdftex.def)             Requested size: 436.63017pt x 166.74756pt.
+
+Overfull \hbox (24.0652pt too wide) in paragraph at lines 142--143
+ [] 
+ []
+
+<images/rankedFeed.png, id=163, 874.01532pt x 654.19406pt>
+File: images/rankedFeed.png Graphic file (type png)
+
+<use images/rankedFeed.png>
+Package pdftex.def Info: images/rankedFeed.png used on input line 151.
+(pdftex.def)             Requested size: 437.00659pt x 327.09622pt.
+
+Overfull \hbox (24.44162pt too wide) in paragraph at lines 151--152
+ [] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [26 <./images/mainscreen.png>] [27 <./images/rankedFeed.png>]
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ò in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+) [28] (evaluation.tex
 Chapter 5.
-[21
+[29
 
 
 
 ]
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+ <images/results.png, id=178, 389.95688pt x 99.37125pt>
+File: images/results.png Graphic file (type png)
 
-LaTeX Warning: Reference `app1' on page 22 undefined on input line 29.
-
-) [22] (conclusion.tex
+<use images/results.png>
+Package pdftex.def Info: images/results.png used on input line 23.
+(pdftex.def)             Requested size: 311.96591pt x 79.4971pt.
+ [30 <./images/results.png>]
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+) [31] (conclusion.tex
 Chapter 6.
-) [23
+) [32
 
 
 
@@ -382,37 +489,34 @@ Chapter 6.
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
-) [24
+) [33
 
 
 
 ] (sample-thesis.aux (abstract.aux)
 (acknowledgements.aux) (introduction.aux) (background.aux) (design.aux)
-(implementation.aux) (evaluation.aux) (conclusion.aux))
-
-LaTeX Warning: There were undefined references.
-
- ) 
+(implementation.aux) (evaluation.aux) (conclusion.aux)) ) 
 Here is how much of TeX's memory you used:
- 3279 strings out of 493673
- 49917 string characters out of 3141951
- 120991 words of memory out of 3000000
- 6534 multiletter control sequences out of 15000+200000
- 17884 words of font info for 43 fonts, out of 3000000 for 9000
+ 3300 strings out of 493673
+ 50431 string characters out of 3141951
+ 120998 words of memory out of 3000000
+ 6551 multiletter control sequences out of 15000+200000
+ 18489 words of font info for 45 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
- 36i,13n,45p,1105b,424s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Users/Geoffrey/Desktop/MiKTex/fonts/enc/dvips/fontname/8r.enc}<C:/Users/G
-eoffrey/Desktop/MiKTex/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/Geof
-frey/Desktop/MiKTex/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Geoffre
-y/Desktop/MiKTex/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Geoffrey/De
-sktop/MiKTex/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Geoffrey/Desktop
-/MiKTex/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Geoffrey/Desktop/Mi
-KTex/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/Geoffrey/Desktop/MiKTe
-x/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/Geoffrey/Desktop/MiKTex/fonts/t
-ype1/urw/helvetic/uhvr8a.pfb>
-Output written on sample-thesis.pdf (30 pages, 610611 bytes).
+ 36i,13n,45p,993b,422s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Users/Geoffrey/Des
+ktop/MiKTex/fonts/enc/dvips/fontname/8r.enc}<C:/Users/Geoffrey/Desktop/MiKTex/f
+onts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/Geoffrey/Desktop/MiKTex/font
+s/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Geoffrey/Desktop/MiKTex/fonts/t
+ype1/public/amsfonts/cm/cmr10.pfb><C:/Users/Geoffrey/Desktop/MiKTex/fonts/type1
+/public/amsfonts/cm/cmr8.pfb><C:/Users/Geoffrey/Desktop/MiKTex/fonts/type1/publ
+ic/amsfonts/cm/cmsy10.pfb><C:/Users/Geoffrey/Desktop/MiKTex/fonts/type1/public/
+amsfonts/cm/cmti10.pfb><C:/Users/Geoffrey/Desktop/MiKTex/fonts/type1/urw/helvet
+ic/uhvb8a.pfb><C:/Users/Geoffrey/Desktop/MiKTex/fonts/type1/urw/helvetic/uhvr8a
+.pfb>
+Output written on sample-thesis.pdf (39 pages, 685163 bytes).
 PDF statistics:
- 183 PDF objects out of 1000 (max. 8388607)
+ 222 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 46 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 66 words of extra memory for PDF output out of 10000 (max. 10000000)
 
