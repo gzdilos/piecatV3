@@ -10,16 +10,17 @@
 \contentsline {section}{\numberline {4.1}Approach}{17}
 \contentsline {section}{\numberline {4.2}Facebook API and App}{18}
 \contentsline {section}{\numberline {4.3}Ranking Algorithm}{20}
-\contentsline {subsection}{\numberline {4.3.1}Topic Classification Module}{20}
-\contentsline {subsection}{\numberline {4.3.2}Connections Module}{21}
-\contentsline {subsection}{\numberline {4.3.3}Freshness and Diversity Module}{21}
-\contentsline {subsection}{\numberline {4.3.4}User Modelling}{21}
-\contentsline {section}{\numberline {4.4}User Interface}{26}
-\contentsline {section}{\numberline {4.5}Problems Encountered}{28}
-\contentsline {chapter}{\numberline {5}Evaluation}{29}
-\contentsline {section}{\numberline {5.1}Considered Evaluation Methods}{29}
-\contentsline {section}{\numberline {5.2}Evaluation Approach}{30}
-\contentsline {section}{\numberline {5.3}Discussion}{31}
-\contentsline {chapter}{\numberline {6}Conclusion}{32}
-\contentsline {section}{\numberline {6.1}Future Work}{32}
-\contentsline {chapter}{Bibliography}{34}
+\contentsline {subsection}{\numberline {4.3.1}Pseudocode}{20}
+\contentsline {subsection}{\numberline {4.3.2}Topic Classification Module}{20}
+\contentsline {subsection}{\numberline {4.3.3}Connections Module}{21}
+\contentsline {subsection}{\numberline {4.3.4}Freshness and Diversity Module}{22}
+\contentsline {subsection}{\numberline {4.3.5}User Modelling}{23}
+\contentsline {section}{\numberline {4.4}User Interface}{28}
+\contentsline {section}{\numberline {4.5}Problems Encountered}{30}
+\contentsline {chapter}{\numberline {5}Evaluation}{31}
+\contentsline {section}{\numberline {5.1}Considered Evaluation Methods}{31}
+\contentsline {section}{\numberline {5.2}Evaluation Approach}{32}
+\contentsline {section}{\numberline {5.3}Discussion}{33}
+\contentsline {chapter}{\numberline {6}Conclusion}{34}
+\contentsline {section}{\numberline {6.1}Future Work}{34}
+\contentsline {chapter}{Bibliography}{36}

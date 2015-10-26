@@ -1,0 +1,105 @@
+
+TopicClassification(feed[]) {
+	pull likes from Facebook
+
+	search likes on wikipedia
+
+	if (match()) {
+		add like to likesArray[]
+	}
+
+	i = 0;
+
+	while(i != feedSize) {
+		if (match(likesArray, feed[i]) {
+			feed[i].score = feed[i].score + C;
+		}
+		i++;
+	}
+
+}
+
+Connections(feed[]) {
+	pull messages from Facebook
+
+	get friends from messages
+
+	add friends to friendsArray[]
+
+	i = 0;
+
+	while(i != feedSize) {
+		if (foundMatch(friendsArray, feed[i]) {
+			feed[i].score = feed[i].score + C;
+		}
+		i++;
+	}
+}
+
+Freshness(feed[]) {
+	order feed by creation time
+
+	i = 0;
+
+	while(i != feedSize) {
+		
+		feed[i].score = feed[i].score + C - D*i;
+		
+		i++;
+	}
+}
+
+Diversity(feed[]) {
+	diversityfeed[];
+	
+	int i = 0;
+	
+	while (i != feedSize) {
+		
+		if is_similar(diversityfeed, feed[i]) {
+			feed[i].score = feed[i].score - C;
+		} else {
+			diversityfeed += feed[i];
+		}
+		
+		i++;
+	}
+}
+
+UserModelling(feed[]) {
+	
+	i = 0;
+	
+	while (i != feedSize) {
+		if (user is Socialite) {
+			if (friends post or activity) {
+				feed[i].score = feed[i].score + C;
+			}
+		}
+		
+		if (user is News Reader) {
+			if (feed[i].category is "News") {
+				feed[i].score = feed[i].score + C;
+			}
+		}
+		
+		if (user is Follower) {
+			if (organisation post or activity) {
+				feed[i].score = feed[i].score + C;
+			}
+		} 
+		
+		i++;
+	}
+}
+
+RankFeed() {
+	feed[] = get feed from Facebook (API)
+	TopicClassification(feed);
+	Connections(feed);
+	Feshness(feed);
+	UserModelling(feed);
+	Diversity(feed);
+}
+
+
